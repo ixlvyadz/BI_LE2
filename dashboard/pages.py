@@ -7,6 +7,7 @@ import zipfile
 import pandas as pd
 import streamlit as st
 
+from . import alerts as A
 from . import charts as C
 from . import data as D
 from . import docs
@@ -131,6 +132,87 @@ def brief(df: pd.DataFrame) -> None:
         a.html(f'<div class="brief"><div class="brief-ic">{T.icon("pulse", 22, "#ffffff")}</div><div>'
                f'<div class="brief-t">Where things stand</div><div class="brief-s">{T.esc(text)}</div></div></div>')
         b.page_link(ctx()["pages"]["insights"], label="See insights", icon=":material/arrow_forward:")
+
+
+PAGE_KEY = {"Patient flow": "flow", "Capacity": "capacity", "Quality": "quality"}
+
+
+def alert_target(a: dict) -> tuple[str, str]:
+    """(page key, page label) an alert opens when clicked."""
+    if a["kind"] == "department":
+        return "drill", "Drill-down"
+    if a["kind"] == "quarter":
+        return "overview", "Overview"
+    if a["kind"] == "longwait":
+        return "quality", "Quality"
+    return PAGE_KEY[a["page"]], a["page"]
+
+
+def open_alert(a: dict) -> None:
+    """Jump to the view that shows this alert, pre-selecting the department / measure it is about."""
+    ss = st.session_state
+    page, _ = alert_target(a)
+    if a["kind"] == "department":       # drill-down, already opened on that department and measure
+        all_df = ctx()["all"]
+        setting = all_df.loc[all_df["department"] == a["member"], "care_setting"].iloc[0]
+        _drill_to(setting, a["member"])
+        ss["dr_kpi"] = a["key"]
+    elif a["kind"] == "quarter":        # overview trend chart on that KPI, by quarter
+        ss["ov_kpi"], ss["ov_grain"] = a["key"], "Quarter"
+    elif a["kind"] == "shift" and page == "quality":
+        ss["ql_kpi"], ss["ql_dim"] = a["key"], "Shift"
+    elif a["kind"] == "overall" and page == "quality":
+        ss["ql_kpi"], ss["ql_dim"], ss["ql_tkpi"] = a["key"], "Department", a["key"]
+    elif a["kind"] == "overall" and page == "capacity":
+        ss["cp_kpi"] = a["key"]
+    elif a["key"] == "noshow":
+        ss["fl_noshow_dim"] = "Department"
+    st.switch_page(ctx()["pages"][page])
+
+
+def attention_body(df: pd.DataFrame) -> None:
+    """Notification list: everything in scope that needs management attention, most urgent first."""
+    items = A.build(df)
+    n_crit = sum(a["sev"] == "critical" for a in items)
+    n_warn = len(items) - n_crit
+    st.html('<div class="card-s" style="padding-left:0">Points in the current selection that are off target, most urgent first. '
+            'Click a card to open the page that shows it.</div>')
+    if not items:
+        st.html(f'<div class="al-ok">{T.pill("All clear", "good", "✓")} Nothing in this selection is off target.</div>')
+        return
+    show = st.segmented_control("Show", ["All", f"Critical ({n_crit})", f"Warning ({n_warn})"], default="All",
+                                key="al_show", label_visibility="collapsed") or "All"
+    want = "critical" if show.startswith("Critical") else "warning" if show.startswith("Warning") else None
+    rows = [a for a in items if want is None or a["sev"] == want]
+    if not rows:
+        st.html(f'<div class="al-ok">No {want} items in this selection.</div>')
+        return
+    with st.container(height=470, border=False, key="al_scroll"):
+        for i, a in enumerate(rows):
+            tone = "crit" if a["sev"] == "critical" else "warn"
+            _, dest = alert_target(a)
+            with st.container(key=f"alrow_{want or 'all'}_{i}"):
+                st.html(
+                    f'<div class="al al-{tone}"><div class="al-ic">{T.icon("alert", 18, "#ffffff")}</div>'
+                    f'<div class="al-body"><div class="al-t">{T.esc(a["title"])}</div><div class="al-d">{T.esc(a["detail"])}</div></div>'
+                    f'<div class="al-side"><div class="al-v">{T.esc(a["value"])}</div>'
+                    f'<div class="al-tags">{T.pill(a["sev"].capitalize(), tone)}{T.pill("Open " + dest + " ›", "info")}</div></div></div>')
+                # invisible button stretched over the card: makes the whole card clickable
+                if st.button(f"Open {dest}: {a['title']}", key=f"algo_{want or 'all'}_{i}"):
+                    open_alert(a)
+
+
+@st.dialog("Needs attention", width="large")
+def attention_dialog() -> None:
+    attention_body(ctx()["df"])
+
+
+def bell() -> None:
+    """Floating notification bell (top right of every page). Click it to open the attention panel."""
+    n = len(A.build(ctx()["df"]))
+    with st.container(key="bell_alert" if n else "bell_clear"):
+        if st.button(str(n) if n else "0", icon=":material/notifications:", key="notif_btn"):
+            attention_dialog()
 
 
 def overview() -> None:

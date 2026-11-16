@@ -304,7 +304,7 @@ table.sc.ins td:nth-child(3) {{ font-weight:600; min-width:220px; }} table.sc.in
   font-family: "Plus Jakarta Sans", "Poppins", "Segoe UI", system-ui, -apple-system, sans-serif;
 }}
 [data-testid="stSidebarHeader"] {{ padding-top:1.1rem; padding-bottom:.9rem; margin-bottom:.4rem; border-bottom:1px solid rgba(24,56,71,.08); }}
-[data-testid="stSidebarLogo"] {{ height:2.6rem; }}
+[data-testid="stSidebarLogo"] {{ height:2.8rem; max-width:none; }}
 
 /* navigation */
 [data-testid="stNavSectionHeader"] {{ margin-top:.9rem; padding-left:.35rem; }}
@@ -366,6 +366,56 @@ table.sc.ins td:nth-child(3) {{ font-weight:600; min-width:220px; }} table.sc.in
 [data-testid="stColumn"] > [data-testid="stVerticalBlock"] > [class*="st-key-card_"],
 [data-testid="stColumn"] > [data-testid="stVerticalBlock"] > div:has(> [class*="st-key-card_"]) {{ flex:1 1 auto; }}
 [data-testid="stColumn"] > [data-testid="stVerticalBlock"] > div > [class*="st-key-card_"] {{ height:100%; }}
+
+/* ================= attention panel ================= */
+.al-badge {{ display:inline-grid; place-items:center; min-width:24px; height:24px; padding:0 7px; margin-left:8px; border-radius:99px;
+            background:linear-gradient(135deg, #e05563, #b3283a); color:#fff; font-size:.78rem; font-weight:700; vertical-align:middle;
+            box-shadow:0 4px 10px rgba(179,40,58,.35); }}
+.al-list {{ display:flex; flex-direction:column; gap:10px; max-height:430px; overflow-y:auto; padding:4px 6px 4px 2px; }}
+.al-list::-webkit-scrollbar {{ width:8px; }} .al-list::-webkit-scrollbar-thumb {{ background:rgba(50,135,179,.35); border-radius:8px; }}
+.al {{ display:flex; align-items:center; gap:14px; padding:12px 16px 12px 14px; border-radius:16px; position:relative;
+      background:rgba(255,255,255,.62); border:1px solid rgba(255,255,255,.9); box-shadow:0 3px 12px rgba(24,56,71,.06);
+      transition:transform .16s ease, box-shadow .16s ease; }}
+.al:hover {{ transform:translateX(3px); box-shadow:0 8px 20px rgba(24,56,71,.12); }}
+.al::before {{ content:""; position:absolute; left:0; top:10px; bottom:10px; width:4px; border-radius:4px; }}
+.al-crit::before {{ background:#e05563; }} .al-warn::before {{ background:#f2b33d; }}
+.al-ic {{ width:36px; height:36px; border-radius:12px; display:grid; place-items:center; flex:none; }}
+.al-crit .al-ic {{ background:linear-gradient(135deg, #e05563, #b3283a); box-shadow:0 6px 14px rgba(179,40,58,.28); }}
+.al-warn .al-ic {{ background:linear-gradient(135deg, #f6c765, #e09a1a); box-shadow:0 6px 14px rgba(224,154,26,.28); }}
+.al-body {{ flex:1; min-width:0; }}
+.al-t {{ font-weight:700; color:var(--ink); font-size:.95rem; line-height:1.3; }}
+.al-d {{ color:var(--ink2); font-size:.85rem; line-height:1.4; margin-top:1px; }}
+.al-side {{ text-align:right; flex:none; }}
+.al-v {{ font-size:1.15rem; font-weight:700; color:var(--ink); line-height:1.1; margin-bottom:5px; }}
+.al-tags {{ display:flex; gap:6px; justify-content:flex-end; }}
+.al-ok {{ color:var(--ink2); font-size:.92rem; padding:6px 2px; }}
+
+/* ================= notification bell (floating, top right) ================= */
+[class*="st-key-bell_"] {{ position:fixed; top:.85rem; right:1.7rem; z-index:999999; width:auto !important; }}
+[class*="st-key-bell_"] button {{
+  border-radius:999px !important; min-height:2.7rem; padding:.35rem .95rem .35rem .8rem; gap:.35rem;
+  background:linear-gradient(135deg, {BLUE_DEEP}, {BLUE}) !important; border:1px solid rgba(107,225,239,.55) !important;
+  box-shadow:0 10px 24px rgba(24,56,71,.30) !important; transition:transform .16s ease !important;
+}}
+[class*="st-key-bell_"] button:hover {{ transform:translateY(-2px) scale(1.04) !important; }}
+[class*="st-key-bell_"] button [data-testid="stIconMaterial"] {{ color:#ffffff !important; font-size:1.35rem; }}
+[class*="st-key-bell_"] button p {{
+  color:#fff !important; font-weight:800; font-size:.82rem; min-width:1.45rem; height:1.45rem; line-height:1.45rem; padding:0 .35rem;
+  border-radius:99px; background:linear-gradient(135deg, #e05563, #b3283a); box-shadow:0 0 0 2px rgba(255,255,255,.35);
+}}
+.st-key-bell_clear button p {{ background:rgba(255,255,255,.22); }}
+div[role="dialog"] {{ border-radius:24px !important; background:linear-gradient(160deg, rgba(255,255,255,.96), rgba(236,248,250,.94)) !important;
+                     border:1px solid rgba(255,255,255,.9); box-shadow:0 30px 80px rgba(24,56,71,.35) !important; }}
+div[role="dialog"] .al-list {{ max-height:58vh; }}
+
+/* ================= clickable alert cards ================= */
+[class*="st-key-alrow_"] {{ position:relative; gap:0 !important; }}
+[class*="st-key-alrow_"] [class*="st-key-algo_"] {{ position:absolute; inset:0; z-index:3; width:100% !important; height:100%; }}
+[class*="st-key-algo_"] .stButton, [class*="st-key-algo_"] button {{ width:100%; height:100%; min-height:0; }}
+[class*="st-key-algo_"] button {{ opacity:0; cursor:pointer; }}
+[class*="st-key-alrow_"]:hover .al {{ transform:translateX(3px); box-shadow:0 10px 22px rgba(24,56,71,.14); border-color:{BLUE_SOFT}; background:rgba(255,255,255,.9); }}
+[class*="st-key-alrow_"]:has(button:focus-visible) .al {{ outline:3px solid {BLUE_SOFT}; }}
+.st-key-al_scroll {{ padding-right:6px; }}
 </style>
 """
 

@@ -16,7 +16,7 @@ from dashboard import theme as T
 
 ROOT = Path(__file__).resolve().parent
 
-st.set_page_config(page_title="HealthOps BI | Hospital operations dashboard", page_icon=":material/monitor_heart:",
+st.set_page_config(page_title="BCDE Hospital | Hospital operations dashboard", page_icon=":material/monitor_heart:",
                    layout="wide", initial_sidebar_state="expanded")
 T.inject_css()
 st.logo(str(ROOT / "assets" / "logo.svg"), icon_image=str(ROOT / "assets" / "icon.svg"), size="large")
@@ -94,4 +94,5 @@ if df.empty and nav != PAGES["methods"]:
     st.button("Reset all filters", icon=":material/restart_alt:", on_click=reset_filters, key="reset_main", type="primary")
     st.stop()
 
+P.bell()   # floating notification bell; opens the attention panel
 nav.run()
