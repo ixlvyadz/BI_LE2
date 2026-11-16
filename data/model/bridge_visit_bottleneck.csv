@@ -1,0 +1,1550 @@
+visit_id,bottleneck
+V202400209,High Bed Occupancy
+V202400209,High Resource Utilization
+V202400209,Readmission Pressure
+V202400822,High Resource Utilization
+V202400073,High Resource Utilization
+V202400129,Long LOS
+V202400129,High Resource Utilization
+V202400206,High Resource Utilization
+V202400946,High Resource Utilization
+V202400408,No Major Bottleneck
+V202400457,High Bed Occupancy
+V202400457,Long LOS
+V202400457,High Resource Utilization
+V202400471,Long LOS
+V202400471,High Resource Utilization
+V202400899,High Resource Utilization
+V202400841,High Resource Utilization
+V202400564,Extended Wait Time
+V202400564,Long LOS
+V202400564,High Resource Utilization
+V202400333,Long LOS
+V202400245,High Resource Utilization
+V202400172,Long LOS
+V202400172,High Resource Utilization
+V202400372,Extended Wait Time
+V202400372,Long LOS
+V202400372,High Resource Utilization
+V202400795,High Resource Utilization
+V202400937,High Bed Occupancy
+V202400937,Long LOS
+V202400937,High Resource Utilization
+V202400883,Long LOS
+V202400641,Long LOS
+V202400641,High Resource Utilization
+V202400011,Extended Wait Time
+V202400011,High Resource Utilization
+V202400926,No Major Bottleneck
+V202400378,High Resource Utilization
+V202400378,Readmission Pressure
+V202400238,High Resource Utilization
+V202400516,Extended Wait Time
+V202400516,Long LOS
+V202400516,High Resource Utilization
+V202400313,No Major Bottleneck
+V202400875,High Resource Utilization
+V202400099,High Bed Occupancy
+V202400099,High Resource Utilization
+V202400902,High Bed Occupancy
+V202400902,High Resource Utilization
+V202400357,No Major Bottleneck
+V202400879,High Bed Occupancy
+V202400879,Long LOS
+V202400879,High Resource Utilization
+V202400558,No Major Bottleneck
+V202400291,Long LOS
+V202400291,High Resource Utilization
+V202400291,Readmission Pressure
+V202400101,High Resource Utilization
+V202400101,Readmission Pressure
+V202400765,Extended Wait Time
+V202400765,High Resource Utilization
+V202400043,High Resource Utilization
+V202400286,No Major Bottleneck
+V202400146,Extended Wait Time
+V202400146,High Resource Utilization
+V202400292,No Major Bottleneck
+V202400629,High Resource Utilization
+V202400857,Long LOS
+V202400857,High Resource Utilization
+V202400857,Readmission Pressure
+V202400611,High Resource Utilization
+V202400336,Long LOS
+V202400336,Readmission Pressure
+V202400169,High Bed Occupancy
+V202400169,Long LOS
+V202400169,High Resource Utilization
+V202400600,Long LOS
+V202400600,High Resource Utilization
+V202400473,High Bed Occupancy
+V202400473,High Resource Utilization
+V202400335,High Resource Utilization
+V202400059,Long LOS
+V202400059,High Resource Utilization
+V202400487,Long LOS
+V202400487,High Resource Utilization
+V202400348,Extended Wait Time
+V202400348,Long LOS
+V202400348,High Resource Utilization
+V202400348,Readmission Pressure
+V202400515,No Major Bottleneck
+V202400030,No Major Bottleneck
+V202400149,No Major Bottleneck
+V202400301,Long LOS
+V202400301,High Resource Utilization
+V202400702,High Resource Utilization
+V202400819,Readmission Pressure
+V202400459,No Major Bottleneck
+V202400529,High Bed Occupancy
+V202400529,High Resource Utilization
+V202400529,Readmission Pressure
+V202400425,High Resource Utilization
+V202400007,No Major Bottleneck
+V202400617,Long LOS
+V202400617,High Resource Utilization
+V202400084,High Bed Occupancy
+V202400084,Extended Wait Time
+V202400084,High Resource Utilization
+V202400705,Extended Wait Time
+V202400705,High Resource Utilization
+V202400033,Extended Wait Time
+V202400033,High Resource Utilization
+V202400860,Extended Wait Time
+V202400860,High Resource Utilization
+V202400860,Readmission Pressure
+V202400851,Long LOS
+V202400723,Long LOS
+V202400723,High Resource Utilization
+V202400370,Extended Wait Time
+V202400370,Long LOS
+V202400370,High Resource Utilization
+V202400355,High Resource Utilization
+V202400375,No Major Bottleneck
+V202400437,High Resource Utilization
+V202400477,Long LOS
+V202400477,High Resource Utilization
+V202400477,Readmission Pressure
+V202400078,Long LOS
+V202400078,High Resource Utilization
+V202400069,No Major Bottleneck
+V202400587,Extended Wait Time
+V202400587,Long LOS
+V202400587,High Resource Utilization
+V202400110,High Resource Utilization
+V202400498,High Bed Occupancy
+V202400498,High Resource Utilization
+V202400498,Readmission Pressure
+V202400312,Long LOS
+V202400312,High Resource Utilization
+V202400312,Readmission Pressure
+V202400673,No Major Bottleneck
+V202400440,No Major Bottleneck
+V202400614,High Resource Utilization
+V202400450,Long LOS
+V202400450,High Resource Utilization
+V202400202,High Bed Occupancy
+V202400202,High Resource Utilization
+V202400435,Long LOS
+V202400435,High Resource Utilization
+V202400441,High Bed Occupancy
+V202400441,Long LOS
+V202400441,High Resource Utilization
+V202400847,High Resource Utilization
+V202400300,Long LOS
+V202400300,High Resource Utilization
+V202400900,Long LOS
+V202400900,High Resource Utilization
+V202400651,Extended Wait Time
+V202400651,High Resource Utilization
+V202400057,Long LOS
+V202400057,High Resource Utilization
+V202400057,Readmission Pressure
+V202400604,High Resource Utilization
+V202400165,No Major Bottleneck
+V202400410,No Major Bottleneck
+V202400423,Long LOS
+V202400423,High Resource Utilization
+V202400191,Long LOS
+V202400191,High Resource Utilization
+V202400223,High Resource Utilization
+V202400284,High Resource Utilization
+V202400373,High Resource Utilization
+V202400038,High Resource Utilization
+V202400260,Long LOS
+V202400260,High Resource Utilization
+V202400340,No Major Bottleneck
+V202400889,No Major Bottleneck
+V202400371,High Bed Occupancy
+V202400371,Long LOS
+V202400371,High Resource Utilization
+V202400665,Long LOS
+V202400665,High Resource Utilization
+V202400207,High Resource Utilization
+V202400434,High Bed Occupancy
+V202400434,Long LOS
+V202400434,High Resource Utilization
+V202400434,Readmission Pressure
+V202400401,High Resource Utilization
+V202400401,Readmission Pressure
+V202400884,Long LOS
+V202400884,High Resource Utilization
+V202400884,Readmission Pressure
+V202400635,No Major Bottleneck
+V202400100,High Resource Utilization
+V202400124,Extended Wait Time
+V202400124,Long LOS
+V202400124,High Resource Utilization
+V202400771,Extended Wait Time
+V202400771,High Resource Utilization
+V202400771,Readmission Pressure
+V202400455,Long LOS
+V202400455,High Resource Utilization
+V202400677,Long LOS
+V202400677,High Resource Utilization
+V202400810,No Major Bottleneck
+V202400182,Long LOS
+V202400547,No Major Bottleneck
+V202400695,Extended Wait Time
+V202400695,Long LOS
+V202400695,High Resource Utilization
+V202400080,High Bed Occupancy
+V202400080,Long LOS
+V202400080,High Resource Utilization
+V202400334,High Resource Utilization
+V202400430,Long LOS
+V202400430,High Resource Utilization
+V202400751,High Resource Utilization
+V202400461,High Bed Occupancy
+V202400461,Long LOS
+V202400461,High Resource Utilization
+V202400381,Long LOS
+V202400939,Long LOS
+V202400939,High Resource Utilization
+V202400460,Long LOS
+V202400460,High Resource Utilization
+V202400460,Readmission Pressure
+V202400645,Long LOS
+V202400645,High Resource Utilization
+V202400091,Long LOS
+V202400133,No Major Bottleneck
+V202400605,Long LOS
+V202400605,High Resource Utilization
+V202400041,Long LOS
+V202400041,High Resource Utilization
+V202400719,Extended Wait Time
+V202400719,High Resource Utilization
+V202400813,No Major Bottleneck
+V202400295,Long LOS
+V202400656,No Major Bottleneck
+V202400773,High Resource Utilization
+V202400589,High Resource Utilization
+V202400588,Long LOS
+V202400588,High Resource Utilization
+V202400588,Readmission Pressure
+V202400540,No Major Bottleneck
+V202400704,No Major Bottleneck
+V202400557,No Major Bottleneck
+V202400563,No Major Bottleneck
+V202400947,No Major Bottleneck
+V202400180,Long LOS
+V202400180,High Resource Utilization
+V202400591,High Resource Utilization
+V202400931,High Resource Utilization
+V202400755,Long LOS
+V202400755,High Resource Utilization
+V202400727,Long LOS
+V202400727,High Resource Utilization
+V202400022,No Major Bottleneck
+V202400263,Extended Wait Time
+V202400263,High Resource Utilization
+V202400920,Long LOS
+V202400920,High Resource Utilization
+V202400833,No Major Bottleneck
+V202400067,High Bed Occupancy
+V202400067,High Resource Utilization
+V202400431,High Resource Utilization
+V202400153,High Resource Utilization
+V202400577,High Resource Utilization
+V202400845,High Resource Utilization
+V202400845,Readmission Pressure
+V202400776,Extended Wait Time
+V202400776,Long LOS
+V202400776,High Resource Utilization
+V202400520,Long LOS
+V202400520,High Resource Utilization
+V202400590,No Major Bottleneck
+V202400761,Long LOS
+V202400761,High Resource Utilization
+V202400802,Long LOS
+V202400802,High Resource Utilization
+V202400802,Readmission Pressure
+V202400666,Long LOS
+V202400666,High Resource Utilization
+V202400791,Long LOS
+V202400791,High Resource Utilization
+V202400699,High Resource Utilization
+V202400867,Long LOS
+V202400867,High Resource Utilization
+V202400006,No Major Bottleneck
+V202400005,No Major Bottleneck
+V202400876,No Major Bottleneck
+V202400319,No Major Bottleneck
+V202400668,Long LOS
+V202400668,High Resource Utilization
+V202400210,Extended Wait Time
+V202400210,High Resource Utilization
+V202400203,Long LOS
+V202400203,High Resource Utilization
+V202400112,No Major Bottleneck
+V202400506,No Major Bottleneck
+V202400354,No Major Bottleneck
+V202400730,No Major Bottleneck
+V202400731,Long LOS
+V202400731,High Resource Utilization
+V202400255,Readmission Pressure
+V202400601,High Resource Utilization
+V202400032,Long LOS
+V202400032,High Resource Utilization
+V202400935,No Major Bottleneck
+V202400683,Long LOS
+V202400683,High Resource Utilization
+V202400598,Readmission Pressure
+V202400671,Readmission Pressure
+V202400318,Long LOS
+V202400343,Long LOS
+V202400176,Long LOS
+V202400240,High Resource Utilization
+V202400834,Long LOS
+V202400834,High Resource Utilization
+V202400603,High Bed Occupancy
+V202400603,High Resource Utilization
+V202400388,Long LOS
+V202400886,High Resource Utilization
+V202400843,High Resource Utilization
+V202400903,High Resource Utilization
+V202400722,Long LOS
+V202400722,High Resource Utilization
+V202400785,Extended Wait Time
+V202400785,High Resource Utilization
+V202400868,Long LOS
+V202400868,High Resource Utilization
+V202400015,High Resource Utilization
+V202400593,Long LOS
+V202400016,High Resource Utilization
+V202400621,No Major Bottleneck
+V202400050,No Major Bottleneck
+V202400168,Long LOS
+V202400168,High Resource Utilization
+V202400168,Readmission Pressure
+V202400118,High Resource Utilization
+V202400669,High Resource Utilization
+V202400690,No Major Bottleneck
+V202400494,Long LOS
+V202400856,High Resource Utilization
+V202400599,High Resource Utilization
+V202400369,Long LOS
+V202400369,High Resource Utilization
+V202400369,Readmission Pressure
+V202400235,Extended Wait Time
+V202400235,Long LOS
+V202400235,High Resource Utilization
+V202400058,Long LOS
+V202400058,High Resource Utilization
+V202400072,Long LOS
+V202400072,High Resource Utilization
+V202400027,Long LOS
+V202400729,High Resource Utilization
+V202400896,Long LOS
+V202400896,High Resource Utilization
+V202400855,Long LOS
+V202400855,High Resource Utilization
+V202400607,Long LOS
+V202400607,High Resource Utilization
+V202400607,Readmission Pressure
+V202400945,High Resource Utilization
+V202400901,Long LOS
+V202400901,High Resource Utilization
+V202400622,Long LOS
+V202400622,High Resource Utilization
+V202400853,Long LOS
+V202400853,High Resource Utilization
+V202400643,High Resource Utilization
+V202400014,Long LOS
+V202400562,Long LOS
+V202400562,High Resource Utilization
+V202400562,Readmission Pressure
+V202400298,Extended Wait Time
+V202400298,High Resource Utilization
+V202400132,Extended Wait Time
+V202400132,High Resource Utilization
+V202400880,Long LOS
+V202400880,High Resource Utilization
+V202400469,No Major Bottleneck
+V202400214,High Resource Utilization
+V202400831,Extended Wait Time
+V202400831,High Resource Utilization
+V202400831,Readmission Pressure
+V202400174,High Resource Utilization
+V202400125,No Major Bottleneck
+V202400109,No Major Bottleneck
+V202400543,High Resource Utilization
+V202400777,Long LOS
+V202400777,High Resource Utilization
+V202400881,Long LOS
+V202400881,High Resource Utilization
+V202400881,Readmission Pressure
+V202400745,Readmission Pressure
+V202400664,Long LOS
+V202400664,High Resource Utilization
+V202400216,No Major Bottleneck
+V202400159,Long LOS
+V202400159,High Resource Utilization
+V202400888,High Resource Utilization
+V202400152,High Resource Utilization
+V202400152,Readmission Pressure
+V202400586,High Resource Utilization
+V202400156,Extended Wait Time
+V202400156,High Resource Utilization
+V202400694,High Resource Utilization
+V202400190,No Major Bottleneck
+V202400638,Long LOS
+V202400890,High Bed Occupancy
+V202400890,Long LOS
+V202400890,High Resource Utilization
+V202400226,No Major Bottleneck
+V202400667,High Resource Utilization
+V202400538,Long LOS
+V202400538,High Resource Utilization
+V202400763,High Resource Utilization
+V202400330,Readmission Pressure
+V202400106,Long LOS
+V202400106,High Resource Utilization
+V202400320,Long LOS
+V202400320,High Resource Utilization
+V202400783,Long LOS
+V202400142,Long LOS
+V202400142,High Resource Utilization
+V202400630,High Resource Utilization
+V202400709,Long LOS
+V202400185,High Resource Utilization
+V202400930,High Resource Utilization
+V202400682,Long LOS
+V202400682,High Resource Utilization
+V202400580,No Major Bottleneck
+V202400045,Long LOS
+V202400909,Long LOS
+V202400909,High Resource Utilization
+V202400909,Readmission Pressure
+V202400225,High Bed Occupancy
+V202400225,High Resource Utilization
+V202400912,High Resource Utilization
+V202400927,No Major Bottleneck
+V202400639,High Resource Utilization
+V202400310,No Major Bottleneck
+V202400872,High Resource Utilization
+V202400062,Long LOS
+V202400062,High Resource Utilization
+V202400062,Readmission Pressure
+V202400936,No Major Bottleneck
+V202400528,Long LOS
+V202400941,High Resource Utilization
+V202400618,Long LOS
+V202400493,High Resource Utilization
+V202400493,Readmission Pressure
+V202400602,Long LOS
+V202400150,High Resource Utilization
+V202400324,Extended Wait Time
+V202400324,High Resource Utilization
+V202400688,Extended Wait Time
+V202400688,Long LOS
+V202400688,High Resource Utilization
+V202400237,High Resource Utilization
+V202400065,Long LOS
+V202400065,High Resource Utilization
+V202400488,Long LOS
+V202400488,High Resource Utilization
+V202400488,Readmission Pressure
+V202400387,Extended Wait Time
+V202400387,Long LOS
+V202400387,High Resource Utilization
+V202400387,Readmission Pressure
+V202400380,No Major Bottleneck
+V202400657,Long LOS
+V202400657,High Resource Utilization
+V202400145,Long LOS
+V202400145,High Resource Utilization
+V202400145,Readmission Pressure
+V202400467,High Resource Utilization
+V202400670,High Resource Utilization
+V202400289,High Resource Utilization
+V202400697,Extended Wait Time
+V202400697,Long LOS
+V202400697,High Resource Utilization
+V202400697,Readmission Pressure
+V202400111,High Resource Utilization
+V202400020,High Resource Utilization
+V202400023,High Resource Utilization
+V202400417,High Resource Utilization
+V202400897,Extended Wait Time
+V202400897,High Resource Utilization
+V202400270,High Resource Utilization
+V202400917,High Resource Utilization
+V202400251,No Major Bottleneck
+V202400742,No Major Bottleneck
+V202400144,No Major Bottleneck
+V202400017,High Resource Utilization
+V202400037,Long LOS
+V202400037,High Resource Utilization
+V202400503,Long LOS
+V202400503,High Resource Utilization
+V202400085,High Resource Utilization
+V202400047,High Resource Utilization
+V202400762,High Resource Utilization
+V202400103,Long LOS
+V202400103,High Resource Utilization
+V202400254,Long LOS
+V202400254,High Resource Utilization
+V202400123,Extended Wait Time
+V202400123,High Resource Utilization
+V202400376,No Major Bottleneck
+V202400411,No Major Bottleneck
+V202400405,No Major Bottleneck
+V202400167,High Resource Utilization
+V202400642,No Major Bottleneck
+V202400707,No Major Bottleneck
+V202400308,No Major Bottleneck
+V202400136,No Major Bottleneck
+V202400691,Long LOS
+V202400086,High Resource Utilization
+V202400217,High Resource Utilization
+V202400060,No Major Bottleneck
+V202400644,High Bed Occupancy
+V202400644,High Resource Utilization
+V202400418,No Major Bottleneck
+V202400584,Long LOS
+V202400584,High Resource Utilization
+V202400083,High Bed Occupancy
+V202400083,Long LOS
+V202400083,High Resource Utilization
+V202400823,High Resource Utilization
+V202400823,Readmission Pressure
+V202500820,Long LOS
+V202500754,Readmission Pressure
+V202500703,High Bed Occupancy
+V202500703,Long LOS
+V202500703,High Resource Utilization
+V202500282,High Bed Occupancy
+V202500282,Long LOS
+V202500282,High Resource Utilization
+V202500134,High Bed Occupancy
+V202500134,Long LOS
+V202500134,High Resource Utilization
+V202500195,High Bed Occupancy
+V202500195,High Resource Utilization
+V202500395,Long LOS
+V202500395,High Resource Utilization
+V202500181,High Resource Utilization
+V202500769,No Major Bottleneck
+V202500908,No Major Bottleneck
+V202500594,High Bed Occupancy
+V202500594,Long LOS
+V202500594,High Resource Utilization
+V202500827,High Resource Utilization
+V202500784,Long LOS
+V202500784,Readmission Pressure
+V202500828,No Major Bottleneck
+V202500570,No Major Bottleneck
+V202500715,No Major Bottleneck
+V202500196,Long LOS
+V202500196,High Resource Utilization
+V202500565,Extended Wait Time
+V202500565,Long LOS
+V202500565,High Resource Utilization
+V202500429,Long LOS
+V202500429,High Resource Utilization
+V202500496,Extended Wait Time
+V202500496,High Resource Utilization
+V202500661,High Resource Utilization
+V202500331,No Major Bottleneck
+V202500064,High Resource Utilization
+V202500546,Long LOS
+V202500546,High Resource Utilization
+V202500269,No Major Bottleneck
+V202500735,High Resource Utilization
+V202500079,Long LOS
+V202500079,High Resource Utilization
+V202500294,High Resource Utilization
+V202500838,Long LOS
+V202500658,High Resource Utilization
+V202500139,No Major Bottleneck
+V202500608,Long LOS
+V202500024,High Bed Occupancy
+V202500024,Long LOS
+V202500024,High Resource Utilization
+V202500024,Readmission Pressure
+V202500161,High Bed Occupancy
+V202500161,Long LOS
+V202500161,High Resource Utilization
+V202500224,High Bed Occupancy
+V202500224,Long LOS
+V202500224,High Resource Utilization
+V202500626,Extended Wait Time
+V202500626,High Resource Utilization
+V202500244,High Resource Utilization
+V202500623,High Resource Utilization
+V202500444,Long LOS
+V202500393,High Bed Occupancy
+V202500393,High Resource Utilization
+V202500871,High Bed Occupancy
+V202500871,Long LOS
+V202500871,High Resource Utilization
+V202500466,Long LOS
+V202500466,High Resource Utilization
+V202500443,High Resource Utilization
+V202500001,No Major Bottleneck
+V202500349,High Resource Utilization
+V202500283,High Bed Occupancy
+V202500283,Long LOS
+V202500283,High Resource Utilization
+V202500517,High Resource Utilization
+V202500449,Long LOS
+V202500640,High Resource Utilization
+V202500740,High Resource Utilization
+V202500910,High Resource Utilization
+V202500522,High Resource Utilization
+V202500747,Extended Wait Time
+V202500747,Long LOS
+V202500747,High Resource Utilization
+V202500252,Extended Wait Time
+V202500252,High Resource Utilization
+V202500252,Readmission Pressure
+V202500366,Long LOS
+V202500366,High Resource Utilization
+V202500178,High Resource Utilization
+V202500361,Extended Wait Time
+V202500361,High Resource Utilization
+V202500361,Readmission Pressure
+V202500407,No Major Bottleneck
+V202500061,High Bed Occupancy
+V202500061,Long LOS
+V202500061,High Resource Utilization
+V202500228,Extended Wait Time
+V202500228,High Resource Utilization
+V202500567,Long LOS
+V202500567,High Resource Utilization
+V202500737,Long LOS
+V202500737,High Resource Utilization
+V202500573,High Resource Utilization
+V202500573,Readmission Pressure
+V202500678,High Resource Utilization
+V202500894,No Major Bottleneck
+V202500774,Extended Wait Time
+V202500774,Long LOS
+V202500774,High Resource Utilization
+V202500345,High Resource Utilization
+V202500824,No Major Bottleneck
+V202500818,No Major Bottleneck
+V202500865,Extended Wait Time
+V202500865,Long LOS
+V202500865,High Resource Utilization
+V202500865,Readmission Pressure
+V202500788,Extended Wait Time
+V202500788,Long LOS
+V202500788,High Resource Utilization
+V202500556,No Major Bottleneck
+V202500317,No Major Bottleneck
+V202500874,High Resource Utilization
+V202500914,High Resource Utilization
+V202500675,Extended Wait Time
+V202500675,High Resource Utilization
+V202500107,High Resource Utilization
+V202500714,Long LOS
+V202500714,Readmission Pressure
+V202500392,No Major Bottleneck
+V202500527,Long LOS
+V202500527,High Resource Utilization
+V202500846,Extended Wait Time
+V202500846,High Resource Utilization
+V202500131,Long LOS
+V202500131,High Resource Utilization
+V202500512,High Resource Utilization
+V202500836,High Resource Utilization
+V202500836,Readmission Pressure
+V202500329,Long LOS
+V202500329,High Resource Utilization
+V202500905,Long LOS
+V202500905,High Resource Utilization
+V202500453,Extended Wait Time
+V202500453,High Resource Utilization
+V202500805,No Major Bottleneck
+V202500925,High Resource Utilization
+V202500692,Long LOS
+V202500692,High Resource Utilization
+V202500126,Long LOS
+V202500126,High Resource Utilization
+V202500098,Extended Wait Time
+V202500098,High Resource Utilization
+V202500247,No Major Bottleneck
+V202500398,No Major Bottleneck
+V202500655,Extended Wait Time
+V202500655,High Resource Utilization
+V202500019,No Major Bottleneck
+V202500344,High Resource Utilization
+V202500916,No Major Bottleneck
+V202500568,High Bed Occupancy
+V202500568,Long LOS
+V202500568,High Resource Utilization
+V202500739,Long LOS
+V202500311,Long LOS
+V202500311,High Resource Utilization
+V202500864,Extended Wait Time
+V202500864,High Resource Utilization
+V202500864,Readmission Pressure
+V202500040,High Resource Utilization
+V202500427,No Major Bottleneck
+V202500636,High Resource Utilization
+V202500416,High Resource Utilization
+V202500809,Long LOS
+V202500809,High Resource Utilization
+V202500539,No Major Bottleneck
+V202500832,No Major Bottleneck
+V202500830,Long LOS
+V202500830,High Resource Utilization
+V202500862,High Resource Utilization
+V202500483,Long LOS
+V202500025,No Major Bottleneck
+V202500491,No Major Bottleneck
+V202500363,No Major Bottleneck
+V202500581,Long LOS
+V202500581,High Resource Utilization
+V202500606,High Bed Occupancy
+V202500606,Long LOS
+V202500606,High Resource Utilization
+V202500627,Extended Wait Time
+V202500627,High Resource Utilization
+V202500741,Long LOS
+V202500741,High Resource Utilization
+V202500789,No Major Bottleneck
+V202500495,High Resource Utilization
+V202500287,Long LOS
+V202500287,High Resource Utilization
+V202500458,Long LOS
+V202500458,High Resource Utilization
+V202500526,Long LOS
+V202500526,High Resource Utilization
+V202500526,Readmission Pressure
+V202500713,Long LOS
+V202500090,High Resource Utilization
+V202500858,High Resource Utilization
+V202500342,Extended Wait Time
+V202500342,High Resource Utilization
+V202500339,Extended Wait Time
+V202500339,High Resource Utilization
+V202500339,Readmission Pressure
+V202500596,No Major Bottleneck
+V202500700,High Resource Utilization
+V202500700,Readmission Pressure
+V202500624,High Bed Occupancy
+V202500624,Long LOS
+V202500624,High Resource Utilization
+V202500922,Long LOS
+V202500922,High Resource Utilization
+V202500154,Readmission Pressure
+V202500341,High Resource Utilization
+V202500579,Long LOS
+V202500579,High Resource Utilization
+V202500456,No Major Bottleneck
+V202500234,Readmission Pressure
+V202500583,High Resource Utilization
+V202500096,No Major Bottleneck
+V202500424,Long LOS
+V202500042,High Resource Utilization
+V202500143,No Major Bottleneck
+V202500835,High Resource Utilization
+V202500650,High Bed Occupancy
+V202500650,High Resource Utilization
+V202500276,High Resource Utilization
+V202500148,High Resource Utilization
+V202500148,Readmission Pressure
+V202500232,Long LOS
+V202500232,High Resource Utilization
+V202500849,Extended Wait Time
+V202500849,Long LOS
+V202500849,High Resource Utilization
+V202500744,No Major Bottleneck
+V202500609,Long LOS
+V202500609,High Resource Utilization
+V202500609,Readmission Pressure
+V202500351,Extended Wait Time
+V202500351,High Resource Utilization
+V202500403,No Major Bottleneck
+V202500793,Long LOS
+V202500793,High Resource Utilization
+V202500693,High Resource Utilization
+V202500104,High Bed Occupancy
+V202500104,High Resource Utilization
+V202500130,No Major Bottleneck
+V202500275,Long LOS
+V202500275,High Resource Utilization
+V202500633,No Major Bottleneck
+V202500173,High Bed Occupancy
+V202500173,Long LOS
+V202500173,High Resource Utilization
+V202500571,Extended Wait Time
+V202500571,Long LOS
+V202500571,High Resource Utilization
+V202500028,High Resource Utilization
+V202500028,Readmission Pressure
+V202500307,Long LOS
+V202500307,High Resource Utilization
+V202500264,Long LOS
+V202500264,High Resource Utilization
+V202500264,Readmission Pressure
+V202500816,Long LOS
+V202500816,High Resource Utilization
+V202500137,Long LOS
+V202500048,Extended Wait Time
+V202500048,High Resource Utilization
+V202500549,No Major Bottleneck
+V202500551,No Major Bottleneck
+V202500296,High Resource Utilization
+V202500480,Long LOS
+V202500480,High Resource Utilization
+V202500480,Readmission Pressure
+V202500097,Long LOS
+V202500097,High Resource Utilization
+V202500734,Long LOS
+V202500734,High Resource Utilization
+V202500863,High Bed Occupancy
+V202500863,Long LOS
+V202500863,High Resource Utilization
+V202500674,High Resource Utilization
+V202500018,High Resource Utilization
+V202500934,High Resource Utilization
+V202500475,No Major Bottleneck
+V202500189,Long LOS
+V202500302,No Major Bottleneck
+V202500634,No Major Bottleneck
+V202500701,Extended Wait Time
+V202500701,Long LOS
+V202500701,High Resource Utilization
+V202500637,High Resource Utilization
+V202500758,Long LOS
+V202500758,High Resource Utilization
+V202500758,Readmission Pressure
+V202500164,Long LOS
+V202500502,No Major Bottleneck
+V202500652,Long LOS
+V202500652,High Resource Utilization
+V202500825,Long LOS
+V202500825,High Resource Utilization
+V202500120,High Resource Utilization
+V202500303,Extended Wait Time
+V202500303,High Resource Utilization
+V202500928,Long LOS
+V202500288,High Resource Utilization
+V202500782,Long LOS
+V202500782,High Resource Utilization
+V202500066,High Resource Utilization
+V202500748,No Major Bottleneck
+V202500364,High Resource Utilization
+V202500049,High Resource Utilization
+V202500049,Readmission Pressure
+V202500211,Long LOS
+V202500211,High Resource Utilization
+V202500426,High Resource Utilization
+V202500321,Long LOS
+V202500321,High Resource Utilization
+V202500553,High Resource Utilization
+V202500915,Long LOS
+V202500915,High Resource Utilization
+V202500478,Long LOS
+V202500478,High Resource Utilization
+V202500942,No Major Bottleneck
+V202500327,Long LOS
+V202500327,High Resource Utilization
+V202500188,Long LOS
+V202500534,Long LOS
+V202500534,High Resource Utilization
+V202500256,High Resource Utilization
+V202500686,Long LOS
+V202500686,High Resource Utilization
+V202500452,Extended Wait Time
+V202500452,Long LOS
+V202500452,High Resource Utilization
+V202500866,No Major Bottleneck
+V202500094,High Resource Utilization
+V202500554,High Resource Utilization
+V202500554,Readmission Pressure
+V202500859,High Resource Utilization
+V202500859,Readmission Pressure
+V202500798,Long LOS
+V202500798,High Resource Utilization
+V202500222,High Resource Utilization
+V202500259,High Resource Utilization
+V202500766,No Major Bottleneck
+V202500660,Readmission Pressure
+V202500687,Long LOS
+V202500414,High Resource Utilization
+V202500725,High Resource Utilization
+V202500360,High Resource Utilization
+V202500940,No Major Bottleneck
+V202500803,Extended Wait Time
+V202500803,Long LOS
+V202500803,High Resource Utilization
+V202500233,Long LOS
+V202500233,High Resource Utilization
+V202500285,High Resource Utilization
+V202500839,Extended Wait Time
+V202500839,High Resource Utilization
+V202500698,High Resource Utilization
+V202500787,No Major Bottleneck
+V202500904,Long LOS
+V202500904,High Resource Utilization
+V202500464,High Resource Utilization
+V202500497,Long LOS
+V202500497,High Resource Utilization
+V202500485,Extended Wait Time
+V202500485,Long LOS
+V202500485,High Resource Utilization
+V202500485,Readmission Pressure
+V202500653,High Bed Occupancy
+V202500653,Long LOS
+V202500653,High Resource Utilization
+V202500792,High Resource Utilization
+V202500358,Long LOS
+V202500358,High Resource Utilization
+V202500358,Readmission Pressure
+V202500911,Long LOS
+V202500911,High Resource Utilization
+V202500566,High Resource Utilization
+V202500170,Long LOS
+V202500170,High Resource Utilization
+V202500290,Extended Wait Time
+V202500290,High Resource Utilization
+V202500817,Long LOS
+V202500817,High Resource Utilization
+V202500817,Readmission Pressure
+V202500029,No Major Bottleneck
+V202500647,High Resource Utilization
+V202500521,High Resource Utilization
+V202500850,Extended Wait Time
+V202500850,High Resource Utilization
+V202500712,No Major Bottleneck
+V202500950,High Resource Utilization
+V202500055,Long LOS
+V202500055,High Resource Utilization
+V202500055,Readmission Pressure
+V202500004,No Major Bottleneck
+V202500009,High Resource Utilization
+V202500205,No Major Bottleneck
+V202500542,Long LOS
+V202500542,High Resource Utilization
+V202500663,No Major Bottleneck
+V202500804,High Bed Occupancy
+V202500804,Long LOS
+V202500804,High Resource Utilization
+V202500031,Long LOS
+V202500031,High Resource Utilization
+V202500147,High Bed Occupancy
+V202500147,Long LOS
+V202500147,High Resource Utilization
+V202500696,High Resource Utilization
+V202500794,High Resource Utilization
+V202500328,No Major Bottleneck
+V202500021,Long LOS
+V202500021,High Resource Utilization
+V202500511,No Major Bottleneck
+V202500261,Readmission Pressure
+V202500346,Long LOS
+V202500346,High Resource Utilization
+V202500545,Long LOS
+V202500545,High Resource Utilization
+V202500433,No Major Bottleneck
+V202500625,High Resource Utilization
+V202500625,Readmission Pressure
+V202500757,Long LOS
+V202500757,High Resource Utilization
+V202500560,High Resource Utilization
+V202500492,Extended Wait Time
+V202500492,High Resource Utilization
+V202500574,Long LOS
+V202500574,High Resource Utilization
+V202500574,Readmission Pressure
+V202500299,No Major Bottleneck
+V202500750,Long LOS
+V202500913,High Resource Utilization
+V202500082,Long LOS
+V202500350,Long LOS
+V202500350,High Resource Utilization
+V202500484,High Resource Utilization
+V202500753,Long LOS
+V202500753,High Resource Utilization
+V202500613,Long LOS
+V202500613,High Resource Utilization
+V202500481,High Resource Utilization
+V202500383,Long LOS
+V202500383,High Resource Utilization
+V202500840,No Major Bottleneck
+V202500415,Long LOS
+V202500415,High Resource Utilization
+V202500230,Long LOS
+V202500230,High Resource Utilization
+V202500929,High Resource Utilization
+V202500162,High Bed Occupancy
+V202500162,Long LOS
+V202500162,High Resource Utilization
+V202500163,High Bed Occupancy
+V202500163,Long LOS
+V202500163,High Resource Utilization
+V202500115,Long LOS
+V202500585,Readmission Pressure
+V202500194,Long LOS
+V202500347,Extended Wait Time
+V202500347,High Resource Utilization
+V202500347,Readmission Pressure
+V202500102,No Major Bottleneck
+V202500304,Extended Wait Time
+V202500304,Long LOS
+V202500304,High Resource Utilization
+V202500088,High Resource Utilization
+V202500088,Readmission Pressure
+V202500780,No Major Bottleneck
+V202500592,Extended Wait Time
+V202500592,High Resource Utilization
+V202500356,High Resource Utilization
+V202500201,High Resource Utilization
+V202500873,Long LOS
+V202500873,High Resource Utilization
+V202500362,No Major Bottleneck
+V202500175,Long LOS
+V202500175,High Resource Utilization
+V202500659,High Bed Occupancy
+V202500659,High Resource Utilization
+V202500239,Long LOS
+V202500239,High Resource Utilization
+V202500278,Long LOS
+V202500278,High Resource Utilization
+V202500219,High Bed Occupancy
+V202500219,High Resource Utilization
+V202500462,Extended Wait Time
+V202500462,High Resource Utilization
+V202500943,High Resource Utilization
+V202500887,Extended Wait Time
+V202500887,High Resource Utilization
+V202500213,High Resource Utilization
+V202500353,Extended Wait Time
+V202500353,High Resource Utilization
+V202500221,Long LOS
+V202500878,High Resource Utilization
+V202500878,Readmission Pressure
+V202500186,Extended Wait Time
+V202500186,Long LOS
+V202500186,High Resource Utilization
+V202500186,Readmission Pressure
+V202500323,Long LOS
+V202500323,High Resource Utilization
+V202500046,Extended Wait Time
+V202500046,High Resource Utilization
+V202500842,High Resource Utilization
+V202500208,High Resource Utilization
+V202500733,High Resource Utilization
+V202600895,No Major Bottleneck
+V202600597,High Bed Occupancy
+V202600597,High Resource Utilization
+V202600684,Long LOS
+V202600684,High Resource Utilization
+V202600548,No Major Bottleneck
+V202600419,Extended Wait Time
+V202600419,Long LOS
+V202600419,High Resource Utilization
+V202600157,No Major Bottleneck
+V202600544,High Resource Utilization
+V202600544,Readmission Pressure
+V202600882,No Major Bottleneck
+V202600171,High Resource Utilization
+V202600648,High Bed Occupancy
+V202600648,Extended Wait Time
+V202600648,Long LOS
+V202600648,High Resource Utilization
+V202600710,No Major Bottleneck
+V202600374,High Bed Occupancy
+V202600374,Long LOS
+V202600374,High Resource Utilization
+V202600039,High Bed Occupancy
+V202600039,Long LOS
+V202600039,High Resource Utilization
+V202600505,Extended Wait Time
+V202600505,High Resource Utilization
+V202600177,Extended Wait Time
+V202600177,Long LOS
+V202600177,High Resource Utilization
+V202600610,No Major Bottleneck
+V202600212,High Bed Occupancy
+V202600212,Extended Wait Time
+V202600212,High Resource Utilization
+V202600781,Long LOS
+V202600781,High Resource Utilization
+V202600316,Extended Wait Time
+V202600316,Long LOS
+V202600316,High Resource Utilization
+V202600482,No Major Bottleneck
+V202600258,No Major Bottleneck
+V202600382,Long LOS
+V202600382,High Resource Utilization
+V202600799,Long LOS
+V202600799,High Resource Utilization
+V202600501,High Resource Utilization
+V202600267,High Bed Occupancy
+V202600267,Extended Wait Time
+V202600267,High Resource Utilization
+V202600267,Readmission Pressure
+V202600436,Long LOS
+V202600436,High Resource Utilization
+V202600279,Long LOS
+V202600279,High Resource Utilization
+V202600268,Long LOS
+V202600268,High Resource Utilization
+V202600138,High Resource Utilization
+V202600561,High Resource Utilization
+V202600338,High Resource Utilization
+V202600439,Readmission Pressure
+V202600075,Long LOS
+V202600075,High Resource Utilization
+V202600010,High Resource Utilization
+V202600801,No Major Bottleneck
+V202600215,High Bed Occupancy
+V202600215,Extended Wait Time
+V202600215,High Resource Utilization
+V202600092,High Bed Occupancy
+V202600092,Long LOS
+V202600092,High Resource Utilization
+V202600631,High Bed Occupancy
+V202600631,Long LOS
+V202600631,High Resource Utilization
+V202600631,Readmission Pressure
+V202600322,Long LOS
+V202600322,High Resource Utilization
+V202600877,Long LOS
+V202600877,High Resource Utilization
+V202600779,High Bed Occupancy
+V202600779,High Resource Utilization
+V202600236,Long LOS
+V202600236,High Resource Utilization
+V202600891,High Resource Utilization
+V202600778,Long LOS
+V202600197,High Bed Occupancy
+V202600197,High Resource Utilization
+V202600510,High Resource Utilization
+V202600305,Long LOS
+V202600305,High Resource Utilization
+V202600160,Extended Wait Time
+V202600160,Long LOS
+V202600160,High Resource Utilization
+V202600076,Long LOS
+V202600087,High Resource Utilization
+V202600720,High Resource Utilization
+V202600003,Extended Wait Time
+V202600003,High Resource Utilization
+V202600385,No Major Bottleneck
+V202600806,High Bed Occupancy
+V202600806,Long LOS
+V202600806,High Resource Utilization
+V202600326,Extended Wait Time
+V202600326,High Resource Utilization
+V202600829,High Bed Occupancy
+V202600829,Long LOS
+V202600829,High Resource Utilization
+V202600266,Long LOS
+V202600266,High Resource Utilization
+V202600724,Long LOS
+V202600724,High Resource Utilization
+V202600764,Long LOS
+V202600654,Long LOS
+V202600654,High Resource Utilization
+V202600463,High Bed Occupancy
+V202600463,Long LOS
+V202600463,High Resource Utilization
+V202600218,No Major Bottleneck
+V202600743,No Major Bottleneck
+V202600628,Long LOS
+V202600628,High Resource Utilization
+V202600620,No Major Bottleneck
+V202600852,Long LOS
+V202600852,High Resource Utilization
+V202600389,High Resource Utilization
+V202600399,Readmission Pressure
+V202600420,High Bed Occupancy
+V202600420,Long LOS
+V202600420,High Resource Utilization
+V202600420,Readmission Pressure
+V202600448,Long LOS
+V202600448,High Resource Utilization
+V202600448,Readmission Pressure
+V202600400,High Resource Utilization
+V202600559,No Major Bottleneck
+V202600108,No Major Bottleneck
+V202600332,Long LOS
+V202600332,High Resource Utilization
+V202600711,No Major Bottleneck
+V202600093,High Resource Utilization
+V202600432,No Major Bottleneck
+V202600158,Long LOS
+V202600158,High Resource Utilization
+V202600767,High Resource Utilization
+V202600919,High Resource Utilization
+V202600535,Long LOS
+V202600535,High Resource Utilization
+V202600689,Readmission Pressure
+V202600297,Extended Wait Time
+V202600297,High Resource Utilization
+V202600077,High Resource Utilization
+V202600095,Long LOS
+V202600095,High Resource Utilization
+V202600095,Readmission Pressure
+V202600550,High Resource Utilization
+V202600071,Long LOS
+V202600071,High Resource Utilization
+V202600861,Long LOS
+V202600861,High Resource Utilization
+V202600052,No Major Bottleneck
+V202600394,High Resource Utilization
+V202600451,Extended Wait Time
+V202600451,High Resource Utilization
+V202600200,High Resource Utilization
+V202600572,Long LOS
+V202600572,High Resource Utilization
+V202600026,High Bed Occupancy
+V202600026,Long LOS
+V202600026,High Resource Utilization
+V202600760,High Resource Utilization
+V202600649,Extended Wait Time
+V202600649,High Resource Utilization
+V202600422,Extended Wait Time
+V202600422,Long LOS
+V202600422,High Resource Utilization
+V202600421,No Major Bottleneck
+V202600756,High Resource Utilization
+V202600728,No Major Bottleneck
+V202600231,No Major Bottleneck
+V202600309,High Resource Utilization
+V202600280,No Major Bottleneck
+V202600775,High Resource Utilization
+V202600277,High Resource Utilization
+V202600924,Long LOS
+V202600924,High Resource Utilization
+V202600885,High Resource Utilization
+V202600612,High Bed Occupancy
+V202600612,High Resource Utilization
+V202600612,Readmission Pressure
+V202600068,No Major Bottleneck
+V202600821,High Resource Utilization
+V202600386,High Resource Utilization
+V202600386,Readmission Pressure
+V202600117,High Resource Utilization
+V202600619,Long LOS
+V202600619,High Resource Utilization
+V202600390,High Resource Utilization
+V202600121,Long LOS
+V202600121,High Resource Utilization
+V202600036,No Major Bottleneck
+V202600114,Long LOS
+V202600271,No Major Bottleneck
+V202600272,Extended Wait Time
+V202600272,High Resource Utilization
+V202600708,Long LOS
+V202600708,High Resource Utilization
+V202600518,No Major Bottleneck
+V202600445,Long LOS
+V202600445,High Resource Utilization
+V202600531,High Resource Utilization
+V202600504,No Major Bottleneck
+V202600732,No Major Bottleneck
+V202600379,High Resource Utilization
+V202600074,No Major Bottleneck
+V202600187,Long LOS
+V202600187,High Resource Utilization
+V202600738,No Major Bottleneck
+V202600681,Long LOS
+V202600681,High Resource Utilization
+V202600907,Long LOS
+V202600907,High Resource Utilization
+V202600127,No Major Bottleneck
+V202600438,High Resource Utilization
+V202600770,High Bed Occupancy
+V202600770,Long LOS
+V202600770,High Resource Utilization
+V202600508,Long LOS
+V202600508,High Resource Utilization
+V202600508,Readmission Pressure
+V202600293,High Resource Utilization
+V202600404,Long LOS
+V202600404,High Resource Utilization
+V202600063,High Resource Utilization
+V202600944,High Bed Occupancy
+V202600944,Long LOS
+V202600944,High Resource Utilization
+V202600944,Readmission Pressure
+V202600893,No Major Bottleneck
+V202600717,Long LOS
+V202600717,High Resource Utilization
+V202600013,High Bed Occupancy
+V202600013,Long LOS
+V202600013,High Resource Utilization
+V202600932,High Resource Utilization
+V202600166,Long LOS
+V202600315,No Major Bottleneck
+V202600525,Long LOS
+V202600525,High Resource Utilization
+V202600812,High Resource Utilization
+V202600726,Long LOS
+V202600726,High Resource Utilization
+V202600524,Long LOS
+V202600524,High Resource Utilization
+V202600377,Extended Wait Time
+V202600377,High Resource Utilization
+V202600772,High Resource Utilization
+V202600537,No Major Bottleneck
+V202600220,High Resource Utilization
+V202600253,High Resource Utilization
+V202600552,No Major Bottleneck
+V202600250,Extended Wait Time
+V202600250,High Resource Utilization
+V202600337,High Resource Utilization
+V202600892,High Resource Utilization
+V202600352,High Resource Utilization
+V202600397,High Resource Utilization
+V202600128,No Major Bottleneck
+V202600869,Long LOS
+V202600869,High Resource Utilization
+V202600575,No Major Bottleneck
+V202600081,Extended Wait Time
+V202600081,Long LOS
+V202600081,High Resource Utilization
+V202600530,Long LOS
+V202600680,No Major Bottleneck
+V202600008,High Resource Utilization
+V202600514,Long LOS
+V202600514,High Resource Utilization
+V202600273,Long LOS
+V202600468,Long LOS
+V202600468,High Resource Utilization
+V202600468,Readmission Pressure
+V202600921,High Bed Occupancy
+V202600921,Long LOS
+V202600921,High Resource Utilization
+V202600815,Extended Wait Time
+V202600815,Long LOS
+V202600815,High Resource Utilization
+V202600815,Readmission Pressure
+V202600116,Long LOS
+V202600116,High Resource Utilization
+V202600796,Long LOS
+V202600615,High Resource Utilization
+V202600949,Long LOS
+V202600949,High Resource Utilization
+V202600555,No Major Bottleneck
+V202600768,Long LOS
+V202600768,High Resource Utilization
+V202600184,High Bed Occupancy
+V202600184,Long LOS
+V202600184,High Resource Utilization
+V202600265,No Major Bottleneck
+V202600384,Long LOS
+V202600736,Long LOS
+V202600736,High Resource Utilization
+V202600199,High Resource Utilization
+V202600089,No Major Bottleneck
+V202600428,No Major Bottleneck
+V202600281,Long LOS
+V202600281,High Resource Utilization
+V202600281,Readmission Pressure
+V202600646,Long LOS
+V202600646,High Resource Utilization
+V202600490,Long LOS
+V202600490,High Resource Utilization
+V202600490,Readmission Pressure
+V202600474,High Resource Utilization
+V202600119,High Resource Utilization
+V202600229,High Resource Utilization
+V202600906,High Bed Occupancy
+V202600906,High Resource Utilization
+V202600759,Long LOS
+V202600759,High Resource Utilization
+V202600923,No Major Bottleneck
+V202600632,No Major Bottleneck
+V202600406,Long LOS
+V202600406,High Resource Utilization
+V202600054,Long LOS
+V202600054,High Resource Utilization
+V202600898,High Resource Utilization
+V202600122,High Bed Occupancy
+V202600122,Long LOS
+V202600122,High Resource Utilization
+V202600122,Readmission Pressure
+V202600595,No Major Bottleneck
+V202600192,Long LOS
+V202600192,High Resource Utilization
+V202600672,High Resource Utilization
+V202600198,Long LOS
+V202600198,High Resource Utilization
+V202600204,Long LOS
+V202600204,High Resource Utilization
+V202600854,Long LOS
+V202600854,High Resource Utilization
+V202600948,High Resource Utilization
+V202600746,Extended Wait Time
+V202600746,Long LOS
+V202600746,High Resource Utilization
+V202600746,Readmission Pressure
+V202600193,Long LOS
+V202600193,High Resource Utilization
+V202600486,No Major Bottleneck
+V202600402,No Major Bottleneck
+V202600569,Long LOS
+V202600569,High Resource Utilization
+V202600368,High Resource Utilization
+V202600409,High Resource Utilization
+V202600454,High Resource Utilization
+V202600749,No Major Bottleneck
+V202600105,No Major Bottleneck
+V202600151,High Resource Utilization
+V202600786,Long LOS
+V202600786,High Resource Utilization
+V202600786,Readmission Pressure
+V202600044,No Major Bottleneck
+V202600507,Long LOS
+V202600507,High Resource Utilization
+V202600274,High Resource Utilization
+V202600938,High Bed Occupancy
+V202600938,Long LOS
+V202600938,High Resource Utilization
+V202600938,Readmission Pressure
+V202600837,High Resource Utilization
+V202600243,High Resource Utilization
+V202600826,Long LOS
+V202600826,High Resource Utilization
+V202600814,No Major Bottleneck
+V202600616,No Major Bottleneck
+V202600056,Long LOS
+V202600056,High Resource Utilization
+V202600800,Long LOS
+V202600800,High Resource Utilization
+V202600183,Extended Wait Time
+V202600808,No Major Bottleneck
+V202600578,Long LOS
+V202600578,High Resource Utilization
+V202600246,Long LOS
+V202600246,High Resource Utilization
+V202600685,Readmission Pressure
+V202600716,Long LOS
+V202600716,High Resource Utilization
+V202600113,No Major Bottleneck
+V202600396,Readmission Pressure
+V202600797,Extended Wait Time
+V202600797,High Resource Utilization
+V202600797,Readmission Pressure
+V202600513,High Resource Utilization
+V202600807,No Major Bottleneck
+V202600257,High Resource Utilization
+V202600179,No Major Bottleneck
+V202600721,Long LOS
+V202600053,High Resource Utilization
+V202600752,No Major Bottleneck
+V202600359,High Resource Utilization
+V202600241,Extended Wait Time
+V202600241,High Resource Utilization
+V202600365,High Resource Utilization
+V202600135,High Resource Utilization
+V202600536,Long LOS
+V202600870,Long LOS
+V202600870,High Resource Utilization
+V202600870,Readmission Pressure
+V202600446,Long LOS
+V202600446,High Resource Utilization
+V202600790,Long LOS
+V202600790,High Resource Utilization
+V202600918,Extended Wait Time
+V202600918,High Resource Utilization
+V202600918,Readmission Pressure
+V202600509,High Bed Occupancy
+V202600509,Long LOS
+V202600509,High Resource Utilization
+V202600509,Readmission Pressure
+V202600034,Extended Wait Time
+V202600034,High Resource Utilization
+V202600576,High Bed Occupancy
+V202600576,High Resource Utilization
+V202600002,Long LOS
+V202600002,High Resource Utilization
+V202600489,Long LOS
+V202600489,High Resource Utilization
+V202600412,Long LOS
+V202600412,High Resource Utilization
+V202600412,Readmission Pressure
+V202600413,High Resource Utilization
+V202600242,Long LOS
+V202600541,High Bed Occupancy
+V202600541,Long LOS
+V202600541,High Resource Utilization
+V202600541,Readmission Pressure
+V202600325,High Resource Utilization
+V202600367,No Major Bottleneck
+V202600844,Long LOS
+V202600844,High Resource Utilization
+V202600141,Long LOS
+V202600465,Long LOS
+V202600249,Long LOS
+V202600249,High Resource Utilization
+V202600314,No Major Bottleneck
+V202600470,No Major Bottleneck
+V202600718,No Major Bottleneck
+V202600035,No Major Bottleneck
+V202600248,High Resource Utilization
+V202600479,Long LOS
+V202600479,High Resource Utilization
+V202600479,Readmission Pressure
+V202600012,No Major Bottleneck
+V202600523,High Bed Occupancy
+V202600523,Long LOS
+V202600523,High Resource Utilization
+V202600472,Long LOS
+V202600472,High Resource Utilization
+V202600679,High Resource Utilization
+V202600051,Extended Wait Time
+V202600140,High Bed Occupancy
+V202600140,Long LOS
+V202600140,High Resource Utilization
+V202600140,Readmission Pressure
+V202600227,High Resource Utilization
+V202600499,No Major Bottleneck
+V202600306,High Resource Utilization
+V202600306,Readmission Pressure
+V202600582,Long LOS
+V202600676,Long LOS
+V202600676,High Resource Utilization
+V202600933,High Resource Utilization
+V202600811,Long LOS
+V202600447,High Resource Utilization
+V202600500,High Resource Utilization
+V202600155,No Major Bottleneck
+V202600519,High Resource Utilization
+V202600070,Extended Wait Time
+V202600070,High Resource Utilization
+V202600442,Long LOS
+V202600442,High Resource Utilization
+V202600662,High Resource Utilization
+V202600706,No Major Bottleneck
+V202600262,Readmission Pressure
+V202600391,High Bed Occupancy
+V202600391,Long LOS
+V202600391,High Resource Utilization
+V202600391,Readmission Pressure
+V202600476,Long LOS
+V202600476,High Resource Utilization
+V202600533,No Major Bottleneck
+V202600848,Extended Wait Time
+V202600848,High Resource Utilization
+V202600848,Readmission Pressure
+V202600532,High Resource Utilization

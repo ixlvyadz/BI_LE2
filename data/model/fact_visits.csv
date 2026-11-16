@@ -1,0 +1,951 @@
+visit_id,patient_id,date_key,department_key,admission_key,severity_key,shift_key,provider_key,insurance_key,length_of_stay_days,er_wait_time_minutes,throughput_time_hours,bed_occupancy_rate,resource_utilization_index,capacity_strain_score,estimated_cost_per_visit,department_cost_burden,patient_satisfaction_score,appointment_completed,no_show,readmitted_30_days,treatment_success,wait_over_target,occupancy_over_target,high_strain,bottleneck_count,visit_outcome,discharge_status,capacity_status,operational_risk_level,hospital_alert_flag,cost_imputed,satisfaction_imputed
+V202400209,P100208,20240104,3,2,2,2,4,3,2.87,15.3,70.3,96.5,92.6,64.4,2982.52,2762.07,4.43,1,0,1,1,0,1,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400822,P100821,20240104,6,3,2,3,3,4,1.6,22.9,40.4,57.4,79.4,45.5,9556.99,7590.11,4.02,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400073,P100072,20240105,7,3,3,3,2,3,0.11,20.0,5.0,67.0,79.0,45.6,743.36,587.3,4.33,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400129,P100128,20240106,4,4,4,2,2,4,15.64,22.5,378.5,88.3,100.0,74.3,61221.77,61221.77,4.71,1,0,0,1,0,1,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400206,P100205,20240108,6,1,1,2,5,3,2.05,34.3,51.8,80.9,85.3,59.3,5842.0,4981.41,4.37,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400408,P100407,20240109,9,2,1,1,4,3,0.03,21.2,3.7,53.7,69.8,38.8,950.05,663.31,4.52,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400946,P100945,20240109,6,3,2,3,3,4,0.57,24.1,15.7,75.9,84.6,52.0,7809.33,6608.27,4.03,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400457,P100456,20240110,3,3,3,3,3,1,5.62,19.7,135.8,98.2,100.0,72.9,9044.61,9044.61,3.63,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400471,P100470,20240110,10,1,2,1,2,2,3.81,22.8,94.5,75.5,89.6,59.0,16450.5,14742.59,4.81,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400841,P100840,20240111,2,1,1,2,1,3,0.5,52.4,14.6,80.8,87.9,60.7,1267.49,1114.74,4.74,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400899,P100898,20240111,3,3,1,1,2,3,3.39,2.3,82.5,78.6,84.2,53.9,3983.43,3353.79,4.13,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400333,P100332,20240112,8,1,1,1,3,2,0.08,2.0,5.1,66.3,67.4,39.3,470.91,317.41,4.63,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400564,P100563,20240112,2,5,2,3,3,1,0.53,67.1,15.5,81.8,89.3,64.6,1573.5,1404.68,4.16,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400245,P100244,20240113,2,1,2,3,3,5,0.49,47.0,14.4,85.7,89.6,61.7,1783.9,1598.16,5.0,1,0,0,1,1,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400172,P100171,20240114,7,3,4,1,4,3,0.2,29.4,4.9,72.6,97.3,53.4,1331.01,1295.23,4.1,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400372,P100371,20240115,2,1,4,3,5,1,0.68,80.9,17.7,89.0,100.0,72.7,4013.31,4013.31,3.89,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400795,P100794,20240115,9,2,3,1,3,3,0.09,18.2,4.7,53.9,82.1,40.5,1897.6,1557.49,4.55,1,0,0,0,0,0,0,1,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Low,Orange,0,0
+V202400937,P100936,20240115,2,5,1,1,2,4,0.51,49.2,15.1,91.2,100.0,66.3,1320.22,1320.22,4.43,1,0,0,1,1,1,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400011,P100010,20240117,2,1,2,3,2,4,0.47,61.7,12.6,89.6,94.4,67.3,1987.42,1875.3,3.85,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400641,P100640,20240117,1,1,3,2,3,5,4.05,4.3,99.6,73.3,100.0,56.4,11576.57,11576.57,4.06,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400883,P100882,20240117,8,3,1,1,1,2,0.09,27.5,6.1,58.3,61.7,40.7,459.23,283.5,4.17,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400378,P100377,20240119,6,2,2,1,3,4,2.15,27.9,54.2,70.0,84.0,53.6,9813.58,8244.02,4.28,1,0,1,0,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400926,P100925,20240119,5,5,2,2,4,1,0.05,10.9,4.0,53.5,65.9,35.8,437.99,288.77,3.48,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400238,P100237,20240120,2,1,1,2,3,5,0.27,41.5,7.6,85.7,81.2,58.5,1026.06,832.68,4.61,0,0,0,1,1,1,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400099,P100098,20240122,3,1,2,1,3,1,2.58,37.2,65.2,91.4,98.8,67.7,4478.71,4427.1,4.21,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400313,P100312,20240122,10,3,2,3,5,3,2.19,2.6,55.6,67.4,76.9,45.8,14894.5,11449.5,3.48,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400357,P100356,20240122,6,3,2,1,2,4,1.76,7.8,44.7,62.2,74.6,43.5,8474.16,6324.95,4.01,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400516,P100515,20240122,2,1,1,2,3,3,0.58,69.2,17.8,85.3,85.0,65.8,1135.43,965.55,4.03,1,0,0,1,1,1,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400875,P100874,20240122,1,2,1,2,1,2,0.56,30.1,16.0,81.3,79.6,54.6,5457.0,4345.31,4.07,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400902,P100901,20240122,3,3,1,3,4,1,2.75,21.0,69.2,94.4,93.9,64.8,4183.75,3928.91,3.83,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400879,P100878,20240123,3,4,4,2,3,4,5.62,29.8,139.0,92.6,100.0,72.8,13253.71,13253.71,4.09,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400558,P100557,20240124,5,4,1,2,4,4,0.03,19.2,3.6,49.0,63.7,35.3,331.83,211.3,4.27,0,1,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400291,P100290,20240125,3,3,4,1,3,4,6.73,40.6,163.1,82.2,100.0,73.3,15137.73,15137.73,4.63,1,0,1,1,1,0,1,3,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202400101,P100100,20240126,3,3,1,3,3,4,1.98,34.0,49.5,88.9,89.7,63.2,3344.83,3001.21,4.93,1,0,1,1,0,1,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400765,P100764,20240128,2,5,1,2,4,5,0.31,56.0,12.8,81.5,80.1,60.0,1201.83,963.2,4.29,0,1,0,1,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400043,P100042,20240129,10,3,1,1,2,4,1.73,31.9,42.4,77.4,79.8,55.8,9656.63,7706.7,4.77,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400286,P100285,20240130,9,5,1,2,3,5,0.08,15.9,3.0,60.8,72.2,41.0,842.1,608.33,4.1,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400146,P100145,20240131,2,1,1,1,5,1,0.35,76.0,13.3,80.4,82.9,64.5,1244.45,1031.05,3.44,0,1,0,1,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400292,P100291,20240131,6,2,1,1,4,1,0.88,7.1,20.8,75.6,76.9,47.4,5236.4,4024.92,4.34,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400629,P100628,20240131,8,2,1,2,3,2,0.07,30.4,4.5,48.6,78.2,40.4,421.48,329.61,4.05,1,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400857,P100856,20240131,1,1,3,2,1,2,3.79,33.2,95.0,76.9,100.0,63.7,12031.08,12031.08,4.2,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400611,P100610,20240202,10,3,2,1,3,2,2.85,23.8,72.2,75.0,81.6,55.6,12868.25,10503.88,4.6,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400169,P100168,20240203,4,3,4,2,3,4,14.99,27.2,361.9,94.9,100.0,77.9,47682.18,47682.18,3.69,0,1,0,1,0,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202400336,P100335,20240203,5,3,1,2,2,3,0.09,16.5,6.5,45.7,68.8,34.5,244.35,168.01,3.61,1,0,1,0,0,0,0,2,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202400600,P100599,20240203,1,3,2,2,2,3,3.13,21.4,77.5,84.0,100.0,62.6,8131.18,8131.18,4.51,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400473,P100472,20240205,2,5,1,3,2,3,0.13,51.0,5.7,91.3,81.9,62.7,1275.85,1045.17,4.91,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400059,P100058,20240207,4,1,4,1,5,3,9.33,35.9,227.9,89.1,100.0,77.5,34606.59,34606.59,4.71,1,0,0,1,1,1,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400335,P100334,20240207,10,2,2,2,5,3,2.62,9.3,67.2,71.9,79.4,50.4,17915.89,14222.73,4.39,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400348,P100347,20240207,2,1,3,1,3,4,0.55,69.3,16.7,88.6,99.7,69.7,2377.78,2370.78,4.06,0,0,1,1,1,1,0,4,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400487,P100486,20240207,10,3,2,2,1,3,3.41,10.8,81.4,76.1,87.4,55.4,14889.61,13006.25,4.72,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400515,P100514,20240207,7,4,2,2,1,4,0.03,23.7,0.9,68.5,74.9,46.2,479.64,359.06,4.85,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400030,P100029,20240208,8,2,1,1,5,4,0.04,24.9,4.6,61.8,63.6,41.7,437.59,278.48,4.92,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400149,P100148,20240212,6,4,1,2,3,5,1.34,25.2,34.8,67.0,74.5,48.4,5967.08,4444.88,4.42,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,1
+V202400301,P100300,20240212,3,1,3,2,4,3,5.06,24.4,124.3,86.0,100.0,67.9,7403.83,7403.83,5.0,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400702,P100701,20240212,10,3,1,3,3,1,1.26,25.5,32.2,76.5,82.0,53.5,8453.1,6928.88,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400819,P100818,20240215,9,2,2,1,4,4,0.08,29.3,5.7,61.8,76.7,45.1,1047.12,802.91,4.61,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400459,P100458,20240216,8,2,2,1,1,2,0.06,26.4,6.1,48.1,70.8,37.9,636.65,450.92,4.6,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400529,P100528,20240216,3,4,2,1,4,3,1.86,24.9,47.4,92.5,88.1,62.0,3864.36,3404.55,3.89,1,0,1,0,0,1,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400425,P100424,20240217,4,1,1,1,4,3,4.33,25.6,107.1,90.0,100.0,68.3,11948.15,11948.15,4.23,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400007,P100006,20240218,5,5,1,2,2,3,0.04,21.9,2.9,55.3,72.9,40.1,276.76,201.63,4.36,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400617,P100616,20240220,1,2,3,1,4,4,3.14,23.3,80.1,89.9,100.0,65.4,16195.35,16195.35,4.4,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400084,P100083,20240222,2,5,2,1,1,1,0.24,64.3,8.9,91.0,93.2,67.8,1599.56,1490.42,3.36,1,0,0,0,1,1,0,3,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202400705,P100704,20240222,2,1,3,2,1,3,0.35,96.0,12.6,86.1,100.0,72.9,2366.78,2366.78,3.59,1,0,0,0,1,1,1,2,Escalated Care,Transfer to Higher Level of Care,High Strain,High,Red,0,0
+V202400033,P100032,20240223,2,5,3,2,4,3,0.1,98.3,7.4,83.0,100.0,71.2,2827.22,2827.22,3.82,1,0,0,1,1,0,1,2,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202400860,P100859,20240224,2,1,3,1,4,3,0.36,90.2,13.0,73.6,97.7,67.5,2214.58,2163.06,3.66,1,0,1,0,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400723,P100722,20240225,3,4,1,3,3,3,5.08,15.1,125.6,87.9,95.1,65.7,3740.39,3556.29,5.0,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400851,P100850,20240225,7,2,2,1,5,4,0.17,5.0,6.5,71.1,72.4,42.9,455.6,329.9,3.79,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400370,P100369,20240227,2,3,3,2,5,4,0.7,97.1,21.4,83.5,100.0,72.6,3551.92,3551.92,3.79,1,0,0,0,1,0,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202400355,P100354,20240228,1,2,2,1,5,1,2.02,34.0,51.1,79.3,85.1,58.6,8373.1,7122.04,4.44,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400375,P100374,20240228,7,5,1,3,5,3,0.03,30.2,3.5,76.0,68.8,49.5,432.87,297.86,4.19,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400437,P100436,20240301,6,3,1,2,2,3,0.92,36.1,25.6,70.4,78.1,52.0,5465.68,4271.1,5.0,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400078,P100077,20240302,3,3,3,2,2,3,6.15,17.4,149.9,82.3,100.0,67.1,8226.16,8226.16,4.7,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400477,P100476,20240302,2,1,4,1,4,3,0.68,36.9,20.2,72.3,97.6,56.0,4127.15,4028.02,3.65,1,0,1,0,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400069,P100068,20240303,7,3,2,1,3,4,0.13,23.8,6.5,59.8,71.7,42.3,528.45,379.03,4.12,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400587,P100586,20240304,2,1,4,2,5,1,0.54,58.0,16.1,70.0,100.0,59.9,3024.72,3024.72,4.31,1,0,0,0,1,0,0,3,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400110,P100109,20240305,1,3,2,1,4,4,2.34,28.1,59.4,78.1,98.0,59.7,7392.37,7241.37,4.47,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400498,P100497,20240306,3,4,2,1,3,1,3.13,19.0,78.7,90.5,100.0,64.6,5052.5,5052.5,4.0,1,0,1,0,0,1,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400312,P100311,20240307,3,1,3,2,3,4,4.8,40.9,116.8,80.1,100.0,68.7,8231.09,8231.09,4.23,1,0,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400673,P100672,20240309,8,3,1,1,4,2,0.05,14.6,2.8,64.5,75.3,42.7,451.0,339.52,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400440,P100439,20240311,9,3,1,1,1,4,0.11,27.4,4.9,68.2,73.5,46.7,725.58,533.39,4.68,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400614,P100613,20240311,10,4,1,2,1,4,2.23,20.1,53.5,74.1,79.7,52.9,9157.22,7302.47,4.55,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400202,P100201,20240313,3,2,1,1,3,3,2.86,35.5,69.7,93.9,98.5,68.8,3449.63,3399.14,4.43,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400435,P100434,20240313,1,3,3,1,5,3,3.19,38.4,77.5,82.4,100.0,65.8,12761.76,12761.76,4.33,1,0,0,0,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400450,P100449,20240313,1,3,3,3,1,2,3.44,16.9,85.1,86.4,100.0,63.2,13800.12,13800.12,3.81,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400441,P100440,20240314,4,1,4,3,3,4,10.55,11.5,256.5,92.5,100.0,73.5,52430.76,52430.76,4.11,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400300,P100299,20240315,8,2,2,1,3,4,0.08,54.4,5.8,55.0,78.8,48.3,569.2,448.27,4.81,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400847,P100846,20240315,6,4,1,1,2,4,0.81,38.9,25.0,72.7,78.5,53.4,5077.35,3983.32,4.27,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400900,P100899,20240315,1,4,3,1,1,4,4.25,28.6,105.3,77.2,100.0,63.7,12605.74,12605.74,4.36,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400651,P100650,20240317,2,1,1,2,4,3,0.21,74.1,8.0,74.7,85.5,62.0,1254.57,1072.24,4.21,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400057,P100056,20240318,1,4,3,1,4,3,4.17,19.6,102.8,80.2,96.8,62.2,12021.4,11635.76,5.0,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400604,P100603,20240318,3,1,2,1,3,3,3.77,23.9,91.4,80.9,86.5,60.7,4692.54,4057.22,4.52,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400165,P100164,20240320,8,2,2,2,4,3,0.05,19.5,6.6,41.7,67.6,33.3,517.74,350.23,4.65,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400410,P100409,20240321,8,1,3,1,2,2,0.03,2.0,2.8,50.4,71.9,33.6,751.04,539.85,4.2,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400423,P100422,20240321,3,2,2,2,4,3,3.85,17.1,95.1,88.8,97.8,64.6,4319.63,4225.62,4.94,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400191,P100190,20240323,3,1,3,3,4,4,6.11,16.0,151.4,81.4,100.0,66.3,8639.89,8639.89,4.54,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400223,P100222,20240324,1,1,1,3,4,2,2.0,20.4,52.1,74.9,93.2,55.3,5764.11,5372.55,4.43,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400284,P100283,20240325,2,5,3,3,3,2,0.45,46.6,13.6,69.9,89.1,55.1,2194.28,1954.8,3.97,1,0,0,0,1,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400373,P100372,20240325,3,3,1,1,4,2,2.84,31.8,72.8,86.4,89.7,63.4,3080.9,2763.58,5.0,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400038,P100037,20240328,9,5,1,2,1,2,0.03,22.8,2.9,63.0,78.4,44.4,988.04,774.14,4.49,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400260,P100259,20240328,7,3,1,1,3,4,0.19,15.1,8.6,64.2,83.7,44.5,312.91,261.87,4.0,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400340,P100339,20240329,2,1,1,3,1,1,0.44,41.5,12.6,83.2,77.3,57.2,1132.98,875.63,4.69,1,0,0,1,1,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400889,P100888,20240331,7,5,1,1,5,1,0.03,12.0,2.6,58.7,66.0,38.0,308.55,203.65,4.93,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400371,P100370,20240401,4,1,4,2,3,4,11.24,8.4,271.4,90.5,100.0,72.0,36562.5,36562.5,3.51,1,0,0,0,0,1,1,3,Escalated Care,Transfer to Higher Level of Care,High Strain,High,Red,0,0
+V202400207,P100206,20240402,2,5,2,3,4,2,0.35,38.8,12.2,86.2,86.6,59.3,1844.27,1596.62,4.99,1,0,0,1,1,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400434,P100433,20240402,4,1,3,1,4,4,8.38,25.2,204.3,94.0,100.0,77.2,36827.25,36827.25,4.27,1,0,1,1,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202400665,P100664,20240402,10,2,2,3,2,1,3.91,18.5,95.8,78.5,89.7,59.4,20589.4,18462.58,4.26,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400401,P100400,20240404,3,5,2,3,1,3,1.45,16.4,36.8,82.3,85.2,54.8,3621.92,3087.13,4.31,1,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400884,P100883,20240405,6,2,3,1,3,5,3.43,24.7,84.1,73.6,100.0,59.7,14978.58,14978.58,4.81,0,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400635,P100634,20240409,7,5,1,3,2,2,0.1,27.6,4.2,65.1,75.0,45.8,413.93,310.45,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,1,0
+V202400100,P100099,20240410,2,1,1,2,3,4,0.14,30.8,6.8,68.7,80.8,49.1,1180.13,953.71,4.89,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400124,P100123,20240413,2,1,4,2,3,2,0.58,62.8,18.2,85.9,100.0,67.3,3856.29,3856.29,3.26,1,0,0,0,1,1,0,3,Transferred,Transferred,Moderate Risk,Moderate,Orange,0,0
+V202400771,P100770,20240414,2,1,3,3,4,2,0.17,67.8,6.6,73.1,93.3,61.3,2271.54,2118.57,2.32,0,1,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400455,P100454,20240415,1,3,2,1,3,4,3.56,2.9,88.3,89.0,95.0,60.4,10969.83,10416.07,4.26,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400677,P100676,20240416,4,4,4,1,2,5,10.23,19.0,249.4,85.1,100.0,72.2,38590.56,38590.56,5.0,1,0,0,1,0,1,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400182,P100181,20240417,5,4,1,1,4,5,0.09,18.0,2.6,55.8,65.0,38.1,323.59,210.3,4.86,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400547,P100546,20240417,8,2,2,1,3,2,0.03,3.2,0.9,51.9,67.7,33.7,518.69,351.07,4.63,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400810,P100809,20240417,5,2,1,1,1,4,0.03,22.2,2.1,52.8,72.7,39.1,341.35,248.06,4.66,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400695,P100694,20240419,2,2,4,1,2,2,0.86,63.8,23.1,76.6,100.0,64.4,3916.76,3916.76,4.08,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400080,P100079,20240421,3,1,3,2,4,5,6.86,31.7,167.6,92.2,100.0,75.6,10535.77,10535.77,4.54,0,1,0,1,0,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202400334,P100333,20240421,2,1,1,1,2,4,0.37,48.0,13.2,78.5,87.3,58.4,1497.29,1307.58,4.21,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400430,P100429,20240422,8,3,3,1,5,4,0.14,18.2,4.9,59.7,86.1,43.6,879.64,757.76,4.65,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400751,P100750,20240422,7,5,2,2,2,4,0.13,27.5,4.7,67.0,81.1,47.7,489.07,396.65,4.75,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400381,P100380,20240423,8,2,2,2,3,2,0.08,14.4,3.5,49.2,60.1,33.8,532.59,320.34,4.75,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400461,P100460,20240423,4,4,4,3,2,4,9.63,23.2,231.7,99.0,100.0,78.7,48290.14,48290.14,3.98,1,0,0,0,0,1,1,3,Escalated Care,Transfer to Higher Level of Care,High Strain,High,Red,0,0
+V202400939,P100938,20240423,6,3,2,3,4,2,2.67,16.5,67.4,74.3,87.9,54.5,9109.5,8011.28,4.55,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400460,P100459,20240424,3,2,3,2,4,1,3.89,18.1,94.5,85.2,100.0,63.9,6393.22,6393.22,3.33,0,1,1,1,0,1,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400091,P100090,20240425,5,3,1,1,2,2,0.08,8.5,3.3,56.5,52.8,34.1,275.48,145.51,4.46,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400645,P100644,20240425,6,3,3,1,2,4,2.69,10.3,69.0,71.9,96.8,53.9,14746.78,14278.51,4.28,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400133,P100132,20240426,9,3,1,2,4,3,0.03,4.8,6.0,56.5,63.3,35.1,908.97,574.98,4.07,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400605,P100604,20240427,4,1,4,1,3,5,11.09,21.2,269.6,89.7,100.0,74.5,49249.07,49249.07,3.93,0,1,0,0,0,1,1,2,Transferred,Transferred,High Strain,High,Red,0,0
+V202400041,P100040,20240429,3,3,2,1,1,4,4.41,13.2,106.4,75.3,92.2,58.4,3505.12,3231.69,4.57,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400719,P100718,20240501,2,1,2,3,2,5,0.34,55.7,10.9,73.0,90.5,58.4,1607.09,1454.25,4.24,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400813,P100812,20240502,2,1,1,2,5,2,0.23,54.2,6.9,76.5,77.1,56.9,1205.2,929.07,4.3,0,0,0,1,1,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400295,P100294,20240505,6,3,1,1,5,2,2.54,8.1,61.3,77.5,69.5,50.4,6482.44,4502.99,4.4,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400589,P100588,20240506,2,1,1,2,2,1,0.36,44.1,10.1,75.7,85.1,56.0,1520.92,1294.11,3.83,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400656,P100655,20240506,5,2,2,2,4,3,0.03,21.9,4.8,55.3,69.1,39.4,414.43,286.26,4.75,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400773,P100772,20240506,10,1,2,3,4,2,1.95,13.0,48.0,77.2,82.9,52.6,15532.38,12872.22,3.93,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400588,P100587,20240507,1,2,4,3,3,2,6.77,28.3,165.1,84.8,100.0,71.7,19544.62,19544.62,4.26,1,0,1,0,0,0,1,3,Readmitted,Readmitted,High Strain,Moderate,Red,0,0
+V202400540,P100539,20240508,9,2,2,1,3,2,0.08,7.3,3.6,68.3,77.5,43.1,1271.06,985.48,4.04,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400557,P100556,20240514,8,3,1,1,3,2,0.03,24.7,3.4,47.9,63.4,36.1,454.56,288.4,4.77,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400704,P100703,20240514,9,1,2,2,5,4,0.1,26.8,4.2,64.5,77.0,45.8,1348.28,1038.22,4.59,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400563,P100562,20240517,7,5,2,3,4,4,0.05,5.9,1.0,63.2,61.6,37.8,487.34,300.28,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400947,P100946,20240517,8,5,1,3,3,2,0.03,29.4,2.9,58.9,70.9,42.9,388.27,275.42,4.41,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400180,P100179,20240518,4,4,3,1,4,1,13.85,2.0,335.1,89.2,100.0,70.1,38441.78,38441.78,3.72,1,0,0,0,0,1,1,2,Follow-up Needed,Home with Follow-up,High Strain,Moderate,Red,0,0
+V202400591,P100590,20240520,1,2,2,2,2,3,2.99,14.3,73.8,80.7,86.7,57.0,9279.91,8047.19,3.98,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400022,P100021,20240521,7,3,2,3,2,2,0.06,17.7,2.8,64.4,72.4,42.8,445.72,322.59,4.25,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400727,P100726,20240521,2,1,2,3,1,2,0.62,21.0,17.0,75.9,82.3,51.0,1540.41,1268.0,4.66,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400755,P100754,20240521,9,3,3,2,2,2,0.16,22.6,7.2,62.5,84.2,45.5,1724.5,1451.3,3.78,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400931,P100930,20240521,1,2,2,1,5,4,2.9,17.2,72.7,82.5,89.6,58.7,9518.19,8526.97,4.6,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400263,P100262,20240522,2,5,2,1,4,4,0.3,55.6,9.5,71.3,82.8,56.3,1498.02,1240.1,4.43,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400920,P100919,20240522,6,1,4,1,3,2,4.19,29.2,102.5,67.9,100.0,60.0,21353.22,21353.22,4.41,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400067,P100066,20240523,2,5,3,1,3,4,0.36,39.7,10.4,92.7,100.0,64.6,2549.57,2549.57,4.72,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400833,P100832,20240523,5,3,1,2,3,2,0.03,2.0,1.5,62.0,56.4,35.5,280.08,157.85,3.98,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400431,P100430,20240526,2,1,2,2,3,4,0.03,30.3,3.8,80.1,86.1,54.3,1919.08,1652.82,3.77,1,0,0,0,0,0,0,1,Transferred,Transferred,Moderate Risk,Moderate,Orange,0,0
+V202400153,P100152,20240528,3,5,1,1,4,3,2.18,15.6,53.5,79.7,80.3,54.1,2799.96,2249.66,4.02,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400577,P100576,20240531,10,3,2,3,3,1,2.78,6.6,69.0,78.9,85.1,53.9,20035.47,17049.69,4.45,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400845,P100844,20240602,2,2,3,2,1,3,0.46,38.4,11.7,73.9,98.8,56.7,2806.32,2773.13,3.71,0,1,1,0,1,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400776,P100775,20240603,2,5,2,3,3,4,0.52,60.3,15.7,78.9,100.0,63.9,1777.42,1777.42,3.99,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400520,P100519,20240604,6,3,3,1,1,2,3.11,41.4,77.4,72.8,98.8,62.2,13087.31,12927.08,4.19,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400590,P100589,20240606,5,3,3,2,3,3,0.06,31.9,2.1,44.7,73.9,38.3,613.62,453.18,4.62,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400761,P100760,20240606,2,5,4,3,2,5,0.76,52.6,21.3,83.7,100.0,64.6,4194.88,4194.88,4.38,1,0,0,0,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400666,P100665,20240607,1,3,3,1,2,1,4.41,21.6,110.0,77.5,96.4,61.9,12367.71,11925.42,4.8,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400802,P100801,20240607,4,4,4,1,4,1,11.16,23.2,271.8,88.8,100.0,74.6,51040.93,51040.93,4.24,1,0,1,1,0,1,1,3,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202400791,P100790,20240608,3,3,2,2,3,3,4.81,25.5,118.3,77.7,100.0,64.3,5349.84,5349.84,4.94,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400699,P100698,20240609,6,3,1,2,4,3,2.06,27.0,51.3,78.9,79.8,56.0,5779.01,4610.94,4.94,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400867,P100866,20240610,10,1,2,2,3,5,4.51,33.7,110.1,69.3,85.8,59.6,14058.83,12060.65,4.59,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400005,P100004,20240611,9,3,1,3,3,1,0.05,14.5,5.1,55.4,71.7,38.4,954.33,684.0,4.51,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400006,P100005,20240611,9,2,1,3,3,4,0.03,15.2,2.7,56.6,66.1,38.0,1017.21,672.67,3.89,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400876,P100875,20240611,5,3,2,3,4,4,0.03,14.3,2.6,53.8,69.8,37.3,524.06,365.69,4.71,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400319,P100318,20240612,8,2,2,1,3,2,0.03,48.4,3.9,50.1,71.3,43.6,557.03,397.24,3.76,1,0,0,1,1,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400210,P100209,20240617,2,4,2,2,4,4,0.18,78.2,7.2,76.8,91.8,64.8,1870.33,1716.99,4.57,1,0,0,0,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400668,P100667,20240617,1,2,3,1,4,4,3.53,36.5,86.2,85.3,100.0,67.2,14909.08,14909.08,4.07,1,0,0,0,1,1,0,2,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202400112,P100111,20240618,7,4,1,3,5,3,0.14,20.8,7.1,71.3,65.0,45.1,364.62,236.94,4.61,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400203,P100202,20240618,1,1,4,2,5,4,5.51,29.4,133.9,80.1,100.0,67.5,19831.89,19831.89,4.42,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400354,P100353,20240620,5,1,2,3,4,2,0.06,29.7,6.9,56.5,74.5,42.6,358.19,266.73,3.78,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400506,P100505,20240620,7,3,2,1,2,4,0.03,21.6,2.7,60.2,68.7,41.3,457.85,314.75,4.98,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400730,P100729,20240621,1,3,1,2,3,4,0.95,9.2,24.6,74.2,73.6,46.9,5078.46,3739.59,4.69,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400731,P100730,20240622,10,3,4,2,3,3,5.94,18.5,145.8,73.2,100.0,63.2,42231.85,42231.85,4.08,1,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400255,P100254,20240628,5,3,1,2,3,2,0.03,13.8,4.4,51.0,57.9,33.9,288.6,167.04,4.17,1,0,1,0,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202400601,P100600,20240628,7,3,1,1,3,1,0.03,25.0,3.2,73.7,80.9,49.6,359.36,290.69,4.35,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400032,P100031,20240630,6,3,2,3,5,4,2.89,33.9,71.5,74.1,90.6,59.2,10374.5,9399.12,4.7,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400683,P100682,20240701,1,1,2,1,5,2,3.73,21.2,91.0,69.8,98.6,57.8,9935.23,9793.07,4.38,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400935,P100934,20240701,2,1,1,3,2,4,0.28,43.7,7.6,71.3,73.3,51.9,1025.55,751.3,4.91,0,0,0,1,1,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400598,P100597,20240702,8,3,2,2,2,4,0.03,26.1,3.8,52.9,65.3,38.7,518.97,338.73,3.89,1,0,1,0,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202400318,P100317,20240703,5,1,2,1,4,3,0.11,30.1,3.9,50.7,75.4,40.7,446.16,336.42,4.73,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400343,P100342,20240703,8,2,2,3,5,2,0.08,29.7,4.4,57.4,63.8,41.2,582.64,371.86,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400671,P100670,20240703,5,5,2,2,2,4,0.03,11.3,2.8,45.7,65.4,32.6,352.64,230.69,4.27,1,0,1,0,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202400176,P100175,20240705,8,1,1,2,3,4,0.13,23.5,5.4,52.3,67.3,38.5,491.47,330.89,3.58,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400240,P100239,20240708,1,3,1,3,2,5,2.3,28.3,57.4,81.3,87.7,59.1,6076.21,5328.64,4.11,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400603,P100602,20240708,3,5,2,1,4,3,3.75,45.0,91.1,90.4,92.9,70.3,4597.73,4271.41,4.51,1,0,0,1,1,1,1,2,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202400834,P100833,20240708,1,4,3,1,3,4,3.47,22.1,85.8,75.2,100.0,59.9,12382.27,12382.27,5.0,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400388,P100387,20240709,1,4,1,2,2,2,3.15,41.7,78.2,85.2,78.0,63.6,5732.0,4468.72,4.16,1,0,0,1,1,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400843,P100842,20240710,5,5,4,1,1,4,0.04,24.0,3.4,52.7,89.3,42.5,999.97,892.71,4.04,1,0,0,0,0,0,0,1,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Low,Orange,0,0
+V202400886,P100885,20240710,1,3,1,1,3,3,1.4,31.2,36.0,84.1,85.1,58.6,6152.87,5238.31,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400722,P100721,20240714,3,3,1,3,4,4,4.84,21.2,121.4,80.6,90.3,62.8,3892.49,3513.56,4.4,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400785,P100784,20240714,2,5,3,1,1,2,0.41,62.8,13.0,63.3,94.3,56.9,2370.97,2236.77,3.83,0,0,0,1,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400903,P100902,20240714,3,5,2,3,2,3,3.55,16.0,87.9,79.5,100.0,60.4,3871.31,3871.31,4.16,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400015,P100014,20240715,10,2,3,1,1,4,2.63,26.0,65.6,69.5,96.1,56.1,22604.34,21724.42,4.64,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400593,P100592,20240715,8,5,1,2,4,3,0.1,5.1,3.7,47.5,60.7,31.2,453.26,275.04,4.51,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400868,P100867,20240715,6,3,2,2,2,4,2.6,24.4,66.7,65.3,86.0,52.2,7551.86,6491.92,4.47,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400016,P100015,20240716,10,2,2,1,3,4,2.53,32.3,61.7,77.6,86.5,58.8,15798.24,13665.76,4.76,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400050,P100049,20240718,9,2,1,1,5,3,0.03,16.1,1.8,59.0,71.4,40.0,1145.46,817.67,4.42,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400621,P100620,20240718,8,3,1,2,3,4,0.05,21.3,2.5,48.0,63.0,35.3,394.27,248.48,4.35,0,0,0,0,0,0,0,0,Escalated Care,Transfer to Higher Level of Care,Stable,Low,Green,0,0
+V202400118,P100117,20240721,2,5,3,1,4,3,0.39,36.5,11.0,78.1,92.7,56.7,2320.13,2150.63,4.42,0,0,0,1,1,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400168,P100167,20240721,3,1,2,2,4,2,4.51,9.6,109.0,82.6,96.9,61.6,5873.69,5693.82,3.81,1,0,1,0,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400669,P100668,20240721,8,3,2,2,2,4,0.05,32.7,3.7,52.9,79.5,42.8,577.82,459.55,4.44,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400690,P100689,20240721,7,3,1,1,4,3,0.13,2.0,4.5,64.4,62.4,37.7,366.6,228.92,4.36,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400494,P100493,20240723,9,1,3,3,3,2,0.16,8.5,4.8,55.4,77.9,38.4,1784.15,1389.37,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400856,P100855,20240726,6,1,1,1,1,4,1.38,32.5,34.7,68.1,82.3,51.9,6702.07,5518.42,3.95,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400599,P100598,20240728,2,1,1,1,3,3,0.05,31.4,3.3,70.6,79.4,49.5,1252.12,994.11,4.56,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400235,P100234,20240801,2,1,4,3,4,2,0.74,55.1,19.7,77.1,100.0,62.4,3858.0,3858.0,3.97,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400369,P100368,20240801,2,2,3,1,3,2,0.64,51.8,18.2,75.9,95.3,60.2,2688.0,2560.93,4.24,1,0,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400058,P100057,20240802,3,3,3,2,1,4,5.66,18.3,138.3,75.1,100.0,63.4,9785.86,9785.86,4.67,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400072,P100071,20240805,10,3,3,2,4,3,4.95,25.7,121.6,73.7,99.8,63.0,27685.1,27619.88,4.57,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,1
+V202400027,P100026,20240806,8,1,1,2,2,4,0.08,20.5,3.3,57.6,65.0,39.4,450.37,292.91,3.69,1,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400729,P100728,20240809,2,1,2,1,4,3,0.29,35.5,7.5,79.3,88.6,56.1,1768.69,1567.27,3.99,1,0,0,0,1,0,0,1,Transferred,Transferred,Moderate Risk,Moderate,Orange,0,0
+V202400855,P100854,20240813,10,1,2,1,3,4,3.34,17.6,81.5,65.3,87.7,52.5,14786.2,12970.68,4.93,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400896,P100895,20240813,4,4,3,1,3,4,8.14,30.2,199.0,84.6,100.0,74.5,27996.93,27996.93,4.46,1,0,0,1,0,0,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400607,P100606,20240815,8,3,3,3,3,4,0.1,26.6,6.5,58.0,88.9,45.3,817.05,726.49,4.43,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400945,P100944,20240815,8,5,3,2,3,2,0.03,21.3,1.6,60.1,84.1,43.9,907.58,763.58,3.24,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400901,P100900,20240817,10,3,2,1,5,2,3.71,22.1,94.2,77.8,94.6,60.4,14685.22,13891.04,3.74,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400622,P100621,20240819,2,5,4,1,5,4,0.56,50.6,16.8,76.1,100.0,60.7,4199.3,4199.3,4.75,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400853,P100852,20240820,10,5,2,3,1,4,3.8,20.9,93.1,82.3,95.6,62.3,16227.8,15517.36,4.72,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400643,P100642,20240822,2,1,2,2,4,4,0.22,41.0,7.4,80.1,91.2,57.9,1806.36,1647.76,4.18,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400014,P100013,20240823,9,3,2,3,2,2,0.17,15.3,3.7,58.5,71.0,39.9,1117.46,793.04,4.88,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400562,P100561,20240823,6,2,4,1,4,3,4.44,19.3,108.7,60.8,100.0,55.4,23059.11,23059.11,4.82,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400298,P100297,20240827,2,1,2,1,2,4,0.41,85.4,13.5,73.8,90.8,65.5,1729.91,1570.54,4.54,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400132,P100131,20240904,2,1,1,1,3,4,0.28,59.3,11.4,76.5,91.0,60.6,1419.61,1292.17,3.62,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400880,P100879,20240904,10,5,2,1,4,2,3.89,32.0,95.4,80.1,96.4,64.2,18780.7,18103.84,4.17,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400469,P100468,20240906,9,1,1,1,1,4,0.08,24.3,3.6,60.2,69.3,42.1,792.62,549.66,4.47,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400214,P100213,20240907,6,2,3,3,2,2,2.21,21.1,57.4,74.5,94.8,55.9,10906.33,10338.09,4.72,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400831,P100830,20240908,2,1,2,3,3,4,0.31,74.3,9.5,83.4,86.4,65.9,1691.45,1461.11,3.48,0,1,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400174,P100173,20240910,3,4,2,2,5,4,2.7,34.1,66.8,89.3,93.4,65.4,5306.43,4953.76,4.46,0,0,0,1,0,1,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400125,P100124,20240912,7,3,2,1,3,2,0.03,7.1,2.4,61.8,63.8,37.8,587.06,374.36,4.77,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400109,P100108,20240913,5,2,1,1,1,3,0.03,11.3,3.7,58.2,71.7,38.7,296.04,212.26,3.99,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400543,P100542,20240913,4,1,2,2,2,1,5.04,27.9,121.7,89.3,100.0,69.9,16226.67,16226.67,4.18,0,1,0,1,0,1,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400777,P100776,20240913,5,2,3,1,5,4,0.19,16.9,5.3,52.1,85.5,40.3,700.41,598.54,4.75,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400881,P100880,20240916,7,2,3,2,4,3,0.21,15.0,7.1,72.0,85.0,47.8,931.51,792.02,4.53,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400745,P100744,20240917,9,3,1,3,5,3,0.07,8.3,3.8,64.4,60.5,38.6,902.11,545.73,4.88,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202400159,P100158,20240924,1,3,4,3,2,2,4.75,2.0,115.8,79.7,100.0,59.8,22757.47,22757.47,4.83,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400216,P100215,20240924,3,1,2,1,1,4,3.42,11.2,84.6,84.1,77.2,56.8,4636.65,3580.72,4.72,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400664,P100663,20240924,10,3,3,3,2,2,4.74,18.3,115.6,71.0,96.7,59.3,27871.54,26962.15,4.52,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400888,P100887,20240925,10,4,2,1,3,2,2.49,15.5,62.1,76.3,85.7,54.3,15336.66,13150.98,4.3,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400152,P100151,20240927,7,3,3,1,3,2,0.12,19.7,4.6,67.6,85.5,47.0,956.61,817.99,4.22,1,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400586,P100585,20240927,2,1,2,1,3,2,0.25,48.4,11.1,88.3,99.9,64.4,1584.82,1582.51,3.8,1,0,0,0,1,1,0,1,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202400156,P100155,20240930,2,1,2,2,4,4,0.3,68.4,9.9,77.3,96.8,64.0,1549.39,1500.2,3.58,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400190,P100189,20240930,8,2,2,1,3,4,0.05,2.3,3.2,52.1,65.8,33.3,593.18,390.35,4.06,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400694,P100693,20240930,1,3,3,1,2,4,2.73,34.7,65.1,77.0,100.0,61.9,12998.3,12998.3,3.48,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400638,P100637,20241001,9,5,1,3,2,4,0.18,16.1,7.3,69.1,73.8,44.8,735.86,543.29,4.47,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202400890,P100889,20241001,4,4,3,2,3,4,8.19,2.0,198.1,92.1,100.0,71.3,29102.03,29102.03,3.84,1,0,0,0,0,1,1,3,Escalated Care,Transfer to Higher Level of Care,High Strain,Moderate,Red,0,0
+V202400226,P100225,20241002,5,3,1,2,4,3,0.08,9.2,4.5,58.2,68.4,37.7,331.48,226.73,4.36,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400667,P100666,20241004,7,2,2,2,4,3,0.13,11.3,4.2,74.3,84.8,47.7,605.43,513.6,4.27,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400538,P100537,20241006,1,2,3,1,2,4,3.2,25.6,79.4,81.8,93.4,61.6,13736.48,12835.69,4.45,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400330,P100329,20241007,5,2,1,1,5,5,0.07,11.6,4.5,50.9,62.0,34.2,206.9,128.29,5.0,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202400763,P100762,20241007,6,2,2,1,5,1,1.8,18.4,44.1,68.8,81.6,49.9,8790.14,7174.9,4.43,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400106,P100105,20241008,10,2,3,1,1,1,5.2,22.7,126.7,80.4,100.0,65.6,24878.08,24878.08,4.91,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400320,P100319,20241009,10,3,4,1,4,1,6.54,42.4,160.2,72.6,100.0,69.4,39660.84,39660.84,4.62,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400142,P100141,20241011,1,4,3,2,1,2,3.32,18.6,82.5,78.4,94.7,59.1,11076.13,10488.5,4.69,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400783,P100782,20241011,5,2,1,3,3,4,0.09,16.6,5.9,51.2,69.2,36.7,337.5,233.44,4.61,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400630,P100629,20241012,5,2,3,1,4,3,0.04,20.9,4.0,56.9,84.6,42.7,579.74,490.34,4.47,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400709,P100708,20241014,9,2,1,1,2,2,0.22,3.8,7.8,61.0,70.3,38.3,1087.8,765.09,4.64,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400185,P100184,20241018,1,2,2,2,3,2,2.18,20.7,54.1,72.2,85.9,53.3,8198.93,7039.3,4.15,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400580,P100579,20241018,5,2,1,3,3,1,0.05,13.3,4.1,56.4,69.7,38.1,310.53,216.55,4.89,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400682,P100681,20241018,10,3,4,1,5,4,6.13,11.3,149.2,68.8,100.0,60.3,47956.4,47956.4,4.46,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400930,P100929,20241018,8,2,2,1,3,1,0.03,35.9,1.4,49.9,79.9,42.3,684.97,547.57,5.0,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400045,P100044,20241019,9,2,1,1,5,3,0.14,13.9,3.4,62.7,64.4,40.0,844.77,544.41,4.75,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400909,P100908,20241020,3,4,2,1,2,3,4.51,30.0,110.6,81.1,100.0,66.1,5843.13,5843.13,4.56,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400225,P100224,20241026,1,1,1,2,3,3,1.92,22.4,50.1,92.0,86.0,61.1,5604.79,4820.42,4.68,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400912,P100911,20241029,1,5,1,3,4,4,1.67,22.1,43.0,84.2,80.9,56.4,5935.06,4801.71,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400639,P100638,20241030,9,3,3,2,3,4,0.04,21.4,1.1,63.6,91.4,46.7,1725.97,1577.65,3.99,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400927,P100926,20241030,8,4,2,3,2,2,0.03,30.5,5.2,51.8,76.6,41.3,631.14,483.77,4.47,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400310,P100309,20241101,8,2,1,2,3,3,0.03,6.7,2.3,47.8,62.0,31.8,383.31,237.65,4.84,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,1,0
+V202400872,P100871,20241101,2,1,3,3,2,1,0.31,22.1,9.7,86.5,87.4,55.8,2419.59,2114.9,4.83,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400062,P100061,20241102,7,3,2,2,3,3,0.15,20.6,6.0,71.6,79.2,47.7,549.78,435.22,4.41,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400936,P100935,20241103,5,3,2,3,3,1,0.04,2.0,3.4,44.8,66.4,30.4,389.62,258.57,4.61,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400528,P100527,20241104,6,1,1,1,1,2,2.61,13.6,64.7,67.5,77.2,49.1,7206.62,5561.2,4.52,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400941,P100940,20241105,2,1,2,2,4,4,0.47,48.6,13.4,69.9,88.7,55.6,1964.13,1741.7,4.37,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400493,P100492,20241108,1,3,2,3,3,3,2.66,9.1,65.6,78.3,90.6,54.9,8576.79,7766.81,5.0,1,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400618,P100617,20241108,2,1,2,2,5,4,0.61,33.3,15.3,74.3,75.3,51.8,1631.71,1228.76,4.81,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400150,P100149,20241110,10,3,2,1,1,4,2.55,19.9,65.4,73.9,89.0,55.1,15693.32,13968.99,4.28,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400602,P100601,20241110,8,3,2,1,5,2,0.15,28.1,5.6,46.8,66.5,37.2,605.67,402.6,4.23,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400324,P100323,20241111,2,1,2,3,3,2,0.41,62.9,13.1,84.6,95.7,65.7,1704.0,1631.45,3.6,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400688,P100687,20241111,2,5,2,2,3,2,0.52,58.3,14.2,81.1,92.3,62.9,1897.5,1750.98,5.0,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400237,P100236,20241112,1,2,2,3,3,4,2.69,2.0,66.6,84.6,82.8,54.6,7018.47,5809.68,4.46,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400065,P100064,20241113,1,3,1,2,4,1,3.15,14.1,76.1,80.5,83.1,56.6,7607.75,6321.07,4.78,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400488,P100487,20241113,1,2,4,1,1,1,5.77,2.0,140.1,79.3,100.0,61.7,24828.45,24828.45,4.42,1,0,1,0,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,1
+V202400380,P100379,20241114,5,3,2,1,5,3,0.03,20.4,1.5,51.3,69.3,37.5,397.79,275.67,4.49,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400387,P100386,20241114,2,5,4,2,3,3,0.9,72.5,22.5,82.4,100.0,68.7,4319.74,4319.74,4.5,0,0,1,0,1,0,0,4,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400657,P100656,20241116,2,1,3,1,3,4,0.6,39.4,16.7,75.7,92.0,56.7,2224.81,2047.18,4.89,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400145,P100144,20241117,4,2,4,2,2,3,12.66,13.4,308.7,89.9,100.0,72.9,59278.7,59278.7,4.66,1,0,1,1,0,1,1,3,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202400467,P100466,20241118,2,1,2,2,3,4,0.35,35.7,11.5,74.1,86.9,53.8,1610.37,1399.89,4.95,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400670,P100669,20241118,6,1,2,1,2,4,2.11,33.0,52.7,74.6,82.8,56.2,7887.82,6529.2,4.35,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400289,P100288,20241119,7,2,1,1,3,1,0.03,40.8,3.1,68.6,78.3,50.6,449.56,352.13,3.95,0,1,0,1,1,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400697,P100696,20241121,2,1,3,2,1,4,0.63,62.6,17.7,83.1,100.0,66.3,2544.67,2544.67,3.99,0,0,1,1,1,0,0,4,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202400111,P100110,20241122,3,5,1,1,3,1,1.53,7.3,38.1,88.9,78.6,54.4,3425.49,2691.11,4.71,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400020,P100019,20241124,5,2,1,3,2,4,0.03,28.9,4.8,63.2,83.3,46.7,314.13,261.59,4.79,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400023,P100022,20241125,6,2,3,1,1,4,2.13,23.4,52.9,68.5,99.8,54.8,12048.36,12027.98,4.65,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400417,P100416,20241126,6,4,3,2,2,3,2.34,19.0,57.0,71.1,86.6,52.9,10097.18,8744.99,5.0,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400897,P100896,20241126,2,2,2,2,3,3,0.37,63.5,12.0,71.8,82.8,58.3,1978.4,1638.24,3.23,1,0,0,0,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400270,P100269,20241127,10,4,1,2,5,4,1.57,34.0,38.4,76.5,79.3,55.5,9679.4,7679.29,4.75,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400251,P100250,20241128,6,5,2,2,1,1,2.39,12.3,59.0,69.7,76.4,49.1,10455.19,7984.41,4.01,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400917,P100916,20241128,2,2,1,2,1,1,0.22,51.7,7.0,76.9,80.7,57.1,1175.49,948.57,4.52,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400144,P100143,20241204,5,2,2,3,3,5,0.07,24.2,5.2,49.3,77.8,39.2,418.34,325.49,4.82,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400742,P100741,20241204,5,1,1,1,4,4,0.05,9.5,2.3,56.3,74.8,38.1,344.4,257.65,4.95,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400017,P100016,20241206,6,3,3,3,3,2,1.74,16.6,43.8,73.7,95.9,53.9,11470.83,11006.1,4.17,1,0,0,0,0,0,0,1,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202400037,P100036,20241207,1,2,1,1,3,2,3.88,25.4,94.4,75.9,84.6,58.9,7592.79,6426.17,4.54,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400503,P100502,20241211,3,4,2,2,3,1,4.61,7.0,113.1,87.0,95.8,62.8,5408.93,5183.81,3.54,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400085,P100084,20241212,2,1,2,1,5,3,0.14,34.5,5.3,81.9,92.2,57.2,1497.39,1380.3,4.9,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400047,P100046,20241213,7,3,1,2,5,3,0.11,20.4,4.3,66.1,81.2,45.8,412.22,334.73,4.38,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400762,P100761,20241213,2,5,1,1,4,3,0.16,47.6,4.8,82.7,89.2,59.9,1207.66,1077.33,4.69,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400103,P100102,20241215,7,2,2,1,3,4,0.19,13.7,5.7,74.7,80.8,47.8,543.46,439.12,4.23,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400254,P100253,20241217,10,3,3,2,2,4,5.26,18.1,126.3,84.1,100.0,66.1,29383.58,29383.58,4.73,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400123,P100122,20241218,2,2,2,3,2,2,0.49,70.2,14.7,82.4,93.5,66.2,1341.21,1253.77,3.96,0,0,0,1,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202400376,P100375,20241219,10,3,1,1,1,3,2.0,23.0,50.1,77.2,77.9,54.0,11073.07,8621.66,4.39,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400411,P100410,20241219,7,3,1,3,3,4,0.03,24.8,3.7,58.0,74.7,42.1,445.01,332.34,4.67,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400167,P100166,20241220,2,1,2,1,3,2,0.4,52.7,13.3,85.1,90.2,62.7,1646.4,1485.09,4.04,1,0,0,1,1,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400405,P100404,20241220,5,3,1,1,3,3,0.03,20.9,3.0,59.0,73.2,41.4,373.93,273.71,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400642,P100641,20241221,7,2,2,2,3,3,0.03,15.4,2.5,59.9,77.1,41.3,670.62,517.11,3.66,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400308,P100307,20241222,5,5,2,1,3,3,0.07,9.9,3.7,54.3,73.0,37.2,428.61,312.95,4.02,0,1,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202400707,P100706,20241222,8,2,1,3,3,4,0.03,32.7,4.2,50.4,72.1,40.4,386.47,278.83,4.15,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400136,P100135,20241223,5,1,2,2,4,2,0.07,23.0,2.8,61.9,73.4,43.2,338.44,248.36,4.64,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400691,P100690,20241223,5,2,1,1,4,4,0.17,10.5,6.2,56.3,61.6,36.2,313.72,193.33,4.07,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400060,P100059,20241224,5,3,3,2,4,2,0.08,2.0,2.8,47.5,75.3,33.2,613.46,461.83,4.3,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202400086,P100085,20241224,1,5,2,1,2,3,2.83,27.7,68.3,77.2,90.9,59.0,6608.56,6006.0,4.64,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400217,P100216,20241224,3,3,2,1,1,3,3.74,19.6,91.7,88.3,90.5,63.4,5256.92,4755.12,4.63,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400644,P100643,20241226,2,1,1,1,1,2,0.19,53.0,6.2,90.0,85.9,63.5,1240.54,1065.34,4.47,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202400418,P100417,20241227,7,2,2,1,2,3,0.11,13.2,4.9,66.5,74.3,43.1,532.34,395.54,3.92,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202400584,P100583,20241227,10,1,2,1,5,1,3.35,17.6,82.7,74.2,88.5,56.2,18492.66,16369.0,4.41,1,0,0,0,0,0,0,2,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202400083,P100082,20241229,4,1,3,1,5,4,14.56,39.6,354.1,92.7,100.0,79.8,41799.81,41799.81,4.23,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202400823,P100822,20241231,3,3,2,1,2,3,2.87,16.4,72.2,80.3,86.0,57.0,5200.2,4474.28,4.64,0,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500754,P100753,20250101,5,2,1,3,5,1,0.03,17.9,3.2,51.5,73.0,37.7,338.42,246.94,4.31,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202500820,P100819,20250101,9,3,1,1,3,4,0.18,22.1,9.1,67.9,76.9,46.2,1002.19,770.53,4.06,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500703,P100702,20250102,4,2,4,3,4,3,12.57,24.4,306.4,98.9,100.0,78.9,57441.75,57441.75,3.67,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500134,P100133,20250103,3,3,4,1,4,4,5.44,39.1,131.1,93.2,100.0,74.8,8455.39,8455.39,4.45,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500282,P100281,20250103,4,1,3,1,3,2,7.66,33.8,188.9,96.4,100.0,79.3,26911.59,26911.59,4.33,0,0,0,1,0,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202500195,P100194,20250104,4,4,2,1,2,2,3.22,33.2,81.4,90.0,100.0,67.8,14895.42,14895.42,4.6,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500181,P100180,20250106,6,3,2,1,3,2,1.43,30.0,34.5,72.2,87.0,54.0,6275.2,5459.55,4.73,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500395,P100394,20250106,6,2,2,1,3,2,2.58,54.8,65.5,74.8,98.6,64.9,7963.3,7855.22,4.74,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500769,P100768,20250107,7,2,2,2,4,2,0.03,33.3,4.6,55.3,70.3,42.2,505.41,355.41,4.64,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500908,P100907,20250107,5,5,3,1,4,4,0.08,26.0,4.9,46.6,76.8,38.3,592.27,454.97,3.8,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500594,P100593,20250110,4,4,4,3,2,5,11.59,11.3,279.7,99.0,100.0,76.1,49510.88,49510.88,3.78,1,0,0,0,0,1,1,3,Transferred,Transferred,High Strain,High,Red,0,0
+V202500784,P100783,20250110,9,4,1,1,3,4,0.22,19.9,10.6,66.0,68.5,43.6,827.71,567.17,4.54,1,0,1,0,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500827,P100826,20250110,1,3,2,1,4,2,2.82,19.0,70.7,81.1,100.0,60.3,9450.95,9450.95,4.4,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500828,P100827,20250111,9,2,1,1,4,4,0.03,2.0,2.1,57.2,62.5,34.6,808.13,505.18,3.95,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500570,P100569,20250112,7,5,1,2,5,1,0.03,19.7,3.6,57.1,67.5,39.4,320.29,216.27,4.75,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500196,P100195,20250113,3,1,2,3,3,4,4.27,33.7,104.7,89.3,100.0,69.7,5929.38,5929.38,4.28,1,0,0,0,0,1,0,2,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202500715,P100714,20250113,7,3,1,1,3,3,0.03,14.7,1.5,67.0,65.4,41.8,513.47,335.59,4.54,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202500429,P100428,20250114,10,2,4,1,2,1,6.55,18.3,159.3,70.3,100.0,63.2,49845.55,49845.55,3.91,0,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500565,P100564,20250114,2,1,4,2,3,4,0.54,85.0,15.6,80.4,100.0,69.9,4123.2,4123.2,3.9,1,0,0,0,1,0,0,3,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500496,P100495,20250116,2,1,1,2,3,3,0.15,64.5,6.8,85.1,81.9,63.3,1602.57,1313.13,3.73,0,0,0,1,1,1,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500064,P100063,20250119,2,1,2,3,4,2,0.23,51.3,8.7,87.5,97.7,64.3,1923.97,1879.79,4.35,0,1,0,1,1,1,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500331,P100330,20250119,8,2,1,1,1,2,0.03,21.4,4.8,56.8,66.6,39.5,398.09,265.21,4.04,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500661,P100660,20250119,3,3,2,1,1,1,3.44,21.8,83.0,85.5,100.0,63.9,4850.42,4850.42,3.94,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500546,P100545,20250120,1,1,3,1,3,4,3.97,34.9,95.9,74.0,100.0,63.2,9632.29,9632.29,4.96,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500079,P100078,20250121,10,1,3,3,3,3,4.7,29.6,116.1,68.9,100.0,61.5,23137.9,23137.9,4.44,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500269,P100268,20250121,1,3,1,1,4,4,1.06,27.1,28.6,82.7,76.2,54.9,5128.99,3908.82,4.55,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500735,P100734,20250121,2,2,2,3,5,4,0.12,55.0,4.9,80.6,89.0,60.6,1574.57,1400.64,4.37,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500294,P100293,20250122,3,3,1,1,4,3,1.72,34.7,42.6,82.9,89.3,60.3,2542.25,2269.97,4.66,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500658,P100657,20250124,3,3,2,2,1,3,3.67,28.1,90.2,84.1,99.2,65.0,3541.08,3513.18,4.67,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500838,P100837,20250124,8,2,1,1,2,3,0.07,26.3,4.9,65.4,75.5,45.7,440.71,332.95,4.75,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500139,P100138,20250125,7,3,1,2,3,2,0.03,26.7,4.6,65.5,76.1,45.8,394.08,299.75,4.88,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500608,P100607,20250125,9,5,2,1,3,3,0.21,4.2,7.7,59.2,74.2,38.4,1301.25,965.72,3.81,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500024,P100023,20250127,4,4,4,2,3,2,11.64,29.1,282.1,99.0,100.0,80.0,49068.8,49068.8,3.95,1,0,1,0,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202500161,P100160,20250128,3,4,1,3,2,4,4.05,31.5,99.6,99.0,100.0,72.6,4048.04,4048.04,4.36,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500224,P100223,20250128,4,1,4,1,3,3,12.82,30.7,311.2,95.7,100.0,79.0,40748.86,40748.86,4.23,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500626,P100625,20250129,2,1,2,1,1,2,0.39,65.0,10.9,80.7,99.0,65.2,1461.56,1446.75,3.77,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500244,P100243,20250130,1,2,2,1,5,3,2.21,32.3,55.1,83.5,96.3,62.3,6972.51,6717.39,4.22,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500623,P100622,20250130,6,3,1,1,1,4,1.09,20.5,27.0,71.9,78.4,49.6,5140.63,4028.46,4.42,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500444,P100443,20250131,5,5,1,3,3,1,0.09,19.7,4.9,56.4,70.0,39.7,378.24,264.79,4.04,0,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500393,P100392,20250201,3,5,1,1,3,4,3.73,15.8,90.4,94.0,95.9,65.8,3159.34,3028.3,4.61,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500871,P100870,20250202,4,1,4,1,2,3,11.0,23.0,268.5,99.0,100.0,78.7,40485.34,40485.34,3.96,0,0,0,1,0,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202500001,P100000,20250203,8,1,2,1,5,4,0.04,7.5,1.8,49.7,71.8,34.6,605.32,434.83,4.24,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500349,P100348,20250203,1,4,2,2,3,3,2.11,29.7,53.4,74.6,88.1,56.5,8616.68,7586.99,4.32,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500443,P100442,20250203,2,5,2,1,3,5,0.15,46.7,6.1,79.9,89.0,58.5,1716.66,1527.0,4.65,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500466,P100465,20250203,7,2,2,1,3,4,0.2,15.4,9.0,62.7,86.5,44.4,483.48,418.02,4.32,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500283,P100282,20250204,4,1,3,1,2,4,8.37,31.7,203.8,91.1,100.0,77.4,30479.71,30479.71,4.94,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500449,P100448,20250204,8,2,1,2,2,4,0.15,9.0,5.8,48.2,72.7,34.6,517.82,376.21,4.36,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500517,P100516,20250204,7,3,3,1,3,3,0.14,8.5,5.0,68.4,78.9,43.7,975.92,769.94,4.23,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202500640,P100639,20250205,6,3,2,2,4,1,2.13,26.1,53.6,75.3,84.6,55.3,9430.72,7976.37,4.64,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500740,P100739,20250205,6,3,2,3,3,3,1.84,18.4,47.5,75.3,97.2,55.3,9030.95,8775.4,4.61,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500910,P100909,20250207,6,5,1,2,5,4,2.31,26.9,58.3,85.5,89.2,60.8,7815.87,6972.03,4.5,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500522,P100521,20250208,6,3,1,1,2,3,0.69,25.4,18.3,69.6,78.7,49.0,5332.94,4198.5,4.31,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500747,P100746,20250211,2,4,4,2,2,2,0.77,66.3,21.9,76.3,100.0,64.6,4788.9,4788.9,3.51,1,0,0,0,1,0,0,3,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202500252,P100251,20250212,2,5,3,3,3,2,0.4,68.6,11.7,82.0,100.0,66.7,2128.85,2128.85,3.91,1,0,1,0,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500366,P100365,20250212,1,3,3,1,2,2,4.26,38.0,104.1,82.5,100.0,67.9,14283.71,14283.71,4.11,1,0,0,0,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500178,P100177,20250213,9,3,2,1,3,3,0.03,14.8,4.8,58.0,82.1,41.3,1149.91,944.43,3.93,0,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202500361,P100360,20250214,2,5,3,1,2,2,0.33,61.5,10.2,80.7,100.0,64.5,3105.99,3105.99,4.38,1,0,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500061,P100060,20250215,4,4,2,1,4,2,6.79,37.0,167.1,99.0,100.0,79.3,18947.12,18947.12,4.63,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500407,P100406,20250215,7,5,1,1,2,5,0.09,25.4,3.8,60.6,60.3,40.8,392.9,236.9,4.54,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500228,P100227,20250218,2,1,3,3,2,1,0.47,86.4,14.9,78.6,100.0,69.4,2754.01,2754.01,4.15,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500567,P100566,20250218,1,3,2,2,3,5,3.51,23.7,85.6,78.3,97.4,61.1,8020.54,7809.8,4.39,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500737,P100736,20250218,7,2,3,1,5,4,0.17,25.1,5.5,77.7,97.7,54.5,919.47,897.93,4.34,0,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500573,P100572,20250221,10,3,2,3,4,3,2.02,42.1,50.9,75.4,83.7,58.5,13104.8,10973.51,3.96,1,0,1,1,1,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500678,P100677,20250222,5,2,2,3,4,2,0.03,25.1,2.7,59.6,79.6,43.7,509.96,405.81,4.83,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500774,P100773,20250222,2,1,3,1,1,4,0.66,97.7,20.1,85.4,100.0,73.3,2791.5,2791.5,4.2,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500894,P100893,20250222,8,1,1,2,2,3,0.03,5.5,2.8,57.7,67.3,36.5,442.11,297.73,4.89,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500345,P100344,20250223,3,1,2,3,3,1,3.47,18.0,85.4,85.5,97.4,62.6,4318.16,4204.8,5.0,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500824,P100823,20250223,7,3,2,1,5,4,0.03,2.0,2.1,61.7,68.9,37.6,559.72,385.65,4.65,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,1,0
+V202500818,P100817,20250224,5,4,2,2,1,2,0.06,25.3,3.8,43.7,65.1,34.9,385.46,250.94,4.51,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500788,P100787,20250225,2,1,3,3,2,3,0.58,87.9,16.5,86.9,100.0,73.2,2879.66,2879.66,3.71,1,0,0,0,1,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202500865,P100864,20250225,2,1,4,2,4,3,0.83,76.4,21.6,76.6,100.0,67.1,3133.56,3133.56,4.54,1,0,1,1,1,0,0,4,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500556,P100555,20250227,9,2,1,1,3,2,0.03,10.2,4.1,57.1,61.1,36.2,944.95,577.29,4.28,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500317,P100316,20250304,9,2,2,1,1,4,0.03,4.6,3.3,65.1,72.8,40.2,817.62,595.28,4.31,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202500874,P100873,20250304,6,2,2,1,3,4,2.43,15.4,59.1,75.3,81.8,53.1,9574.53,7833.14,4.47,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500914,P100913,20250305,5,1,3,1,3,4,0.03,9.4,4.3,59.8,82.7,40.9,734.78,607.51,4.89,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500107,P100106,20250306,6,1,1,2,1,2,2.3,20.1,56.6,77.2,85.7,55.3,6164.66,5282.64,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500675,P100674,20250306,2,1,2,2,2,1,0.47,74.0,15.7,80.6,93.6,66.3,1635.39,1530.36,3.92,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500714,P100713,20250308,5,3,2,2,2,3,0.12,11.0,4.8,54.1,71.6,37.2,461.58,330.55,3.92,1,0,1,0,0,0,0,2,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202500392,P100391,20250309,5,2,1,1,4,3,0.04,12.4,1.9,50.9,62.6,34.4,343.85,215.41,4.08,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500527,P100526,20250311,3,3,2,3,4,3,4.04,28.4,98.8,81.3,89.0,62.9,4825.6,4293.02,4.75,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500846,P100845,20250311,2,5,3,3,1,5,0.36,61.1,12.9,75.2,84.6,59.5,2225.2,1883.41,4.03,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500131,P100130,20250314,6,3,3,1,3,1,4.14,43.0,102.7,69.6,94.6,62.6,14900.51,14088.91,4.82,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500512,P100511,20250315,1,2,2,3,5,2,2.63,17.2,66.9,76.0,87.5,55.2,8120.55,7107.04,4.51,1,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500836,P100835,20250316,3,3,2,2,2,4,2.43,25.5,61.0,78.9,87.4,57.8,4284.33,3742.75,4.66,1,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500329,P100328,20250317,2,1,3,1,4,1,0.58,53.7,16.0,78.2,98.4,62.0,2627.51,2585.95,4.72,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500905,P100904,20250318,7,4,3,2,1,1,0.2,5.5,7.3,71.9,81.2,45.0,726.34,589.76,4.52,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500453,P100452,20250321,2,1,3,3,1,4,0.37,62.1,11.0,69.2,98.8,59.9,2856.8,2822.35,3.89,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500805,P100804,20250321,7,3,1,2,3,2,0.05,34.9,3.7,69.8,76.7,49.5,462.8,354.81,4.2,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500692,P100691,20250323,3,1,3,3,4,3,6.37,35.9,157.8,84.1,100.0,72.3,8534.68,8534.68,4.34,1,0,0,1,1,0,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500925,P100924,20250323,6,3,1,3,1,4,1.1,37.1,28.8,73.4,89.3,55.8,5831.22,5206.36,4.06,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500098,P100097,20250325,2,1,2,2,5,3,0.13,71.0,5.2,80.7,93.8,65.0,1846.4,1731.45,3.72,1,0,0,0,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500126,P100125,20250325,9,2,1,1,3,1,0.16,15.4,5.9,70.9,84.5,47.3,872.72,737.03,4.04,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500247,P100246,20250326,7,3,1,3,5,4,0.09,13.0,4.7,61.4,59.9,38.4,373.81,223.96,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500398,P100397,20250327,9,2,1,2,2,2,0.03,16.7,3.9,52.1,65.2,36.3,973.26,634.53,4.71,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500655,P100654,20250330,2,5,1,2,2,3,0.13,63.8,6.2,74.5,89.1,60.2,1357.92,1210.48,4.04,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500019,P100018,20250331,8,1,2,3,1,4,0.03,14.7,3.0,53.7,74.8,38.2,775.54,580.2,4.94,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500344,P100343,20250401,1,3,2,1,1,3,2.57,37.1,64.9,80.2,89.7,61.5,7854.29,7045.53,4.13,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500916,P100915,20250404,7,3,1,2,3,4,0.03,12.4,2.0,55.3,54.5,34.7,435.09,237.21,4.57,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500568,P100567,20250406,3,3,1,2,3,1,4.33,14.9,108.2,91.7,95.3,65.8,3740.2,3563.71,4.49,1,0,0,1,0,1,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500311,P100310,20250408,4,1,4,1,4,2,13.8,40.7,333.9,84.0,100.0,76.5,60685.57,60685.57,3.7,1,0,0,0,1,0,1,2,Transferred,Transferred,High Strain,High,Red,0,0
+V202500739,P100738,20250408,8,3,2,2,2,2,0.07,32.4,5.3,54.7,76.8,43.0,706.93,542.64,4.4,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500040,P100039,20250410,3,2,1,3,1,2,1.28,28.2,31.7,89.2,87.4,60.2,2646.01,2312.31,4.5,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500864,P100863,20250410,2,1,3,2,5,4,0.33,56.8,11.1,75.8,94.5,60.5,2615.63,2470.82,4.44,1,0,1,0,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500427,P100426,20250411,9,2,1,3,4,5,0.03,25.4,1.2,63.9,71.0,44.0,1007.13,715.06,4.09,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202500636,P100635,20250419,2,1,2,1,5,1,0.25,46.6,8.3,73.6,84.1,55.3,1530.73,1287.22,4.07,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500416,P100415,20250421,2,2,2,1,3,4,0.47,39.1,14.5,77.9,89.6,56.8,1805.85,1618.13,4.19,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500539,P100538,20250423,9,3,1,2,3,4,0.04,18.5,4.5,61.5,67.7,40.9,699.38,473.73,4.62,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500809,P100808,20250423,2,1,2,1,1,1,0.51,32.3,14.0,72.3,87.5,52.8,1948.09,1704.93,4.41,1,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500830,P100829,20250425,3,3,2,2,1,1,3.88,19.2,95.7,74.7,85.8,57.3,5240.1,4497.66,5.0,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500832,P100831,20250425,7,5,1,1,3,3,0.15,8.4,6.1,77.3,70.5,45.8,499.94,352.31,4.35,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500862,P100861,20250427,6,1,2,1,2,1,1.94,26.4,50.1,76.5,96.7,57.7,9597.22,9276.89,4.24,0,1,0,0,0,0,0,1,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202500483,P100482,20250428,5,1,2,1,3,2,0.14,24.9,6.4,58.2,76.7,42.8,440.25,337.66,4.58,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500025,P100024,20250430,2,1,2,1,3,4,0.32,12.6,10.8,82.3,77.4,50.3,1467.72,1136.13,4.98,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500491,P100490,20250430,7,2,2,3,1,1,0.03,7.9,2.5,70.8,72.4,43.2,664.09,480.96,4.97,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500363,P100362,20250503,5,2,2,1,1,1,0.05,13.1,3.8,49.2,66.3,34.6,463.67,307.39,4.4,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500581,P100580,20250504,10,3,2,1,1,3,3.83,18.4,92.5,73.5,90.5,57.4,20220.87,18308.46,4.77,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500606,P100605,20250506,4,1,3,3,3,3,7.41,2.0,180.5,92.5,100.0,70.3,28231.54,28231.54,4.38,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202500627,P100626,20250508,2,1,1,2,3,2,0.04,76.4,2.6,86.5,83.9,66.6,1225.58,1028.4,3.99,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500741,P100740,20250508,2,1,3,2,3,1,0.57,52.5,16.2,76.2,97.5,60.7,2145.23,2091.7,4.31,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500789,P100788,20250508,9,3,2,1,3,3,0.07,15.6,3.0,56.6,69.1,38.6,1214.97,839.63,4.57,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500495,P100494,20250510,3,3,1,2,1,2,3.02,14.1,75.7,80.3,85.5,56.6,3294.14,2815.87,3.85,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500287,P100286,20250512,3,1,3,2,3,1,5.7,16.1,138.8,80.4,100.0,65.1,8122.05,8122.05,4.87,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500458,P100457,20250516,3,4,2,2,1,4,3.82,12.3,92.1,84.7,84.5,59.4,4997.95,4223.98,4.47,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500526,P100525,20250516,1,1,3,1,2,3,4.63,18.2,113.1,80.6,100.0,63.5,13070.64,13070.64,4.33,1,0,1,0,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500713,P100712,20250520,7,2,1,2,2,4,0.16,18.0,5.4,68.3,64.3,43.2,368.22,236.6,4.44,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500090,P100089,20250521,10,1,2,3,1,4,2.5,27.2,61.3,70.6,89.3,55.3,16315.46,14576.27,4.29,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500858,P100857,20250521,2,4,1,1,5,5,0.42,10.2,11.2,84.2,81.4,51.4,1501.06,1221.54,4.48,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500342,P100341,20250522,2,1,1,2,2,4,0.45,59.4,12.5,75.8,84.7,59.5,1186.67,1005.07,4.76,0,0,0,1,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500339,P100338,20250523,2,1,3,3,2,1,0.49,66.3,16.6,76.5,100.0,64.2,2601.1,2601.1,4.55,1,0,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500596,P100595,20250523,5,3,1,1,1,3,0.03,24.4,4.3,49.1,57.0,35.3,270.53,154.12,4.97,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500700,P100699,20250602,1,1,1,1,4,4,2.36,19.4,56.3,87.7,86.5,59.6,6572.96,5684.63,3.73,0,0,1,0,0,1,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500624,P100623,20250606,3,2,2,2,1,4,3.94,20.6,97.6,91.0,93.7,65.7,4445.9,4164.98,4.4,0,0,0,1,0,1,0,3,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500922,P100921,20250609,4,4,4,1,4,3,13.16,25.1,319.0,79.0,100.0,71.1,56698.57,56698.57,4.14,1,0,0,1,0,0,1,2,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202500154,P100153,20250612,7,2,2,2,3,3,0.1,5.9,2.4,64.1,71.8,40.1,563.79,404.93,4.49,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500341,P100340,20250615,9,5,1,1,2,3,0.06,28.8,4.1,68.2,81.6,48.4,833.66,680.16,4.44,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500234,P100233,20250616,7,3,1,1,3,2,0.03,26.8,4.7,64.4,69.7,44.3,405.08,282.31,4.96,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500456,P100455,20250616,5,3,1,2,3,4,0.06,22.7,4.8,47.9,67.2,36.4,275.12,185.01,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500579,P100578,20250616,3,3,2,2,4,4,4.41,11.8,107.9,82.8,89.3,60.6,5124.59,4575.38,4.31,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500583,P100582,20250616,6,3,2,2,5,2,1.99,19.0,51.1,69.9,82.9,51.0,8455.02,7006.47,4.01,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500096,P100095,20250618,8,5,1,1,3,2,0.03,42.8,3.0,56.1,75.6,45.5,381.78,288.69,4.82,1,0,0,1,1,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500424,P100423,20250618,5,1,2,1,3,3,0.1,8.0,7.1,46.6,67.5,32.7,367.31,247.86,4.36,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500042,P100041,20250619,1,1,3,3,2,2,2.08,10.2,53.5,82.6,98.0,57.1,12536.94,12283.05,4.78,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500143,P100142,20250622,8,5,1,2,3,5,0.04,25.3,3.6,46.3,70.9,36.9,402.9,285.5,4.96,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500650,P100649,20250624,3,2,1,1,3,3,2.99,29.1,75.2,93.4,100.0,67.8,3402.93,3402.93,4.28,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500835,P100834,20250624,1,1,2,3,3,1,1.27,27.4,34.9,75.1,96.1,55.9,7259.16,6977.42,4.23,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500276,P100275,20250627,1,3,1,2,3,1,1.76,26.9,44.2,87.1,87.0,59.9,5421.97,4719.0,4.31,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500148,P100147,20250629,2,1,3,2,2,5,0.26,41.2,8.6,78.4,91.6,57.4,2730.33,2500.45,5.0,1,0,1,1,1,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500232,P100231,20250629,10,3,3,2,2,4,5.07,2.0,122.6,76.2,96.1,58.4,24630.98,23678.99,3.74,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500744,P100743,20250629,2,1,2,2,3,5,0.42,53.9,10.1,83.0,77.0,59.7,1521.57,1170.94,4.56,1,0,0,1,1,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500849,P100848,20250629,2,1,4,2,2,4,0.59,68.0,14.1,84.7,100.0,68.0,3373.6,3373.6,3.4,0,0,0,0,1,0,0,3,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500351,P100350,20250630,2,2,2,2,2,5,0.34,73.2,11.4,71.1,80.6,59.7,1385.06,1116.19,3.53,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500609,P100608,20250630,3,3,4,1,2,4,6.81,19.8,166.0,82.1,100.0,68.8,11206.75,11206.75,3.52,1,0,1,0,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500403,P100402,20250702,9,2,1,1,4,4,0.12,6.6,5.4,69.9,71.9,42.6,926.79,666.52,4.44,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500793,P100792,20250703,6,2,3,1,4,3,2.56,24.6,65.3,74.9,88.3,56.4,14354.6,12674.75,4.55,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500693,P100692,20250705,5,5,4,2,3,3,0.05,22.3,2.9,51.8,91.0,42.1,829.46,755.02,4.68,0,0,0,0,0,0,0,1,Transferred,Transferred,Moderate Risk,Low,Orange,0,0
+V202500104,P100103,20250707,3,5,1,1,2,4,2.07,25.5,51.9,90.9,96.4,63.5,3065.16,2953.88,4.78,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500130,P100129,20250709,7,3,2,1,3,2,0.11,12.2,3.3,65.4,75.5,42.6,475.16,358.87,4.33,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500275,P100274,20250710,9,3,2,2,3,4,0.17,25.5,8.2,58.2,81.1,43.8,958.37,777.62,4.44,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500173,P100172,20250711,3,2,3,2,2,1,5.08,20.9,124.4,90.2,100.0,68.8,8025.92,8025.92,3.92,1,0,0,1,0,1,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500633,P100632,20250711,8,3,1,1,3,3,0.03,33.1,0.3,49.7,72.0,40.2,442.5,318.41,4.61,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500028,P100027,20250714,2,5,2,1,3,2,0.35,25.5,10.3,69.0,81.1,48.5,1898.85,1539.68,4.41,1,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500571,P100570,20250714,2,5,4,2,2,4,0.52,60.8,15.2,74.5,100.0,62.2,3570.0,3570.0,4.27,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500307,P100306,20250717,4,4,4,1,1,2,11.83,27.8,284.6,88.9,100.0,75.7,56709.94,56709.94,4.69,1,0,0,1,0,1,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500264,P100263,20250719,3,3,3,1,2,2,5.47,31.3,133.6,83.1,100.0,69.1,6426.06,6426.06,4.76,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500137,P100136,20250720,8,1,1,1,4,4,0.18,22.6,6.3,47.5,66.1,36.3,437.07,289.0,4.51,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500816,P100815,20250720,10,3,3,1,1,4,3.66,19.1,88.8,74.4,98.4,59.0,27688.48,27235.55,4.25,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500048,P100047,20250721,2,1,3,3,2,4,0.33,65.3,10.8,81.1,97.5,65.0,2329.61,2270.65,3.64,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500549,P100548,20250722,9,2,2,3,3,3,0.11,16.8,4.9,57.2,67.0,38.9,1313.62,880.53,4.43,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500551,P100550,20250722,5,2,1,2,3,3,0.03,12.3,4.2,58.9,68.9,38.7,319.06,219.88,4.36,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500296,P100295,20250724,1,5,1,1,3,2,1.93,20.2,45.1,87.4,84.4,58.4,5126.66,4326.72,4.21,0,0,0,1,0,1,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500097,P100096,20250725,4,4,4,1,4,1,9.56,13.8,230.9,85.4,100.0,71.2,34062.33,34062.33,3.73,1,0,0,0,0,1,1,2,Escalated Care,Transfer to Higher Level of Care,High Strain,Moderate,Red,0,0
+V202500480,P100479,20250725,3,3,3,2,3,1,6.0,34.8,149.6,85.3,100.0,71.8,9234.73,9234.73,3.73,1,0,1,0,0,1,1,3,Readmitted,Readmitted,High Strain,Moderate,Red,0,0
+V202500734,P100733,20250725,3,1,2,3,3,2,4.17,17.8,102.3,78.5,89.1,59.7,5157.35,4594.67,4.38,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500674,P100673,20250727,7,3,3,3,3,2,0.13,15.3,6.6,72.3,78.2,46.6,1013.96,792.92,4.55,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500863,P100862,20250727,4,4,3,1,4,4,9.7,18.8,235.2,92.5,100.0,75.1,27761.11,27761.11,4.6,0,0,0,1,0,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202500018,P100017,20250728,10,2,1,1,3,4,1.88,21.8,47.0,78.0,87.2,55.4,13319.54,11610.05,3.96,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500934,P100933,20250729,6,3,2,1,2,2,2.01,33.1,52.1,65.7,88.7,53.5,8770.25,7775.82,3.9,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500475,P100474,20250731,7,2,2,1,2,4,0.13,25.2,5.2,60.3,76.0,43.6,489.79,372.34,4.38,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202500189,P100188,20250803,5,5,1,1,4,2,0.09,21.5,3.0,58.8,59.4,39.1,288.14,171.14,4.6,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500302,P100301,20250805,5,5,1,3,3,4,0.04,23.5,1.9,56.5,61.7,39.0,341.6,210.63,4.1,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500634,P100633,20250806,5,2,2,2,3,1,0.06,2.7,4.6,50.6,65.2,32.7,388.21,253.14,3.84,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500637,P100636,20250807,1,3,2,1,2,4,2.62,10.8,65.1,75.7,81.2,52.5,9528.93,7738.64,4.6,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500701,P100700,20250807,2,5,3,3,2,4,0.54,63.7,17.1,72.5,87.9,59.9,2544.94,2236.57,4.5,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500758,P100757,20250808,4,1,4,1,2,2,10.26,23.1,249.4,86.4,100.0,73.6,37599.5,37599.5,4.58,1,0,1,0,0,1,1,3,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202500164,P100163,20250811,5,5,1,3,2,4,0.09,11.1,4.8,56.6,68.8,37.6,312.13,214.88,3.87,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500502,P100501,20250811,8,2,2,3,4,2,0.03,17.6,4.3,53.5,71.8,38.3,608.62,437.25,4.29,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500652,P100651,20250812,10,3,4,1,3,2,5.97,19.0,145.2,75.1,100.0,64.2,36459.74,36459.74,4.54,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500825,P100824,20250813,6,1,2,1,2,4,3.15,29.4,79.3,73.1,96.3,59.4,10309.71,9925.88,3.84,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500120,P100119,20250815,10,3,1,2,4,4,1.45,22.0,38.4,77.7,86.2,54.3,11067.67,9536.85,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500303,P100302,20250817,2,5,1,1,2,2,0.12,59.1,4.9,77.7,94.1,61.3,1336.59,1258.11,4.69,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500928,P100927,20250818,5,2,1,1,3,3,0.13,25.6,7.0,50.0,61.1,36.9,316.16,193.28,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500288,P100287,20250819,5,2,1,3,5,3,0.03,2.0,3.1,59.2,80.3,38.6,226.78,182.05,4.08,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500066,P100065,20250820,7,3,3,1,2,5,0.09,10.5,4.3,70.0,80.2,44.9,763.39,611.98,4.52,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500782,P100781,20250820,1,3,3,3,3,2,4.18,23.6,102.9,76.3,100.0,62.1,11566.01,11566.01,4.82,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500748,P100747,20250821,2,3,1,3,1,4,0.31,39.7,10.4,72.6,69.4,50.9,1122.69,779.44,4.62,0,1,0,1,1,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500364,P100363,20250823,3,3,2,2,3,4,2.51,29.1,63.1,81.5,100.0,62.0,4477.25,4477.25,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500049,P100048,20250825,7,3,2,1,5,2,0.06,10.8,5.3,73.1,83.7,46.8,524.08,438.64,3.97,0,1,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500211,P100210,20250827,3,3,1,2,2,3,4.49,15.1,110.8,82.4,87.1,60.9,3825.9,3331.73,3.77,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500321,P100320,20250828,1,4,4,1,5,4,5.01,9.9,122.5,79.6,100.0,62.0,22412.86,22412.86,4.6,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500426,P100425,20250828,3,3,1,2,4,4,1.97,26.8,48.0,81.0,86.2,57.7,2963.87,2553.56,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500553,P100552,20250901,2,1,2,2,3,3,0.37,54.9,13.8,70.2,84.3,56.1,1807.75,1524.35,3.97,0,1,0,1,1,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500915,P100914,20250901,7,3,3,1,2,4,0.16,17.4,6.3,67.4,80.9,45.7,937.98,758.4,3.84,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500478,P100477,20250903,7,3,2,1,2,5,0.18,2.0,6.1,67.2,80.5,42.2,621.98,500.46,3.71,1,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202500942,P100941,20250903,9,4,2,2,1,4,0.03,11.0,3.3,62.6,72.6,40.6,1135.84,824.27,4.35,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500327,P100326,20250904,4,4,4,2,3,1,11.61,43.0,279.7,88.1,100.0,78.7,50327.93,50327.93,4.68,1,0,0,1,1,1,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500188,P100187,20250905,5,3,1,1,1,2,0.08,16.8,4.4,62.0,61.4,39.7,268.28,164.69,4.16,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500534,P100533,20250905,2,1,3,1,2,4,0.69,48.5,18.3,83.9,98.2,63.3,2366.03,2324.22,3.63,1,0,0,0,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500256,P100255,20250907,6,3,1,1,3,1,1.89,23.8,46.5,71.6,83.0,52.6,4879.33,4047.43,4.58,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500686,P100685,20250907,4,1,3,1,2,4,11.5,26.0,280.3,84.4,100.0,73.5,33656.19,33656.19,4.24,1,0,0,1,0,0,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500452,P100451,20250909,2,1,3,2,5,1,0.72,63.4,21.9,74.5,94.8,62.2,2339.91,2218.28,3.61,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500866,P100865,20250910,7,3,1,1,4,1,0.06,12.7,2.5,59.3,65.4,38.4,369.03,241.43,4.44,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500094,P100093,20250912,1,1,1,2,1,5,2.42,15.0,58.8,81.5,85.9,56.2,6390.38,5487.16,4.6,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500554,P100553,20250912,10,4,2,1,2,2,3.19,31.3,79.6,85.5,96.9,64.9,18807.32,18220.97,4.17,1,0,1,1,0,1,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500798,P100797,20250917,4,1,3,1,2,3,9.72,15.6,236.9,90.0,100.0,73.4,31862.94,31862.94,4.92,1,0,0,1,0,1,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500859,P100858,20250917,2,1,3,2,4,4,0.45,38.5,13.2,82.8,90.1,58.7,2728.38,2458.21,3.97,1,0,1,0,1,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500222,P100221,20250922,7,3,2,2,5,4,0.09,23.0,3.0,68.9,85.3,48.1,523.53,446.54,4.75,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500259,P100258,20250924,10,3,2,1,3,2,3.05,21.5,75.8,74.3,96.8,58.0,16050.84,15533.51,4.57,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,1
+V202500766,P100765,20250924,7,3,2,2,3,4,0.03,28.6,2.8,76.3,76.6,50.6,526.38,403.18,4.75,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500660,P100659,20250925,5,3,1,2,5,2,0.03,16.3,2.2,54.8,66.1,37.5,291.84,192.78,4.35,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202500687,P100686,20250926,9,3,2,1,1,4,0.16,16.6,6.1,66.2,77.6,44.4,1304.59,1012.87,3.64,1,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202500414,P100413,20250928,1,3,1,2,3,2,1.61,17.8,41.7,78.5,85.7,53.9,6123.63,5246.08,3.99,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500725,P100724,20250929,3,1,2,1,2,3,3.26,16.7,81.7,87.9,96.8,62.8,3755.88,3633.84,4.45,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500360,P100359,20251001,3,3,3,2,1,3,3.38,31.7,82.1,88.7,100.0,67.2,6377.42,6377.42,4.04,1,0,0,0,0,1,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500233,P100232,20251002,1,2,3,2,2,3,3.97,2.0,98.1,78.4,100.0,57.7,18692.81,18692.81,4.73,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500803,P100802,20251002,2,1,4,1,3,4,0.65,93.3,19.4,79.8,100.0,71.0,4183.39,4183.39,3.22,1,0,0,0,1,0,1,3,Follow-up Needed,Home with Follow-up,High Strain,Moderate,Red,0,0
+V202500940,P100939,20251002,7,1,2,1,3,3,0.13,9.0,3.4,57.2,73.2,38.3,557.6,407.93,4.18,1,0,0,0,0,0,0,0,Escalated Care,Transfer to Higher Level of Care,Stable,Low,Green,0,0
+V202500285,P100284,20251004,1,4,2,1,2,4,2.44,18.2,61.7,80.1,83.1,55.9,8454.39,7027.18,4.41,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500839,P100838,20251006,2,1,2,2,3,4,0.47,74.4,12.2,70.0,91.0,61.7,1885.16,1715.06,3.91,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500698,P100697,20251007,3,1,2,1,4,2,3.59,18.7,88.3,84.1,91.6,61.4,5282.53,4837.49,4.59,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500464,P100463,20251009,2,5,1,2,3,3,0.03,54.4,3.9,77.9,83.1,58.1,1124.84,934.55,4.71,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500787,P100786,20251009,9,5,2,1,5,3,0.07,17.8,3.2,54.8,76.5,39.7,1305.19,998.17,4.49,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500904,P100903,20251009,3,1,3,1,1,2,4.67,26.5,114.9,82.7,100.0,66.3,9399.31,9399.31,3.98,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500485,P100484,20251010,2,1,4,2,5,2,0.93,60.6,22.8,83.7,100.0,66.7,4140.96,4140.96,3.28,1,0,1,0,1,0,0,4,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500497,P100496,20251010,1,3,3,1,5,3,3.66,16.3,88.0,75.2,92.5,57.7,12470.35,11539.99,4.28,1,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500358,P100357,20251013,3,1,3,1,3,4,4.39,13.4,107.1,85.5,95.7,63.1,8456.89,8091.0,5.0,1,0,1,1,0,1,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500653,P100652,20251013,4,3,3,1,3,2,6.71,25.0,163.5,92.0,100.0,73.7,26398.14,26398.14,4.15,0,0,0,1,0,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202500792,P100791,20251013,6,3,2,2,3,3,2.3,39.5,59.9,72.3,90.1,58.4,8169.45,7356.93,4.83,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500566,P100565,20251017,2,2,1,2,3,1,0.22,46.4,5.9,73.1,83.0,54.8,1046.59,868.42,4.26,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500911,P100910,20251017,6,3,3,2,3,5,2.76,10.8,66.7,72.0,93.4,53.5,12736.28,11894.45,4.24,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500170,P100169,20251018,2,1,2,3,2,3,0.51,30.9,14.9,80.3,90.2,56.2,1736.26,1565.36,4.6,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500290,P100289,20251018,2,1,3,2,4,2,0.21,82.5,10.1,79.1,96.2,67.5,2616.14,2515.59,3.79,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500817,P100816,20251019,6,2,2,2,4,3,2.85,44.3,71.3,68.5,90.6,59.1,9629.82,8724.62,2.93,0,1,1,0,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,1,0
+V202500029,P100028,20251020,5,2,1,2,4,3,0.03,21.1,3.7,46.0,55.1,33.0,320.14,176.4,4.34,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500647,P100646,20251021,10,3,2,1,3,4,0.76,12.6,21.1,74.4,88.5,49.9,12760.81,11287.26,3.91,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500521,P100520,20251022,8,5,2,1,4,4,0.03,32.0,4.4,56.2,80.9,44.1,591.21,478.26,4.66,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500712,P100711,20251023,5,5,1,3,4,4,0.05,12.7,0.5,52.1,62.5,35.0,220.84,137.92,4.22,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500850,P100849,20251023,2,5,2,2,4,2,0.33,59.4,11.3,71.9,92.2,59.1,1620.52,1494.85,4.44,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500950,P100949,20251025,6,2,1,1,1,4,2.42,30.3,61.9,70.5,85.2,55.0,7656.78,6520.04,4.48,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500055,P100054,20251026,3,1,3,1,2,4,4.52,32.8,112.1,88.1,100.0,69.5,8157.79,8157.79,4.5,1,0,1,1,0,1,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500004,P100003,20251027,7,2,1,1,2,4,0.12,13.0,6.4,75.4,74.8,46.7,326.25,244.15,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500009,P100008,20251029,2,1,2,3,1,3,0.36,35.3,13.7,86.8,84.7,58.5,1721.83,1458.46,4.17,1,0,0,1,1,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500205,P100204,20251104,8,4,2,1,4,3,0.07,36.5,4.2,49.0,68.1,40.0,702.2,477.94,4.43,1,0,0,1,1,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500542,P100541,20251104,9,2,2,2,3,2,0.15,17.0,6.7,58.5,79.2,41.7,1109.74,878.73,3.87,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500663,P100662,20251104,5,3,1,2,4,4,0.06,15.6,3.0,54.1,60.7,36.1,287.6,174.55,4.97,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500804,P100803,20251105,4,4,3,1,4,3,7.47,14.5,179.5,93.8,100.0,73.7,28024.84,28024.84,4.27,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500031,P100030,20251106,10,1,3,1,1,4,5.58,28.2,135.9,75.9,100.0,65.7,26807.7,26807.7,4.52,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500147,P100146,20251108,4,1,4,1,2,2,12.87,32.1,311.3,99.0,100.0,80.7,61668.49,61668.49,5.0,0,0,0,1,0,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202500696,P100695,20251109,6,3,1,2,5,2,1.36,24.0,33.3,73.8,82.8,52.4,6407.65,5308.49,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500021,P100020,20251110,1,3,3,1,3,4,4.16,17.6,99.4,77.9,100.0,61.3,13805.01,13805.01,3.81,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500328,P100327,20251110,7,2,1,1,3,4,0.11,3.3,3.8,61.5,69.1,38.0,366.73,253.47,4.81,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500794,P100793,20251110,2,1,1,3,2,4,0.32,30.4,10.5,78.7,79.8,53.2,1284.41,1024.61,4.21,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,1
+V202500511,P100510,20251112,9,3,1,2,4,1,0.1,8.6,6.7,59.5,69.1,38.3,905.83,625.57,4.88,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202500261,P100260,20251114,9,3,1,1,5,4,0.03,16.2,1.9,59.0,66.9,39.3,724.33,484.5,3.74,1,0,1,0,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202500346,P100345,20251115,4,4,2,1,4,4,6.83,28.5,166.4,89.9,100.0,73.9,16991.61,16991.61,3.77,0,0,0,0,0,1,1,2,Transferred,Transferred,High Strain,High,Red,0,0
+V202500545,P100544,20251117,8,3,4,3,5,3,0.12,33.2,6.4,53.0,98.5,46.5,1322.92,1302.48,5.0,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500433,P100432,20251118,7,3,2,2,3,4,0.07,17.5,4.1,72.3,76.1,46.6,503.2,382.83,4.18,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500625,P100624,20251118,4,4,2,1,3,4,4.35,35.2,107.9,88.4,100.0,69.8,16662.0,16662.0,4.7,1,0,1,1,1,1,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500492,P100491,20251120,2,5,2,2,2,1,0.34,56.4,11.2,75.9,88.0,59.3,1460.72,1286.13,3.95,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500560,P100559,20251120,6,3,1,2,3,4,1.38,28.3,35.5,68.5,78.4,50.5,6627.87,5196.06,4.24,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500757,P100756,20251120,1,1,2,1,2,3,3.64,28.5,89.9,79.8,95.6,62.7,8767.42,8378.45,4.28,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500574,P100573,20251122,2,1,4,3,2,1,0.64,45.6,20.4,74.6,99.7,59.1,3300.46,3289.86,4.56,1,0,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500299,P100298,20251123,7,2,1,2,2,4,0.04,2.7,1.3,66.7,71.6,40.2,448.97,321.56,4.54,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500082,P100081,20251124,8,3,1,2,3,4,0.11,18.0,7.1,56.8,72.7,40.0,466.89,339.47,4.7,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500750,P100749,20251124,5,2,1,1,4,2,0.09,14.2,4.5,50.2,63.0,34.7,365.45,230.41,3.49,1,0,0,0,0,0,0,1,Escalated Care,Transfer to Higher Level of Care,Stable,Low,Green,0,0
+V202500913,P100912,20251124,2,2,2,1,3,1,0.43,39.4,12.0,79.8,91.0,57.8,2005.89,1825.92,4.65,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500350,P100349,20251126,1,1,2,2,3,2,3.43,36.6,84.6,84.4,87.6,64.4,9187.26,8050.04,5.0,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500484,P100483,20251128,1,3,2,3,2,2,2.34,21.3,58.2,66.9,92.3,52.7,6665.88,6155.27,4.39,1,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500613,P100612,20251128,6,3,3,2,3,3,3.4,14.6,83.8,77.9,100.0,59.2,14041.76,14041.76,3.94,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500753,P100752,20251128,10,3,3,2,4,2,5.59,14.2,135.9,68.2,100.0,59.6,24227.35,24227.35,3.9,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500383,P100382,20251130,4,4,4,1,4,2,12.08,9.1,291.7,88.1,100.0,71.2,35943.85,35943.85,4.73,1,0,0,1,0,1,1,2,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202500481,P100480,20251130,9,5,2,3,5,3,0.03,20.1,3.3,63.7,87.7,45.7,1014.56,889.98,4.49,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500230,P100229,20251202,5,5,3,3,3,4,0.08,23.9,2.7,57.9,78.2,42.7,515.82,403.12,4.46,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500415,P100414,20251202,6,1,3,3,3,1,2.86,19.7,70.8,74.0,100.0,57.7,11282.61,11282.61,4.32,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500840,P100839,20251202,5,5,1,1,2,3,0.03,20.7,0.5,57.4,66.1,39.5,311.04,205.56,4.67,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500115,P100114,20251203,9,5,1,1,3,2,0.15,14.5,5.4,61.4,70.7,40.8,886.73,626.72,4.43,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500162,P100161,20251203,4,4,4,2,5,4,12.15,3.4,294.7,92.1,100.0,71.6,35359.62,35359.62,3.92,1,0,0,0,0,1,1,3,Transferred,Transferred,High Strain,Moderate,Red,0,0
+V202500163,P100162,20251203,4,1,4,3,3,4,13.26,9.9,320.1,99.0,100.0,75.8,40343.75,40343.75,4.92,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202500194,P100193,20251203,8,2,1,3,2,1,0.11,20.8,4.5,54.7,69.3,39.2,467.55,323.83,4.84,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500585,P100584,20251203,9,2,2,3,4,3,0.03,17.1,4.4,62.7,74.7,42.4,1173.59,876.25,4.51,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500929,P100928,20251203,10,3,2,2,2,1,2.11,24.7,53.2,68.5,95.1,54.2,16058.93,15272.88,4.62,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500347,P100346,20251205,2,1,2,1,2,3,0.03,61.6,3.6,82.5,90.8,63.0,1691.64,1535.69,4.17,1,0,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500102,P100101,20251206,5,3,1,2,5,3,0.04,29.8,4.0,54.3,68.4,40.7,283.69,194.11,4.28,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500088,P100087,20251207,6,3,2,1,1,5,2.06,5.0,50.3,79.8,95.1,54.3,10344.38,9841.33,4.43,1,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500304,P100303,20251207,2,5,4,2,3,4,0.85,82.3,23.4,82.2,100.0,70.7,3653.16,3653.16,4.13,1,0,0,1,1,0,1,3,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202500592,P100591,20251210,2,1,1,3,3,3,0.16,95.2,8.7,80.4,99.9,70.3,1426.19,1424.44,4.11,1,0,0,1,1,0,1,2,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202500780,P100779,20251210,8,2,1,1,3,3,0.05,35.4,3.8,52.7,67.8,41.2,435.2,295.15,4.02,1,0,0,1,1,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500201,P100200,20251211,1,2,1,1,5,1,1.74,28.6,44.2,73.1,80.6,53.5,4978.21,4011.56,4.9,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500356,P100355,20251211,3,2,2,1,4,5,2.99,33.7,74.8,82.8,96.2,63.8,4405.64,4238.66,4.34,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500362,P100361,20251212,3,3,1,1,3,4,0.83,9.6,22.7,87.5,74.7,52.2,2532.56,1891.58,3.99,0,1,0,1,0,1,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202500873,P100872,20251212,8,2,2,1,3,4,0.07,26.2,3.3,54.5,79.9,42.1,522.53,417.33,4.24,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202500175,P100174,20251213,1,3,3,1,2,3,5.25,17.5,127.1,76.0,99.7,62.7,18051.23,17988.93,4.48,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500239,P100238,20251214,10,2,3,3,2,1,4.89,25.3,121.7,69.0,100.0,61.0,35576.56,35576.56,4.58,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500659,P100658,20251214,4,4,2,1,3,3,5.34,17.1,130.2,92.7,100.0,69.5,16008.89,16008.89,4.46,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500219,P100218,20251217,2,1,2,3,1,4,0.3,34.6,8.7,98.8,90.5,64.0,1670.16,1511.24,4.17,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500278,P100277,20251217,10,1,3,1,1,1,4.94,24.0,120.9,78.8,100.0,64.7,29725.92,29725.92,4.82,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,1,0
+V202500462,P100461,20251217,2,1,3,1,3,1,0.29,77.5,11.5,88.1,99.6,70.8,2594.2,2583.89,4.02,1,0,0,1,1,1,1,2,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202500943,P100942,20251218,3,2,2,2,4,1,2.65,25.0,65.3,87.5,92.5,62.4,4884.87,4516.72,4.45,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500213,P100212,20251219,10,3,2,1,1,3,2.32,21.2,58.4,78.8,89.7,56.9,14537.21,13036.24,4.71,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500887,P100886,20251219,2,5,2,2,5,3,0.3,99.4,11.9,86.7,98.5,72.8,1554.5,1530.78,3.81,0,0,0,0,1,1,1,2,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202500221,P100220,20251224,8,1,2,2,2,2,0.08,8.1,4.4,50.2,69.2,34.5,486.72,336.59,4.68,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202500353,P100352,20251224,2,5,2,2,3,3,0.24,62.4,8.6,89.5,95.1,67.1,1871.18,1778.97,3.81,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500186,P100185,20251225,2,1,4,2,4,4,0.51,87.9,15.0,85.7,100.0,72.7,4315.56,4315.56,3.42,1,0,1,0,1,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202500878,P100877,20251225,7,5,2,3,2,3,0.15,7.6,5.8,77.3,84.7,48.1,560.54,474.88,4.04,0,1,1,0,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202500323,P100322,20251226,6,3,3,1,1,4,3.61,42.7,88.4,75.5,100.0,64.8,16046.04,16046.04,4.15,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500046,P100045,20251228,2,1,2,1,3,4,0.43,57.3,14.9,73.9,85.5,58.4,1873.08,1600.85,5.0,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500208,P100207,20251229,3,3,2,3,1,3,2.64,19.3,67.0,88.2,91.9,61.4,4500.67,4135.03,4.68,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202500842,P100841,20251229,6,3,2,2,4,4,1.89,26.9,49.1,68.5,85.7,52.5,9018.48,7729.89,4.42,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,1
+V202500733,P100732,20251230,1,1,2,1,3,1,2.09,29.6,53.5,71.3,85.9,54.7,7760.46,6665.81,4.32,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600597,P100596,20260101,3,1,1,1,3,2,1.94,13.8,50.1,97.1,85.4,61.1,2765.39,2361.14,4.61,0,0,0,1,0,1,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600895,P100894,20260101,7,2,2,1,2,1,0.03,14.2,2.0,71.9,75.5,45.6,630.0,475.8,4.56,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600684,P100683,20260102,3,2,2,1,2,1,4.75,18.4,118.2,86.4,100.0,66.1,6791.69,6791.69,3.92,0,0,0,1,0,1,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600548,P100547,20260104,5,2,1,1,2,1,0.08,22.2,6.0,49.4,66.2,36.7,322.33,213.45,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600157,P100156,20260105,9,3,2,1,3,2,0.07,11.7,3.5,55.7,73.4,38.2,1405.07,1031.7,4.08,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202600419,P100418,20260105,2,5,3,3,4,4,0.77,86.2,21.0,85.3,100.0,72.6,2965.85,2965.85,4.12,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600544,P100543,20260105,2,1,1,2,1,3,0.17,38.5,6.4,85.5,81.7,57.7,1041.11,850.86,4.24,1,0,1,1,1,1,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600882,P100881,20260105,8,2,1,2,5,2,0.03,27.1,2.4,52.4,64.6,38.6,379.88,245.55,4.31,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600171,P100170,20260109,3,1,2,1,5,2,3.65,29.6,91.5,86.4,97.2,65.9,4783.47,4648.06,4.33,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600648,P100647,20260110,2,1,4,2,1,5,0.93,87.2,25.6,91.2,100.0,75.5,4212.45,4212.45,3.74,1,0,0,1,1,1,1,4,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600710,P100709,20260112,9,3,1,2,1,5,0.03,26.9,4.1,63.7,75.3,45.0,887.44,668.03,4.99,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600374,P100373,20260114,4,4,4,2,4,2,12.81,30.0,312.4,97.8,100.0,79.7,38162.76,38162.76,4.23,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600039,P100038,20260115,4,4,4,2,3,1,13.74,24.0,331.9,92.8,100.0,76.4,51817.77,51817.77,4.33,0,0,0,1,0,1,1,3,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202600505,P100504,20260115,2,5,2,3,4,2,0.43,76.3,11.1,79.0,96.4,66.6,1799.95,1734.37,4.18,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600177,P100176,20260120,2,2,4,3,2,3,0.65,75.3,17.9,90.0,100.0,71.8,4039.43,4039.43,4.0,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202600610,P100609,20260120,7,3,1,3,4,3,0.03,11.1,4.2,65.3,70.3,41.3,375.58,263.97,5.0,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202600212,P100211,20260121,2,5,1,2,3,3,0.04,84.0,5.2,90.2,96.3,71.9,1480.32,1425.33,4.38,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202600781,P100780,20260123,10,1,3,3,4,4,3.46,24.5,84.3,73.0,100.0,59.5,29194.56,29194.56,4.56,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600316,P100315,20260124,2,1,3,1,3,4,0.76,106.4,19.9,82.5,100.0,72.3,2736.95,2736.95,4.28,1,0,0,1,1,0,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600482,P100481,20260124,5,1,2,1,2,2,0.03,22.8,3.9,55.7,76.1,41.0,429.56,326.72,4.73,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600258,P100257,20260125,9,3,1,1,5,4,0.09,14.7,3.8,64.1,72.4,42.1,915.8,663.25,3.28,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600382,P100381,20260125,6,4,4,3,2,1,3.97,29.5,98.2,74.3,100.0,62.1,25044.02,25044.02,4.06,1,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600799,P100798,20260125,6,3,2,1,3,3,2.54,16.4,65.2,77.4,83.3,54.6,7945.96,6619.78,4.26,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600267,P100266,20260126,2,1,3,3,1,2,0.47,69.1,14.6,92.6,100.0,71.2,3178.73,3178.73,3.96,1,0,1,1,1,1,1,4,Readmitted,Readmitted,High Strain,Moderate,Red,0,0
+V202600501,P100500,20260126,5,3,3,2,3,5,0.03,17.6,6.2,50.3,80.2,38.5,598.9,480.33,4.44,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600436,P100435,20260128,10,3,2,3,4,1,3.94,16.8,99.7,77.8,99.5,60.6,11872.4,11817.61,4.46,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600279,P100278,20260129,7,3,1,2,2,4,0.17,27.6,7.8,65.1,78.4,46.6,418.72,328.2,4.56,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600138,P100137,20260130,2,5,2,3,5,2,0.38,40.9,12.0,80.8,96.5,59.5,1533.78,1480.18,4.31,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600268,P100267,20260130,1,3,3,2,4,4,3.76,22.4,93.2,81.6,100.0,63.1,16753.9,16753.9,4.06,1,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600338,P100337,20260131,10,3,2,1,3,2,2.11,6.5,54.6,77.7,80.4,51.2,15876.55,12766.46,4.39,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600561,P100560,20260131,3,3,2,2,4,4,3.09,24.2,77.7,87.4,94.2,63.4,4738.75,4463.98,4.81,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600075,P100074,20260202,7,3,2,2,4,3,0.16,10.2,6.6,66.8,79.7,43.6,583.6,464.85,4.49,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600439,P100438,20260202,7,3,1,3,1,4,0.08,4.0,5.2,61.6,67.7,37.9,385.95,261.31,4.56,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202600010,P100009,20260203,6,1,1,2,2,2,1.92,25.2,48.2,70.5,80.3,52.1,5599.74,4494.7,3.63,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600801,P100800,20260203,5,2,2,2,1,2,0.04,11.1,3.5,51.5,62.3,34.3,460.45,286.8,4.6,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600215,P100214,20260207,2,5,1,1,3,3,0.4,70.8,12.8,90.0,91.6,68.9,1253.88,1148.9,4.01,1,0,0,1,1,1,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600092,P100091,20260208,3,1,3,1,2,3,6.92,46.1,169.1,91.1,100.0,78.4,8696.59,8696.59,4.59,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600631,P100630,20260208,4,1,4,1,1,1,13.96,27.6,336.9,96.2,100.0,78.6,54662.54,54662.54,3.9,1,0,1,1,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600322,P100321,20260209,3,3,3,3,4,4,4.65,14.5,112.7,87.4,100.0,65.4,8776.48,8776.48,3.98,1,0,0,0,0,1,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600877,P100876,20260210,2,5,3,1,1,4,0.56,49.3,16.1,79.2,98.2,61.3,3067.59,3011.16,4.11,1,0,0,0,1,0,0,2,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202600779,P100778,20260213,3,1,1,1,5,3,3.68,40.6,91.4,93.4,98.2,71.3,3497.23,3432.73,4.04,0,0,0,0,1,1,1,2,Escalated Care,Transfer to Higher Level of Care,High Strain,Moderate,Red,0,0
+V202600236,P100235,20260216,7,5,3,1,4,3,0.24,17.9,9.1,63.7,78.9,44.1,915.16,722.19,4.54,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600778,P100777,20260216,7,5,2,1,2,2,0.17,9.9,6.1,45.7,68.8,33.2,580.3,399.42,4.14,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600891,P100890,20260216,9,2,4,1,2,4,0.07,15.8,5.6,60.9,97.9,45.6,2339.74,2290.42,4.59,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600197,P100196,20260218,3,2,1,1,3,4,0.73,33.5,20.4,97.3,93.4,64.6,3511.92,3281.73,4.38,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600305,P100304,20260218,1,3,2,1,3,4,3.97,30.2,98.9,83.8,97.9,65.7,11050.67,10816.47,4.96,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600510,P100509,20260218,1,2,2,1,2,2,2.33,24.5,57.9,76.9,92.3,57.4,8331.46,7689.94,3.93,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600160,P100159,20260220,2,5,3,1,2,2,0.61,65.7,19.9,81.3,96.0,65.5,2363.21,2268.68,4.53,1,0,0,1,1,0,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600076,P100075,20260221,5,2,1,1,3,4,0.11,7.3,3.7,53.1,66.4,35.0,289.31,192.03,3.69,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202600087,P100086,20260221,10,2,2,1,2,3,2.25,27.4,58.5,79.6,84.3,57.6,14173.46,11952.42,4.77,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600003,P100002,20260223,2,1,2,1,1,3,0.27,74.2,10.6,71.1,91.6,61.8,1467.13,1343.31,4.36,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600720,P100719,20260223,3,3,1,1,2,1,1.73,15.5,43.4,79.2,78.4,52.7,3059.2,2399.46,4.46,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600385,P100384,20260226,7,5,1,1,3,3,0.03,11.0,2.1,67.5,76.6,43.3,464.2,355.8,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600806,P100805,20260227,3,3,3,1,4,4,5.18,26.6,126.1,99.0,100.0,73.8,7981.85,7981.85,4.82,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600326,P100325,20260228,2,1,2,2,2,4,0.3,83.5,12.0,82.4,90.8,68.3,1665.57,1511.89,4.32,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600829,P100828,20260228,4,4,3,1,2,2,8.16,29.4,200.2,99.0,100.0,80.1,27434.51,27434.51,4.46,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600266,P100265,20260303,4,1,4,1,3,1,11.56,42.0,281.4,87.5,100.0,78.2,43272.38,43272.38,4.36,1,0,0,1,1,1,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600724,P100723,20260304,3,2,1,3,2,4,3.91,2.0,96.1,88.3,90.4,59.9,3961.41,3580.41,4.24,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600764,P100763,20260307,9,3,1,2,2,2,0.17,13.3,5.9,60.2,73.0,40.5,882.77,644.72,4.88,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600463,P100462,20260309,4,1,4,1,4,3,13.4,15.6,323.1,90.2,100.0,73.5,62819.64,62819.64,4.39,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600654,P100653,20260309,10,2,3,3,1,4,4.44,26.6,110.2,74.7,100.0,62.6,30538.81,30538.81,4.77,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600218,P100217,20260310,5,5,1,1,2,4,0.06,20.0,2.8,53.0,67.6,37.9,330.16,223.16,4.62,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600628,P100627,20260311,1,1,3,2,5,3,5.07,19.2,123.3,79.3,100.0,64.1,15718.04,15718.04,4.9,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600743,P100742,20260311,9,2,3,1,1,2,0.1,12.8,4.7,59.2,73.4,39.9,1597.54,1172.89,4.54,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600620,P100619,20260312,9,5,1,1,3,2,0.03,16.8,3.2,61.0,63.9,39.6,821.64,524.89,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600389,P100388,20260314,2,3,1,1,1,3,0.13,24.8,4.6,80.5,83.8,53.0,1342.8,1125.27,4.32,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600852,P100851,20260314,6,1,3,1,3,3,3.73,15.4,92.4,70.9,100.0,57.2,15087.6,15087.6,4.78,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600399,P100398,20260315,7,2,1,1,3,2,0.11,8.7,5.6,62.9,63.0,38.6,343.5,216.52,4.06,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202600420,P100419,20260316,4,4,3,2,1,2,9.32,12.2,228.0,92.1,100.0,73.5,31870.71,31870.71,3.96,1,0,1,1,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600448,P100447,20260317,4,4,4,2,4,4,11.85,28.0,286.4,87.6,100.0,75.2,54771.91,54771.91,4.56,0,0,1,1,0,1,1,3,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600400,P100399,20260319,2,1,1,1,2,5,0.14,47.5,7.3,84.4,83.7,59.6,1405.61,1176.76,4.14,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600559,P100558,20260319,8,2,1,1,4,1,0.03,10.9,5.1,52.2,68.1,35.6,374.31,254.83,4.45,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600108,P100107,20260320,9,1,1,1,3,4,0.11,14.5,5.0,57.6,72.9,39.6,773.57,564.01,4.45,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202600332,P100331,20260323,1,5,2,1,3,2,3.12,6.9,75.7,73.1,86.3,52.5,9076.24,7829.88,4.88,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600711,P100710,20260325,8,2,1,2,1,4,0.03,35.0,2.0,45.1,65.3,37.5,423.25,276.45,4.53,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600093,P100092,20260326,10,2,1,2,3,3,1.94,17.8,47.5,71.7,83.2,51.5,13416.01,11156.39,4.97,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600432,P100431,20260326,9,1,1,2,4,1,0.03,15.7,5.6,61.5,66.6,40.1,810.11,539.81,4.4,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600158,P100157,20260327,6,3,2,3,3,3,2.67,35.3,66.0,73.9,89.8,58.8,7162.77,6434.49,4.48,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600767,P100766,20260328,2,5,2,1,4,4,0.16,43.0,8.5,90.0,87.4,61.5,1773.07,1550.26,4.37,0,1,0,1,1,1,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600919,P100918,20260329,2,1,2,1,3,4,0.15,38.0,5.5,81.7,78.1,55.4,1345.26,1050.31,4.86,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600535,P100534,20260405,10,3,4,3,1,2,6.71,18.0,161.0,68.5,100.0,62.8,44350.96,44350.96,3.66,0,1,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600689,P100688,20260405,7,2,1,1,3,3,0.06,13.1,3.4,61.0,67.2,39.5,406.02,273.02,4.3,0,1,1,1,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202600297,P100296,20260406,2,1,3,3,3,3,0.25,63.6,11.4,78.8,100.0,64.0,2652.93,2652.93,3.36,0,1,0,1,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600077,P100076,20260407,3,2,2,2,3,2,3.02,23.7,75.6,78.1,95.8,59.8,3990.48,3823.79,4.22,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600095,P100094,20260407,3,1,4,2,4,4,6.09,16.0,148.1,75.8,100.0,64.0,11729.78,11729.78,3.96,1,0,1,0,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600071,P100070,20260409,1,1,3,1,2,4,4.42,26.3,107.5,76.6,100.0,63.3,12758.33,12758.33,4.08,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600550,P100549,20260409,3,2,2,2,3,3,2.28,27.6,55.9,81.8,88.5,59.3,4532.84,4011.52,4.45,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,1
+V202600052,P100051,20260413,5,2,1,2,3,4,0.06,16.9,5.1,52.1,69.9,37.3,214.19,149.81,3.95,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600861,P100860,20260413,1,2,2,1,1,4,3.2,30.0,80.3,81.7,94.6,62.7,7512.29,7108.68,4.42,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600394,P100393,20260414,6,2,2,1,5,4,1.84,27.7,47.2,76.7,86.3,56.0,8598.44,7422.77,4.67,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600451,P100450,20260415,2,5,1,1,4,3,0.2,55.4,7.6,71.1,83.4,56.0,1341.15,1118.52,4.22,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,1,0
+V202600200,P100199,20260419,3,1,1,2,4,4,1.89,16.9,45.4,85.1,85.7,57.0,3043.14,2606.69,4.51,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600572,P100571,20260423,7,3,2,1,4,2,0.18,30.8,5.3,67.4,83.6,49.1,673.62,562.92,5.0,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600026,P100025,20260425,4,4,4,3,2,5,15.72,29.9,377.8,99.0,100.0,80.2,56102.65,56102.65,3.7,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600649,P100648,20260430,2,1,1,1,3,3,0.26,63.6,9.3,82.7,84.0,62.7,1316.21,1105.25,4.14,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600760,P100759,20260430,1,3,2,2,1,2,1.53,13.2,37.7,85.4,84.0,55.2,6968.03,5849.89,4.9,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600422,P100421,20260501,2,1,4,2,3,2,0.67,72.8,17.8,85.1,100.0,69.4,3975.96,3975.96,3.79,1,0,0,1,1,1,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600421,P100420,20260504,7,3,1,2,5,4,0.05,16.8,2.8,65.7,71.6,43.0,465.66,333.3,4.92,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600756,P100755,20260507,2,1,1,3,2,2,0.26,51.7,8.7,77.6,82.9,57.9,1185.65,983.49,4.52,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600231,P100230,20260508,7,3,2,2,3,4,0.13,24.5,5.8,68.4,75.5,46.6,538.42,406.52,4.08,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600309,P100308,20260508,2,1,2,1,1,3,0.33,45.5,9.9,75.1,97.2,58.2,1608.78,1564.52,4.61,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600728,P100727,20260508,9,3,1,1,1,3,0.03,13.7,3.5,68.6,73.3,43.7,1020.24,748.22,4.8,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600280,P100279,20260509,9,2,1,2,3,1,0.03,3.3,2.8,67.9,69.7,40.5,617.58,430.21,4.37,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600775,P100774,20260511,1,3,2,2,4,2,1.89,29.9,48.7,79.8,100.0,60.3,8020.5,8020.5,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600277,P100276,20260512,9,2,1,1,2,1,0.07,14.7,3.5,63.0,78.5,42.7,882.71,692.78,4.48,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600612,P100611,20260514,4,1,3,3,3,4,5.6,32.7,136.9,96.4,100.0,75.0,18525.7,18525.7,3.9,1,0,1,1,0,1,1,3,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600885,P100884,20260514,3,5,2,3,2,1,2.54,19.3,64.7,76.3,90.8,56.2,5067.76,4600.11,4.36,0,0,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600924,P100923,20260514,3,5,1,3,2,2,3.86,17.7,95.1,80.0,92.5,60.2,3561.96,3295.52,4.96,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600068,P100067,20260518,8,2,1,3,3,1,0.05,32.6,1.2,45.0,64.8,37.0,508.7,329.85,4.54,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600821,P100820,20260518,9,2,2,2,3,2,0.07,12.9,4.0,57.5,79.2,40.2,1093.81,865.79,4.47,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600117,P100116,20260519,4,1,1,2,4,3,4.73,19.6,115.9,83.5,94.5,64.2,12794.92,12092.59,4.94,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600386,P100385,20260519,1,4,1,3,3,5,2.61,29.2,67.2,78.6,96.3,60.4,6294.31,6059.79,4.76,1,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600619,P100618,20260522,1,3,4,3,2,2,4.98,25.9,121.8,80.0,100.0,65.7,24241.2,24241.2,4.6,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600390,P100389,20260523,2,1,2,1,2,2,0.34,25.2,12.4,73.4,84.5,50.8,1704.5,1440.41,4.97,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600121,P100120,20260524,10,1,4,2,4,2,5.76,24.0,139.5,66.3,100.0,61.3,45777.81,45777.81,4.62,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600036,P100035,20260525,5,4,2,1,4,4,0.04,2.0,3.3,64.0,75.3,39.7,443.46,333.84,4.96,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600114,P100113,20260525,9,2,2,1,3,4,0.2,10.1,7.8,55.7,73.4,38.1,1046.58,768.26,4.8,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600271,P100270,20260526,7,3,1,3,3,4,0.03,14.2,2.2,67.7,68.5,42.6,402.05,275.22,5.0,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202600272,P100271,20260527,2,2,1,2,4,2,0.28,70.4,9.6,76.2,80.4,61.0,1335.61,1073.59,3.5,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600708,P100707,20260527,10,1,3,1,4,1,4.75,22.6,116.8,71.9,100.0,61.2,23492.24,23492.24,5.0,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600518,P100517,20260528,9,2,1,1,3,3,0.03,15.8,4.3,69.8,73.9,44.8,815.85,603.11,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600445,P100444,20260531,10,3,3,1,5,4,4.11,17.1,99.1,73.7,95.0,58.6,27574.24,26207.77,3.98,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600531,P100530,20260531,3,3,1,1,3,4,2.71,18.2,68.2,83.1,90.2,58.9,3393.42,3061.27,4.68,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600504,P100503,20260601,8,4,1,1,3,3,0.03,20.2,3.0,44.6,66.6,34.3,410.02,273.2,4.93,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600379,P100378,20260602,1,3,2,1,1,3,2.88,17.3,73.2,67.5,83.2,51.6,7149.59,5950.22,4.64,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600732,P100731,20260602,7,2,1,1,5,2,0.03,16.0,2.3,67.4,66.0,42.4,364.15,240.16,4.91,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600074,P100073,20260603,7,3,1,2,4,2,0.03,21.2,1.7,65.0,74.0,44.0,480.92,355.65,4.53,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600187,P100186,20260605,3,1,4,1,4,3,6.66,11.4,162.3,79.1,100.0,65.5,10049.76,10049.76,4.25,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600681,P100680,20260605,6,3,3,1,3,4,2.52,25.0,61.0,75.2,96.6,58.0,15809.68,15278.03,5.0,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600738,P100737,20260605,5,1,1,1,5,2,0.05,14.8,1.7,55.2,68.6,37.8,308.47,211.64,4.28,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600907,P100906,20260606,6,2,4,1,3,1,4.02,2.0,101.1,74.8,100.0,56.4,25374.71,25374.71,4.26,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600127,P100126,20260607,9,5,1,3,5,3,0.1,20.5,3.8,60.5,77.1,42.8,883.02,680.67,4.36,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600438,P100437,20260611,2,5,1,3,4,3,0.39,31.2,12.7,78.6,82.5,54.0,1198.37,988.7,3.98,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600770,P100769,20260611,4,4,4,1,5,5,11.69,48.8,282.7,96.7,100.0,83.4,48416.78,48416.78,4.26,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600293,P100292,20260612,6,3,2,1,3,2,1.54,32.8,37.9,65.8,83.2,51.6,8205.28,6828.47,4.87,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600508,P100507,20260612,1,4,3,3,3,3,4.62,32.6,113.0,79.1,100.0,66.0,16598.65,16598.65,4.85,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600404,P100403,20260617,6,1,3,3,3,1,2.59,20.1,65.2,70.6,87.6,53.6,13393.27,11739.16,4.93,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600063,P100062,20260620,7,3,3,1,4,3,0.12,16.1,5.0,73.8,87.9,49.1,889.61,782.24,4.98,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600893,P100892,20260622,9,2,1,1,5,4,0.06,7.3,4.5,60.2,69.5,38.3,771.26,536.05,4.84,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600944,P100943,20260622,4,1,4,3,3,4,9.12,31.1,220.5,97.0,100.0,79.6,40517.91,40517.91,3.97,1,0,1,1,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600717,P100716,20260623,4,4,3,1,2,4,7.46,22.9,181.8,84.8,100.0,71.9,33316.62,33316.62,4.82,1,0,0,1,0,0,1,2,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202600013,P100012,20260625,4,4,3,2,3,4,8.42,20.1,205.6,93.9,100.0,76.0,28130.38,28130.38,4.26,1,0,0,1,0,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,1
+V202600166,P100165,20260629,8,2,1,3,5,2,0.15,2.0,5.6,41.6,59.9,28.2,511.26,306.12,4.07,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202600932,P100931,20260629,3,3,2,2,3,4,2.93,38.3,74.1,73.7,88.4,59.7,4514.32,3989.64,4.38,0,0,0,1,1,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600315,P100314,20260630,2,1,1,3,3,4,0.26,2.0,8.1,70.8,68.3,41.6,1063.3,725.74,4.36,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600525,P100524,20260703,10,3,4,2,1,2,7.04,41.1,170.4,73.8,100.0,70.7,39456.0,39456.0,4.51,1,0,0,0,1,0,1,2,Follow-up Needed,Home with Follow-up,High Strain,Moderate,Red,0,0
+V202600812,P100811,20260703,3,1,1,3,3,3,2.76,17.8,68.6,83.8,96.1,60.3,3585.3,3446.96,4.24,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600726,P100725,20260707,10,3,3,1,3,3,3.33,25.1,82.2,75.2,95.7,59.5,20344.23,19463.98,4.77,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600524,P100523,20260708,9,1,4,2,3,1,0.22,19.0,9.4,61.4,90.7,45.5,2663.83,2415.3,3.74,1,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600377,P100376,20260711,2,5,2,2,3,2,0.22,59.1,9.1,75.7,87.4,59.5,1644.81,1438.08,4.4,0,0,0,1,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600772,P100771,20260713,2,1,3,1,3,4,0.49,37.4,15.1,80.0,96.6,58.6,3081.02,2975.44,4.16,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600220,P100219,20260717,10,3,2,1,3,2,3.1,43.5,79.4,70.2,91.3,60.3,13309.17,12157.56,3.46,0,1,0,1,1,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600537,P100536,20260717,9,2,2,1,5,2,0.07,10.9,5.0,63.3,69.5,40.3,1285.89,894.11,4.74,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600253,P100252,20260720,2,5,2,2,3,2,0.4,29.9,10.6,74.1,90.8,53.4,1860.61,1688.52,4.56,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600552,P100551,20260721,5,5,2,2,2,2,0.03,2.0,1.9,58.3,71.7,36.7,436.19,312.84,4.27,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202600250,P100249,20260722,2,2,2,1,4,2,0.48,75.2,15.3,81.4,93.5,66.9,2114.68,1976.66,3.99,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600337,P100336,20260725,2,1,1,3,4,4,0.42,50.7,13.5,85.7,80.8,60.8,1400.78,1131.27,4.97,1,0,0,1,1,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600892,P100891,20260725,9,3,2,1,4,1,0.08,21.6,3.4,63.5,79.5,44.6,1177.49,936.42,4.63,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600352,P100351,20260726,7,2,2,1,1,5,0.11,22.5,5.5,80.7,79.1,51.7,458.12,362.35,3.82,0,1,0,1,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600397,P100396,20260729,10,1,2,1,4,4,2.71,13.3,66.6,66.9,90.6,51.4,17421.39,15776.3,4.36,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600128,P100127,20260731,1,3,1,1,3,4,2.54,30.4,63.7,72.5,75.4,54.4,6625.99,4993.77,4.34,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600869,P100868,20260802,1,4,4,1,3,3,6.86,11.6,168.7,75.9,100.0,64.6,20978.26,20978.26,5.0,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600575,P100574,20260803,5,2,1,1,3,2,0.03,17.0,2.8,54.6,70.5,38.3,314.75,221.89,4.71,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600081,P100080,20260804,2,5,4,2,3,2,0.53,82.8,16.6,81.5,100.0,69.8,3777.55,3777.55,4.21,1,0,0,0,1,0,0,3,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600530,P100529,20260806,9,3,2,2,3,3,0.22,8.1,5.6,55.7,68.2,36.8,1109.84,757.06,4.66,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600008,P100007,20260807,2,1,2,2,2,1,0.43,41.0,12.0,79.0,87.3,57.2,1681.33,1468.17,4.93,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600514,P100513,20260807,1,4,2,1,4,5,4.23,17.1,103.5,73.4,94.0,58.5,10397.97,9770.25,3.93,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600680,P100679,20260807,9,2,2,3,2,2,0.12,17.9,5.8,56.5,68.0,39.0,1126.85,766.67,4.51,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600273,P100272,20260809,9,1,2,1,1,3,0.12,22.2,5.4,51.8,72.7,38.9,1273.57,925.76,3.01,1,0,0,0,0,0,0,1,Transferred,Transferred,Stable,Low,Green,0,0
+V202600468,P100467,20260811,2,1,2,2,4,4,0.6,31.4,16.5,83.2,87.9,57.2,1893.42,1665.14,4.24,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600921,P100920,20260811,3,3,2,3,2,1,4.27,12.0,105.2,93.9,100.0,66.8,6282.61,6282.61,3.94,1,0,0,1,0,1,0,3,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600815,P100814,20260812,2,1,3,1,2,1,0.54,73.8,16.2,64.1,96.4,60.3,2581.63,2488.22,4.8,1,0,1,1,1,0,0,4,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600116,P100115,20260814,6,1,2,2,2,3,3.22,20.3,80.6,74.2,96.2,57.9,10846.06,10430.09,3.84,1,0,0,0,0,0,0,2,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202600796,P100795,20260815,5,2,3,1,3,2,0.19,2.1,7.1,55.7,75.3,36.7,551.21,415.06,4.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,1,0
+V202600615,P100614,20260817,3,3,2,3,3,3,2.4,20.7,58.3,82.1,98.1,59.8,3379.32,3313.53,4.53,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600949,P100948,20260818,10,3,4,1,3,3,6.29,33.9,152.1,62.4,100.0,63.0,44211.13,44211.13,4.75,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600555,P100554,20260821,9,3,1,2,5,5,0.05,12.4,2.9,61.0,70.2,39.9,909.7,638.8,4.1,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202600768,P100767,20260821,1,2,3,1,1,5,3.8,16.9,92.7,78.4,97.8,60.3,13610.77,13307.37,4.38,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600184,P100183,20260822,4,1,4,3,4,4,14.11,13.6,342.5,92.5,100.0,74.0,45898.7,45898.7,3.54,1,0,0,0,0,1,1,3,Transferred,Transferred,High Strain,High,Red,0,0
+V202600265,P100264,20260822,1,2,1,1,3,2,1.52,26.2,39.3,66.0,73.6,48.4,5018.15,3691.45,4.0,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600384,P100383,20260822,7,3,1,1,5,3,0.31,29.1,11.2,70.0,74.5,48.4,435.52,324.42,4.03,1,0,0,0,0,0,0,1,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202600736,P100735,20260822,3,2,1,2,2,2,4.25,36.7,103.7,84.1,93.2,67.0,3656.25,3408.66,4.79,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600199,P100198,20260903,3,4,2,2,3,3,2.17,13.5,54.9,83.8,93.3,57.7,4345.75,4056.36,3.97,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600089,P100088,20260904,2,1,2,2,3,2,0.33,32.6,10.8,73.5,77.1,51.1,1734.09,1337.7,3.85,1,0,0,0,0,0,0,0,Transferred,Transferred,Moderate Risk,Moderate,Orange,0,0
+V202600428,P100427,20260904,5,3,2,3,5,5,0.03,5.3,2.2,47.6,68.1,32.5,394.78,268.94,4.14,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600281,P100280,20260907,3,3,2,2,4,3,5.26,25.6,128.1,79.2,96.9,65.3,4519.17,4378.62,4.41,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600490,P100489,20260908,1,1,4,1,4,4,5.93,11.2,145.0,81.6,100.0,65.0,21900.53,21900.53,3.66,1,0,1,0,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600646,P100645,20260908,8,2,3,2,4,5,0.21,33.0,7.4,55.2,82.6,44.6,709.4,585.79,4.4,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600474,P100473,20260909,2,1,1,2,4,4,0.35,50.6,11.0,75.8,79.9,56.5,1163.0,928.84,4.9,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600119,P100118,20260910,10,3,2,1,3,3,1.67,36.2,39.7,80.4,84.4,58.6,16318.51,13770.85,4.65,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600229,P100228,20260910,6,2,1,1,2,4,2.39,17.0,58.4,71.7,79.2,51.5,6151.93,4873.02,4.44,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600906,P100905,20260911,4,1,2,1,2,1,6.04,21.6,147.7,91.8,100.0,71.5,14423.07,14423.07,4.73,1,0,0,1,0,1,1,2,Successful Treatment,Home,High Strain,Moderate,Red,0,0
+V202600759,P100758,20260912,8,2,2,2,2,4,0.08,22.9,4.8,47.7,81.0,38.9,617.24,499.93,4.98,1,0,0,1,0,0,0,2,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600923,P100922,20260913,5,5,1,1,2,3,0.08,9.3,5.2,50.4,69.4,34.8,301.62,209.19,4.59,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202600054,P100053,20260914,6,4,3,1,4,4,2.9,16.0,72.1,81.0,100.0,59.7,11161.42,11161.42,4.23,1,0,0,0,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600406,P100405,20260914,3,3,2,3,2,4,5.13,18.4,126.8,83.3,95.8,64.9,4854.45,4648.48,4.35,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600632,P100631,20260914,9,3,1,2,3,3,0.05,18.6,4.8,65.0,76.8,44.0,966.67,742.28,4.43,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202600122,P100121,20260915,4,4,4,2,2,4,9.57,16.8,234.6,91.0,100.0,74.1,42994.66,42994.66,4.26,1,0,1,0,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,1
+V202600898,P100897,20260915,2,1,2,2,2,3,0.17,39.1,6.1,77.9,90.0,56.3,1810.28,1630.16,4.42,0,1,0,1,1,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600192,P100191,20260916,10,1,2,3,2,3,3.4,12.3,83.7,78.4,88.9,56.9,15473.82,13750.22,4.66,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600198,P100197,20260916,1,3,2,1,4,3,3.41,10.5,84.7,88.3,97.3,62.0,9426.72,9169.27,4.97,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600595,P100594,20260916,7,3,1,1,2,1,0.14,24.9,4.3,63.9,64.7,43.0,385.23,249.29,4.89,0,0,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202600672,P100671,20260916,2,1,2,3,4,1,0.38,53.5,12.1,80.3,93.0,61.4,1717.73,1597.8,5.0,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600204,P100203,20260918,1,1,2,3,4,2,3.01,12.4,75.5,86.2,100.0,61.2,7055.3,7055.3,4.03,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600854,P100853,20260918,10,1,3,2,2,3,5.14,31.6,126.4,72.7,100.0,64.3,26271.25,26271.25,4.63,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600746,P100745,20260920,2,1,2,1,4,3,0.63,66.1,20.0,71.4,86.8,60.0,1821.54,1580.87,3.43,1,0,1,1,1,0,0,4,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600948,P100947,20260920,2,1,2,1,2,4,0.32,38.5,12.9,79.8,80.3,55.5,1440.73,1156.4,4.3,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600193,P100192,20260921,1,2,3,1,4,4,3.67,30.4,88.8,74.5,100.0,61.8,14132.6,14132.6,3.84,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600486,P100485,20260922,2,5,1,1,4,4,0.15,24.2,6.8,77.7,75.2,50.2,1471.16,1105.9,4.37,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600402,P100401,20260923,8,3,1,1,2,4,0.03,27.6,3.1,52.4,64.1,38.6,421.34,269.92,4.01,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600569,P100568,20260925,4,4,4,3,3,3,11.77,20.0,286.4,88.4,100.0,73.7,54558.25,54558.25,4.37,1,0,0,1,0,1,1,2,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600368,P100367,20260927,6,1,2,1,4,4,2.25,8.8,57.8,70.6,83.6,49.7,8442.59,7060.12,4.29,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600409,P100408,20260927,10,3,2,1,4,3,3.08,6.3,74.7,79.0,90.5,55.4,14946.19,13519.07,4.62,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600454,P100453,20260928,6,3,2,1,3,3,2.44,10.8,61.1,84.3,85.2,56.3,9852.36,8390.7,4.8,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600749,P100748,20260928,7,4,2,3,2,5,0.13,17.6,2.9,61.1,75.0,42.1,668.41,501.39,4.44,1,0,0,0,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202600105,P100104,20260930,7,3,2,1,2,5,0.12,14.5,5.5,65.7,75.5,43.3,581.37,439.16,4.96,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600151,P100150,20261001,2,1,1,3,2,3,0.44,26.0,12.1,79.2,78.8,52.5,1428.89,1125.65,4.07,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600786,P100785,20261001,3,1,3,1,1,2,6.4,6.9,156.9,83.1,100.0,65.6,6315.53,6315.53,4.09,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600044,P100043,20261002,8,1,1,3,1,1,0.03,22.2,3.4,45.7,59.5,33.9,431.52,256.9,4.31,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600507,P100506,20261004,1,3,3,2,2,4,3.42,26.3,83.6,81.2,99.2,63.0,13503.05,13399.94,4.82,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600274,P100273,20261006,7,2,1,1,3,3,0.13,12.2,3.9,75.9,78.4,47.4,521.37,408.6,4.15,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600938,P100937,20261007,4,1,4,1,3,4,10.77,25.6,258.8,93.3,100.0,77.0,45672.3,45672.3,3.6,1,0,1,0,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600243,P100242,20261008,10,1,2,1,3,2,2.37,27.9,60.1,72.3,91.1,56.2,14686.36,13374.05,4.58,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600837,P100836,20261008,1,3,1,1,2,1,1.78,10.7,47.9,82.6,84.6,54.2,5441.05,4604.06,4.6,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600826,P100825,20261014,10,3,4,2,3,3,5.16,27.6,127.7,75.5,100.0,64.6,41990.33,41990.33,4.67,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600616,P100615,20261015,9,2,1,1,2,4,0.11,2.0,4.5,62.6,66.9,37.8,852.57,570.55,4.91,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600814,P100813,20261015,5,2,1,1,3,4,0.03,10.5,4.2,43.1,58.0,30.1,312.24,181.05,4.34,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600056,P100055,20261016,1,5,4,2,4,4,4.47,21.9,110.6,73.5,100.0,61.2,19085.71,19085.71,4.39,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600800,P100799,20261017,2,1,4,1,4,3,0.53,46.9,13.0,76.5,100.0,60.0,4511.36,4511.36,3.72,1,0,0,0,1,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600183,P100182,20261019,2,5,2,3,4,4,0.19,58.1,6.8,74.2,72.5,55.9,1759.52,1276.11,4.28,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600808,P100807,20261020,5,3,1,1,4,4,0.08,9.2,4.4,58.6,62.8,36.9,275.35,172.84,4.85,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600578,P100577,20261021,10,3,4,2,1,2,5.08,11.7,123.4,82.8,100.0,63.9,42430.59,42430.59,4.85,0,0,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600246,P100245,20261023,3,1,2,3,3,4,4.28,12.1,104.2,78.3,100.0,60.5,3952.45,3952.45,4.62,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600685,P100684,20261024,7,3,2,3,2,2,0.03,13.7,4.8,69.2,74.1,44.1,453.38,335.81,4.78,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600113,P100112,20261025,6,4,1,3,4,4,1.7,12.5,42.1,68.1,74.4,46.8,6554.66,4878.22,4.39,1,0,0,0,0,0,0,0,Escalated Care,Transfer to Higher Level of Care,Moderate Risk,Moderate,Orange,0,0
+V202600716,P100715,20261025,3,4,3,1,4,2,6.13,18.7,148.7,81.7,100.0,67.0,9811.49,9811.49,4.07,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600396,P100395,20261026,9,1,1,2,2,2,0.04,24.4,3.6,59.9,74.4,42.8,783.46,582.9,4.24,1,0,1,0,0,0,0,1,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600797,P100796,20261027,2,1,3,1,5,4,0.46,57.3,14.6,82.8,100.0,64.6,2777.48,2777.48,4.75,1,0,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600513,P100512,20261028,2,1,1,1,4,3,0.32,9.9,9.5,81.6,83.7,50.5,1054.84,882.7,4.48,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600807,P100806,20261030,7,1,1,1,2,4,0.14,17.8,7.3,70.3,69.2,44.8,376.42,260.51,4.29,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600257,P100256,20261101,1,3,1,2,5,5,1.77,11.9,43.5,77.5,78.4,51.3,6081.43,4767.26,3.99,1,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600179,P100178,20261102,9,3,1,1,1,3,0.03,15.2,1.6,54.5,66.1,37.1,952.23,629.4,4.47,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,1
+V202600721,P100720,20261103,9,5,1,2,3,1,0.13,22.4,5.6,65.9,71.0,44.3,832.49,590.98,4.34,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600053,P100052,20261105,3,3,2,2,5,3,2.48,28.8,60.6,87.3,91.6,62.7,4679.31,4286.62,4.69,1,0,0,1,0,1,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600359,P100358,20261105,10,3,1,1,4,3,2.79,46.4,70.3,74.5,83.0,60.5,10694.4,8879.83,4.7,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600752,P100751,20261105,9,2,2,2,5,3,0.03,12.9,3.1,63.6,74.7,41.8,1299.53,971.17,4.35,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600241,P100240,20261106,2,1,1,3,4,3,0.18,57.4,7.9,79.2,78.3,58.8,1265.46,990.83,4.56,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600365,P100364,20261107,9,2,4,1,4,5,0.05,12.6,1.7,58.9,80.8,40.9,2716.8,2195.65,4.87,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600135,P100134,20261109,7,3,4,1,3,4,0.03,26.9,1.8,52.9,100.0,45.1,1011.96,1011.96,4.35,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600536,P100535,20261111,9,1,2,1,3,3,0.18,24.2,9.2,65.8,72.0,45.0,1243.16,895.59,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600870,P100869,20261112,9,5,3,1,4,5,0.27,4.9,8.0,58.2,78.2,39.0,1820.47,1423.27,4.46,1,0,1,1,0,0,0,3,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202600446,P100445,20261113,3,3,2,1,4,5,4.11,26.4,100.2,83.3,100.0,65.3,5581.47,5581.47,4.84,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600790,P100789,20261113,9,3,3,3,2,1,0.19,21.1,6.6,62.8,84.8,45.4,1665.32,1411.65,4.59,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600918,P100917,20261115,2,1,3,2,1,3,0.21,105.7,9.3,75.7,100.0,68.5,2339.41,2339.41,3.88,1,0,1,1,1,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600034,P100033,20261116,2,5,1,2,4,4,0.36,57.3,12.9,77.9,79.8,58.8,1234.0,984.62,4.22,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600509,P100508,20261116,4,4,4,3,3,4,9.76,30.3,237.4,97.8,100.0,79.8,50158.53,50158.53,4.41,1,0,1,0,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600576,P100575,20261116,4,1,2,1,3,3,4.75,10.1,114.0,93.1,100.0,67.0,18267.76,18267.76,3.83,1,0,0,1,0,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600002,P100001,20261117,1,2,2,2,2,3,3.62,16.5,92.2,76.2,96.7,58.7,9710.89,9390.01,4.59,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600412,P100411,20261117,4,1,3,2,5,2,7.78,22.1,188.2,88.5,100.0,73.8,26783.63,26783.63,3.81,1,0,1,1,0,1,1,3,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600413,P100412,20261117,1,4,3,1,1,2,2.71,37.2,65.2,82.8,100.0,64.7,13340.95,13340.95,4.24,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,1,0
+V202600489,P100488,20261117,4,4,4,2,3,2,10.16,21.3,244.4,89.0,100.0,74.3,45834.23,45834.23,4.56,0,0,0,1,0,1,1,2,Follow-up Needed,Home with Follow-up,High Strain,High,Red,0,0
+V202600242,P100241,20261121,8,1,2,1,5,3,0.19,9.7,4.5,55.7,70.6,37.5,583.26,411.76,4.64,1,0,0,0,0,0,0,1,Follow-up Needed,Home with Follow-up,Stable,Low,Green,0,0
+V202600541,P100540,20261121,4,4,3,3,4,3,10.76,20.4,260.7,91.2,100.0,75.0,32292.65,32292.65,5.0,1,0,1,1,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600325,P100324,20261122,5,3,3,2,2,3,0.07,18.4,3.3,59.9,91.9,44.7,702.13,645.59,4.75,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600367,P100366,20261129,5,2,1,2,2,1,0.03,12.2,2.9,54.1,66.8,36.4,391.81,261.61,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600844,P100843,20261129,1,3,3,2,3,4,4.09,40.7,100.4,83.2,100.0,68.4,15222.8,15222.8,4.96,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600141,P100140,20261130,7,5,2,1,4,2,0.16,20.2,8.0,66.1,74.8,44.7,459.82,343.89,4.02,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600465,P100464,20261130,5,3,2,1,5,4,0.19,22.2,5.5,55.3,67.5,39.5,405.2,273.45,3.98,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600249,P100248,20261201,6,3,3,1,4,3,2.82,16.9,68.5,80.9,95.5,58.9,14024.21,13395.18,4.53,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600314,P100313,20261201,9,5,1,1,4,3,0.03,8.6,4.7,62.0,73.9,40.0,918.04,678.85,4.9,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600470,P100469,20261201,7,2,1,2,4,4,0.04,21.1,5.3,67.7,72.9,44.9,502.77,366.55,4.76,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600718,P100717,20261202,7,5,1,2,4,2,0.14,25.3,5.6,69.1,68.2,45.8,288.16,196.66,4.82,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600035,P100034,20261203,6,3,1,2,3,4,1.7,20.4,42.2,67.0,76.3,48.4,6407.64,4891.16,4.26,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600248,P100247,20261204,7,3,2,1,5,3,0.07,24.0,7.1,57.5,78.3,42.5,559.74,438.26,4.96,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600479,P100478,20261206,1,3,3,2,4,4,3.71,18.8,92.4,74.1,100.0,59.2,15876.87,15876.87,3.86,1,0,1,0,0,0,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600012,P100011,20261207,8,3,2,3,3,5,0.03,16.5,2.4,53.5,72.8,38.2,599.57,436.21,4.8,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600051,P100050,20261207,2,5,2,3,2,1,0.48,58.1,16.3,77.7,76.2,58.6,1750.57,1334.54,4.53,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600472,P100471,20261207,5,5,3,1,2,3,0.14,25.8,6.4,57.2,81.4,43.5,654.12,532.59,3.93,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600523,P100522,20261207,3,2,3,1,5,2,6.67,35.9,162.3,91.2,100.0,75.7,8625.65,8625.65,4.29,1,0,0,1,1,1,1,3,Successful Treatment,Home,High Strain,High,Red,0,0
+V202600679,P100678,20261207,2,1,2,3,3,4,0.46,47.3,15.9,83.9,92.0,61.5,2079.45,1914.04,4.18,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600140,P100139,20261208,4,1,3,1,4,5,9.09,29.8,219.6,91.1,100.0,77.0,31656.77,31656.77,4.23,1,0,1,0,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600227,P100226,20261209,6,1,2,1,2,4,1.4,34.1,35.3,69.8,80.7,52.8,8408.24,6784.53,4.66,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600499,P100498,20261210,7,3,1,1,5,4,0.04,21.0,3.1,64.5,63.8,42.0,388.2,247.64,4.66,0,1,0,1,0,0,0,0,Follow-up Needed,Home with Follow-up,Moderate Risk,Low,Orange,0,0
+V202600306,P100305,20261211,9,2,2,1,4,1,0.03,24.0,3.3,69.8,90.5,49.5,1318.35,1192.56,5.0,1,0,1,1,0,0,0,2,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600582,P100581,20261215,8,2,1,2,3,4,0.11,16.7,3.9,56.8,60.8,37.5,431.62,262.36,4.11,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600676,P100675,20261217,1,4,3,1,2,3,3.39,27.0,82.1,69.7,93.8,57.5,10481.72,9830.63,3.83,1,0,0,1,0,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600811,P100810,20261219,9,2,1,1,3,3,0.14,8.0,4.9,61.3,65.5,38.3,772.49,506.33,4.82,1,0,0,1,0,0,0,1,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600933,P100932,20261219,1,3,1,1,3,3,2.37,4.4,59.3,64.7,79.9,46.0,6690.54,5342.52,4.43,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600155,P100154,20261220,7,3,2,1,3,4,0.11,18.2,6.1,59.8,72.4,41.2,625.39,452.5,4.14,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600447,P100446,20261220,9,3,2,2,1,3,0.07,25.3,3.6,67.3,78.8,46.8,1191.37,939.38,3.95,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600500,P100499,20261220,1,3,3,1,2,4,2.83,21.8,70.4,84.8,100.0,62.4,9587.25,9587.25,5.0,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600070,P100069,20261221,2,1,2,2,3,3,0.14,85.3,9.3,77.1,79.6,64.2,1671.83,1331.04,3.42,1,0,0,1,1,0,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600442,P100441,20261221,2,1,3,2,3,2,0.53,51.5,14.5,86.8,96.1,64.4,2979.71,2864.93,4.51,1,0,0,1,1,1,0,2,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600519,P100518,20261221,3,3,2,2,4,4,2.5,12.0,63.5,87.7,88.8,58.7,4243.05,3768.34,3.88,0,0,0,1,0,1,0,1,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600662,P100661,20261221,1,5,2,1,4,2,1.86,16.2,45.8,69.9,79.8,49.6,7163.58,5716.98,4.17,1,0,0,1,0,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0
+V202600262,P100261,20261223,9,3,1,3,1,1,0.03,4.7,3.8,62.2,58.3,36.5,865.98,504.46,4.79,1,0,1,1,0,0,0,1,Readmitted,Readmitted,Stable,Moderate,Orange,0,0
+V202600706,P100705,20261223,7,2,1,2,5,2,0.07,2.0,2.5,66.7,73.1,40.4,365.73,267.51,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Moderate Risk,Low,Orange,0,0
+V202600391,P100390,20261224,4,4,4,3,2,4,12.26,22.7,294.7,99.0,100.0,78.6,47051.52,47051.52,5.0,0,0,1,1,0,1,1,4,Readmitted,Readmitted,High Strain,High,Red,0,0
+V202600476,P100475,20261226,7,3,2,1,4,2,0.15,20.4,5.5,74.5,83.5,49.6,522.2,436.02,3.56,0,1,0,1,0,0,0,2,Follow-up Needed,Home with Follow-up,Moderate Risk,Moderate,Orange,0,0
+V202600533,P100532,20261229,5,2,1,1,3,4,0.06,2.0,3.6,56.4,58.3,33.6,307.64,179.2,5.0,1,0,0,1,0,0,0,0,Successful Treatment,Home,Stable,Low,Green,0,0
+V202600848,P100847,20261229,2,1,2,2,3,3,0.31,67.6,9.6,86.1,85.3,65.3,1997.07,1703.74,3.8,1,0,1,0,1,1,0,3,Readmitted,Readmitted,Moderate Risk,Moderate,Orange,0,0
+V202600532,P100531,20261231,2,4,2,1,1,1,0.32,53.9,11.2,81.7,94.9,62.3,1831.25,1737.83,4.6,1,0,0,1,1,0,0,1,Successful Treatment,Home,Moderate Risk,Moderate,Orange,0,0

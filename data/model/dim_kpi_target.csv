@@ -1,0 +1,7 @@
+kpi,target,better_when
+Bed occupancy rate (%),85.0,at or below
+30-day readmission rate (%),12.0,at or below
+Average wait time (min),35.0,at or below
+No-show rate (%),10.0,at or below
+Patient satisfaction (1-5),4.2,at or above
+Treatment success rate (%),88.0,at or above

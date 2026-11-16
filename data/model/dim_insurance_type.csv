@@ -1,0 +1,6 @@
+insurance_key,insurance_type
+1,Commercial
+2,Medicaid
+3,Medicare
+4,Private
+5,Self-Pay

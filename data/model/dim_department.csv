@@ -1,0 +1,11 @@
+department_key,department,care_setting
+1,Cardiology,Inpatient
+2,Emergency Department (ED),Emergency
+3,General Medicine,Inpatient
+4,ICU,Inpatient
+5,Laboratory,Ambulatory & Diagnostic
+6,Orthopedics,Inpatient
+7,Outpatient / Ambulatory Care,Ambulatory & Diagnostic
+8,Pharmacy,Ambulatory & Diagnostic
+9,Radiology,Ambulatory & Diagnostic
+10,Surgery / OR,Inpatient

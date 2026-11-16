@@ -1,0 +1,5 @@
+severity_key,severity_level,severity_level_rank
+1,Low,1
+2,Moderate,2
+3,High,3
+4,Critical,4

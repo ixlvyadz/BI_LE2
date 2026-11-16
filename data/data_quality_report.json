@@ -1,0 +1,183 @@
+{
+  "source_file": "healthcare_operations_raw.csv",
+  "clean_file": "healthcare_operations_clean.csv",
+  "date_range": [
+    "2024-01-04",
+    "2026-12-31"
+  ],
+  "before": {
+    "rows": 950,
+    "columns": 41,
+    "missing_cells": 18,
+    "missing_by_column": {
+      "patient_satisfaction_score": 10,
+      "estimated_cost_per_visit": 8
+    },
+    "duplicate_rows": 0,
+    "duplicate_visit_ids": 0,
+    "distinct_department_labels": 22
+  },
+  "after": {
+    "rows": 950,
+    "columns": 51,
+    "missing_cells": 0,
+    "missing_by_column": {},
+    "duplicate_rows": 0,
+    "duplicate_visit_ids": 0,
+    "distinct_department_labels": 10
+  },
+  "department_labels_before": [
+    " Cardiology ",
+    " Emergency Department (ED) ",
+    " General Medicine ",
+    " Laboratory ",
+    " Pharmacy ",
+    "CARDIOLOGY",
+    "Cardiology",
+    "Emergency Department (ED)",
+    "General Medicine",
+    "ICU",
+    "Laboratory",
+    "ORTHOPEDICS",
+    "Orthopedics",
+    "Outpatient / Ambulatory Care",
+    "Pharmacy",
+    "Radiology",
+    "SURGERY / OR",
+    "Surgery / OR",
+    "emergency department (ed)",
+    "laboratory",
+    "orthopedics",
+    "pharmacy"
+  ],
+  "rule_checks": {
+    "year matches visit_date": 0,
+    "month matches visit_date": 0,
+    "quarter matches visit_date": 0,
+    "day_of_week matches visit_date": 0,
+    "is_weekend matches visit_date": 0,
+    "age_group matches age": 0,
+    "satisfaction within 1-5": 0,
+    "occupancy within 0-100": 0,
+    "no negative durations or costs": 0,
+    "no-show implies appointment not completed": 0
+  },
+  "steps": [
+    {
+      "step": 1,
+      "issue": "Leading / trailing spaces in text fields",
+      "rows_affected": 5,
+      "action": "Trimmed whitespace on all 19 text columns.",
+      "why": "' Cardiology ' and 'Cardiology' would otherwise be counted as two departments."
+    },
+    {
+      "step": 2,
+      "issue": "Inconsistent department spelling / casing",
+      "rows_affected": 15,
+      "action": "Mapped 22 raw labels to 10 canonical department names (case-insensitive lookup table).",
+      "why": "Variants such as 'SURGERY / OR', 'laboratory' and ' Pharmacy ' split one department into several groups."
+    },
+    {
+      "step": 3,
+      "issue": "Duplicate records",
+      "rows_affected": 0,
+      "action": "Checked full-row duplicates and repeated visit_id values; none found, no rows removed.",
+      "why": "Duplicate visits would inflate volumes and costs."
+    },
+    {
+      "step": 4,
+      "issue": "Dates stored as text",
+      "rows_affected": 950,
+      "action": "Parsed visit_date to a real date type (ISO format); confirmed the four 0/1 flag columns are integers.",
+      "why": "Needed for time-series charts, date slicers and rate calculations."
+    },
+    {
+      "step": 5,
+      "issue": "Missing estimated_cost_per_visit",
+      "rows_affected": 8,
+      "action": "Recalculated as department_cost_burden / (resource_utilization_index / 100) and flagged in cost_imputed.",
+      "why": "The identity burden = cost x utilization / 100 holds in every complete row (max relative error 0.0860%), so the value is recovered rather than guessed."
+    },
+    {
+      "step": 6,
+      "issue": "Missing patient_satisfaction_score",
+      "rows_affected": 10,
+      "action": "Filled with the median score of the same department and flagged in satisfaction_imputed.",
+      "why": "Only 1.1% of rows; the median is robust to the skewed 1-5 scale and keeps the visit in every other KPI."
+    },
+    {
+      "step": 7,
+      "issue": "Possible inconsistent derived fields and out-of-range values",
+      "rows_affected": 0,
+      "action": "Ran 10 rule checks (calendar fields vs visit_date, age_group vs age, value ranges, flag logic). All passed; no corrections needed.",
+      "why": "Confirms the pre-computed calendar and grouping columns can be trusted in the model."
+    },
+    {
+      "step": 8,
+      "issue": "Fields needed for analysis were not in the extract",
+      "rows_affected": 950,
+      "action": "Added care_setting, month_start, month_name, month_num, wait_over_target, occupancy_over_target, high_strain and bottleneck_count.",
+      "why": "Supports drill-up by care setting, monthly trends, target-breach rates and bottleneck analysis."
+    },
+    {
+      "step": 9,
+      "issue": "bottleneck_reason holds several values in one cell (separated by ';')",
+      "rows_affected": 435,
+      "action": "Split into a bridge table with one row per visit and reason (1549 rows).",
+      "why": "A multi-valued text cell cannot be counted or filtered; the bridge keeps the fact table at one row per visit."
+    }
+  ],
+  "model_tables": {
+    "fact_visits": {
+      "rows": 950,
+      "columns": 33
+    },
+    "dim_date": {
+      "rows": 620,
+      "columns": 9
+    },
+    "dim_department": {
+      "rows": 10,
+      "columns": 3
+    },
+    "dim_patient": {
+      "rows": 950,
+      "columns": 3
+    },
+    "dim_admission_type": {
+      "rows": 5,
+      "columns": 2
+    },
+    "dim_severity": {
+      "rows": 4,
+      "columns": 3
+    },
+    "dim_shift": {
+      "rows": 3,
+      "columns": 3
+    },
+    "dim_provider_type": {
+      "rows": 5,
+      "columns": 2
+    },
+    "dim_insurance_type": {
+      "rows": 5,
+      "columns": 2
+    },
+    "dim_kpi_target": {
+      "rows": 6,
+      "columns": 3
+    },
+    "bridge_visit_bottleneck": {
+      "rows": 1549,
+      "columns": 2
+    }
+  },
+  "known_limitations": [
+    "The extract is a simulated / anonymised dataset: every patient_id appears once, so repeat-visit analysis is not possible.",
+    "er_wait_time_minutes is recorded for every department, not only the ED; the dashboard labels it 'wait time'.",
+    "Some values sit on fixed limits (wait time floor 2.0 min, occupancy cap 99%, length of stay floor 0.03 days), which suggests the source system clips extremes.",
+    "No-show visits still carry cost and length-of-stay values in the source; they are kept as supplied.",
+    "All six target_* columns hold one constant value each, so targets are hospital-wide, not per department."
+  ]
+}
